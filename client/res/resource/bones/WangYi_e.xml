@@ -1,0 +1,143 @@
+<skeleton name="WangYi_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="WangYi_e">
+      <b name="图层 2" x="12.4" y="-85.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="wanfsy-Tween 21" pX="62.55" pY="90.85"/>
+        <d name="wanfsy-Tween 22" pX="62.55" pY="90.85"/>
+        <d name="wanfsy-Tween 23" pX="62.55" pY="90.85"/>
+        <d name="wanfsy-Tween 24" pX="62.55" pY="90.85"/>
+        <d name="wanfsy-Tween 25" pX="62.55" pY="90.85"/>
+        <d name="wanfsy-Tween 26" pX="62.55" pY="90.85"/>
+      </b>
+      <b name="biaoqian" x="0.55" y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="wanfsy-补间 1" pX="172" pY="295"/>
+        <d name="wanfsy-补间 2" pX="172" pY="295"/>
+        <d name="wanfsy-补间 3" pX="172" pY="295"/>
+        <d name="wanfsy-补间 4" pX="172" pY="295"/>
+        <d name="wanfsy-补间 5" pX="172" pY="295"/>
+        <d name="wanfsy-补间 6" pX="172" pY="295"/>
+        <d name="wanfsy-补间 7" pX="172" pY="295"/>
+        <d name="wanfsy-补间 8" pX="172" pY="295"/>
+        <d name="wanfsy-补间 9" pX="172" pY="295"/>
+        <d name="wanfsy-补间 10" pX="172" pY="295"/>
+        <d name="wanfsy-补间 11" pX="172" pY="295"/>
+        <d name="wanfsy-补间 12" pX="172" pY="295"/>
+        <d name="wanfsy-补间 13" pX="172" pY="295"/>
+        <d name="wanfsy-补间 14" pX="172" pY="295"/>
+        <d name="wanfsy-补间 15" pX="172" pY="295"/>
+        <d name="wanfsy-补间 16" pX="172" pY="295"/>
+        <d name="wanfsy-补间 17" pX="172" pY="295"/>
+        <d name="wanfsy-补间 18" pX="172" pY="295"/>
+      </b>
+      <b name="图层 4" x="-14.2" y="-59.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="wanfsy-Tween 1" pX="84.15" pY="97.65"/>
+        <d name="wanfsy-Tween 2" pX="84.15" pY="97.65"/>
+        <d name="wanfsy-Tween 3" pX="84.15" pY="97.65"/>
+        <d name="wanfsy-Tween 4" pX="84.15" pY="97.65"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="WangYi_e">
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="attack2" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="12" dI="-1"/>
+          <f x="12.4" y="-85.6" cocos2d_x="12.4" cocos2d_y="-85.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="12.4" y="-85.6" cocos2d_x="12.4" cocos2d_y="-85.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="12.4" y="-85.6" cocos2d_x="12.4" cocos2d_y="-85.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="12.4" y="-85.6" cocos2d_x="12.4" cocos2d_y="-85.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="12.4" y="-85.6" cocos2d_x="12.4" cocos2d_y="-85.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="12.4" y="-85.6" cocos2d_x="12.4" cocos2d_y="-85.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f dr="1" dI="-1"/>
+        </b>
+        <f st="0" dr="24"/>
+        <f st="24" dr="1"/>
+      </mov>
+      <mov name="skill" dr="43" to="0" drTW="43" lp="0" twE="NaN">
+        <b name="biaoqian" sc="1" dl="0">
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="13" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="14" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="15" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="16" dr="2"/>
+          <f x="0.55" y="-139.1" cocos2d_x="0.55" cocos2d_y="-139.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="17" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+        <f st="0" dr="42"/>
+        <f st="42" dr="1"/>
+      </mov>
+      <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <f st="0" dr="14"/>
+        <f st="14" dr="1"/>
+      </mov>
+      <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="-14.2" y="-59.1" cocos2d_x="-14.2" cocos2d_y="-59.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-14.2" y="-59.1" cocos2d_x="-14.2" cocos2d_y="-59.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-14.2" y="-59.1" cocos2d_x="-14.2" cocos2d_y="-59.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-14.2" y="-59.1" cocos2d_x="-14.2" cocos2d_y="-59.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f dr="12" dI="-1"/>
+        </b>
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="WangYi_e" width="2048" height="4096">
+    <SubTexture name="wanfsy-Tween 4" width="169" height="196" cocos2d_pX="84.15" cocos2d_pY="97.65" x="1730" y="0"/>
+    <SubTexture name="wanfsy-Tween 3" width="169" height="196" cocos2d_pX="84.15" cocos2d_pY="97.65" x="1730" y="594"/>
+    <SubTexture name="wanfsy-Tween 2" width="169" height="196" cocos2d_pX="84.15" cocos2d_pY="97.65" x="1730" y="198"/>
+    <SubTexture name="wanfsy-Tween 1" width="169" height="196" cocos2d_pX="84.15" cocos2d_pY="97.65" x="1730" y="396"/>
+    <SubTexture name="wanfsy-补间 18" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="0" y="592"/>
+    <SubTexture name="wanfsy-补间 17" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="346" y="1776"/>
+    <SubTexture name="wanfsy-补间 16" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="692" y="592"/>
+    <SubTexture name="wanfsy-补间 15" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="1038" y="1184"/>
+    <SubTexture name="wanfsy-补间 14" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="1384" y="592"/>
+    <SubTexture name="wanfsy-补间 13" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="346" y="0"/>
+    <SubTexture name="wanfsy-补间 12" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="692" y="0"/>
+    <SubTexture name="wanfsy-补间 11" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="1384" y="0"/>
+    <SubTexture name="wanfsy-补间 10" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="346" y="592"/>
+    <SubTexture name="wanfsy-补间 9" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="1038" y="592"/>
+    <SubTexture name="wanfsy-补间 8" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="0" y="0"/>
+    <SubTexture name="wanfsy-补间 7" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="692" y="1184"/>
+    <SubTexture name="wanfsy-补间 6" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="1384" y="1184"/>
+    <SubTexture name="wanfsy-补间 5" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="0" y="1776"/>
+    <SubTexture name="wanfsy-补间 4" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="692" y="1776"/>
+    <SubTexture name="wanfsy-补间 3" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="0" y="1184"/>
+    <SubTexture name="wanfsy-补间 2" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="346" y="1184"/>
+    <SubTexture name="wanfsy-补间 1" width="344" height="590" cocos2d_pX="172" cocos2d_pY="295" x="1038" y="0"/>
+    <SubTexture name="wanfsy-Tween 26" width="126" height="182" cocos2d_pX="62.55" cocos2d_pY="90.85" x="1730" y="792"/>
+    <SubTexture name="wanfsy-Tween 25" width="126" height="182" cocos2d_pX="62.55" cocos2d_pY="90.85" x="1901" y="0"/>
+    <SubTexture name="wanfsy-Tween 24" width="126" height="182" cocos2d_pX="62.55" cocos2d_pY="90.85" x="1901" y="736"/>
+    <SubTexture name="wanfsy-Tween 23" width="126" height="182" cocos2d_pX="62.55" cocos2d_pY="90.85" x="1901" y="184"/>
+    <SubTexture name="wanfsy-Tween 22" width="126" height="182" cocos2d_pX="62.55" cocos2d_pY="90.85" x="1901" y="368"/>
+    <SubTexture name="wanfsy-Tween 21" width="126" height="182" cocos2d_pX="62.55" cocos2d_pY="90.85" x="1901" y="552"/>
+  </TextureAtlas>
+</skeleton>

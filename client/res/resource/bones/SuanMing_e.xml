@@ -1,0 +1,88 @@
+<skeleton name="SuanMing_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="SuanMing_e">
+      <b name="Layer 3" x="-36" y="-113.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="suanming_ess-Tween 30" pX="197.5" pY="140.5"/>
+        <d name="suanming_ess-Tween 31" pX="197.5" pY="140.5"/>
+        <d name="suanming_ess-Tween 32" pX="197.5" pY="140.5"/>
+        <d name="suanming_ess-Tween 34" pX="155" pY="242"/>
+        <d name="suanming_ess-Tween 35" pX="155" pY="242"/>
+        <d name="suanming_ess-Tween 36" pX="155" pY="242"/>
+        <d name="suanming_ess-Tween 37" pX="155" pY="242"/>
+        <d name="suanming_ess-Tween 38" pX="155" pY="242"/>
+        <d name="suanming_ess-Tween 39" pX="155" pY="242"/>
+        <d name="suanming_ess-Tween 41" pX="237.5" pY="245"/>
+        <d name="suanming_ess-Tween 42" pX="237.5" pY="245"/>
+        <d name="suanming_ess-Tween 43" pX="237.5" pY="245"/>
+        <d name="suanming_ess-Tween 44" pX="237.5" pY="245"/>
+        <d name="suanming_ess-Tween 45" pX="237.5" pY="245"/>
+        <d name="suanming_ess-Tween 46" pX="237.5" pY="245"/>
+        <d name="suanming_ess-Tween 47" pX="237.5" pY="245"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="SuanMing_e">
+      <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="damaged" dr="14" to="0" drTW="14" lp="0" twE="NaN"/>
+      <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 3" sc="1" dl="0">
+          <f dr="11" dI="-1"/>
+          <f x="-36" y="-113.5" cocos2d_x="-36" cocos2d_y="-113.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-36" y="-113.5" cocos2d_x="-36" cocos2d_y="-113.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-36" y="-113.5" cocos2d_x="-36" cocos2d_y="-113.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 3" sc="1" dl="0">
+          <f dr="9" dI="-1"/>
+          <f x="-13" y="-190" cocos2d_x="-13" cocos2d_y="-190" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-13" y="-190" cocos2d_x="-13" cocos2d_y="-190" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-13" y="-190" cocos2d_x="-13" cocos2d_y="-190" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-13" y="-190" cocos2d_x="-13" cocos2d_y="-190" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="-13" y="-190" cocos2d_x="-13" cocos2d_y="-190" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f x="-13" y="-190" cocos2d_x="-13" cocos2d_y="-190" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f dr="3" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 3" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="-61.5" y="-135" cocos2d_x="-61.5" cocos2d_y="-135" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+          <f x="-61.5" y="-135" cocos2d_x="-61.5" cocos2d_y="-135" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f x="-61.5" y="-135" cocos2d_x="-61.5" cocos2d_y="-135" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="2"/>
+          <f dr="3" dI="-1"/>
+          <f x="-61.5" y="-135" cocos2d_x="-61.5" cocos2d_y="-135" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="2"/>
+          <f x="-61.5" y="-135" cocos2d_x="-61.5" cocos2d_y="-135" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="13" dr="2"/>
+          <f x="-61.5" y="-135" cocos2d_x="-61.5" cocos2d_y="-135" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="14" dr="2"/>
+          <f x="-61.5" y="-135" cocos2d_x="-61.5" cocos2d_y="-135" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="15" dr="2"/>
+          <f dr="5" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="SuanMing_e" width="2048" height="2048">
+    <SubTexture name="suanming_ess-Tween 47" width="475" height="490" cocos2d_pX="237.5" cocos2d_pY="245" x="477" y="492"/>
+    <SubTexture name="suanming_ess-Tween 46" width="475" height="490" cocos2d_pX="237.5" cocos2d_pY="245" x="954" y="0"/>
+    <SubTexture name="suanming_ess-Tween 45" width="475" height="490" cocos2d_pX="237.5" cocos2d_pY="245" x="954" y="492"/>
+    <SubTexture name="suanming_ess-Tween 44" width="475" height="490" cocos2d_pX="237.5" cocos2d_pY="245" x="0" y="0"/>
+    <SubTexture name="suanming_ess-Tween 43" width="475" height="490" cocos2d_pX="237.5" cocos2d_pY="245" x="477" y="0"/>
+    <SubTexture name="suanming_ess-Tween 42" width="475" height="490" cocos2d_pX="237.5" cocos2d_pY="245" x="1431" y="0"/>
+    <SubTexture name="suanming_ess-Tween 41" width="475" height="490" cocos2d_pX="237.5" cocos2d_pY="245" x="0" y="492"/>
+    <SubTexture name="suanming_ess-Tween 39" width="310" height="484" cocos2d_pX="155" cocos2d_pY="242" x="0" y="984"/>
+    <SubTexture name="suanming_ess-Tween 38" width="310" height="484" cocos2d_pX="155" cocos2d_pY="242" x="1431" y="492"/>
+    <SubTexture name="suanming_ess-Tween 37" width="310" height="484" cocos2d_pX="155" cocos2d_pY="242" x="312" y="984"/>
+    <SubTexture name="suanming_ess-Tween 36" width="310" height="484" cocos2d_pX="155" cocos2d_pY="242" x="936" y="984"/>
+    <SubTexture name="suanming_ess-Tween 35" width="310" height="484" cocos2d_pX="155" cocos2d_pY="242" x="624" y="984"/>
+    <SubTexture name="suanming_ess-Tween 34" width="310" height="484" cocos2d_pX="155" cocos2d_pY="242" x="1431" y="978"/>
+    <SubTexture name="suanming_ess-Tween 32" width="395" height="281" cocos2d_pX="197.5" cocos2d_pY="140.5" x="1248" y="1464"/>
+    <SubTexture name="suanming_ess-Tween 31" width="395" height="281" cocos2d_pX="197.5" cocos2d_pY="140.5" x="0" y="1470"/>
+    <SubTexture name="suanming_ess-Tween 30" width="395" height="281" cocos2d_pX="197.5" cocos2d_pY="140.5" x="1645" y="1464"/>
+  </TextureAtlas>
+</skeleton>

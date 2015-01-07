@@ -1,0 +1,105 @@
+<skeleton name="GanNing_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="GanNing_e">
+   <b name="图层 4" x="-13.4" y="-79.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="ganningzo-Tween 12" pX="126.85" pY="119.3"/>
+    <d name="ganningzo-Tween 13" pX="111.9" pY="115.85"/>
+    <d name="ganningzo-Tween 14" pX="153.2" pY="123.25"/>
+    <d name="ganningzo-Tween 15" pX="148.3" pY="117.25"/>
+    <d name="ganningzo-Tween 16" pX="135.1" pY="108.75"/>
+    <d name="ganningzo-Tween 17" pX="119.15" pY="145.7"/>
+    <d name="ganningzo-Tween 18" pX="116.55" pY="133.15"/>
+   </b>
+   <b name="图层 2" x="42.4" y="-47.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="ganningzo-Tween 4" pX="120.1" pY="123.25"/>
+    <d name="ganningzo-Tween 5" pX="120.1" pY="123.25"/>
+    <d name="ganningzo-Tween 6" pX="120.1" pY="123.25"/>
+    <d name="ganningzo-Tween 7" pX="120.1" pY="123.25"/>
+    <d name="ganningzo-Tween 8" pX="120.1" pY="123.25"/>
+    <d name="ganningzo-Tween 9" pX="120.1" pY="123.25"/>
+    <d name="ganningzo-Tween 10" pX="120.1" pY="123.25"/>
+   </b>
+   <b name="图层 3" x="-114.35" y="-121" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="ganningzo-Tween 1" pX="184.2" pY="134.5"/>
+    <d name="ganningzo-Tween 2" pX="184.2" pY="134.5"/>
+    <d name="ganningzo-Tween 3" pX="184.2" pY="134.5"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="GanNing_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN"/>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="11" dI="-1"/>
+     <f x="-13.4" y="-79.25" cocos2d_x="-13.4" cocos2d_y="-79.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-29" y="-70.75" cocos2d_x="-29" cocos2d_y="-70.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f dr="10" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="11" dI="-1"/>
+     <f x="-112.2" y="-87.65" cocos2d_x="-112.2" cocos2d_y="-87.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-112.95" y="-89.5" cocos2d_x="-112.95" cocos2d_y="-89.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f dr="10" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="9" dI="-1"/>
+     <f x="42.4" y="-47.45" cocos2d_x="42.4" cocos2d_y="-47.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="42.4" y="-47.45" cocos2d_x="42.4" cocos2d_y="-47.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="42.4" y="-47.45" cocos2d_x="42.4" cocos2d_y="-47.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="42.4" y="-47.45" cocos2d_x="42.4" cocos2d_y="-47.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="42.4" y="-47.45" cocos2d_x="42.4" cocos2d_y="-47.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="42.4" y="-47.45" cocos2d_x="42.4" cocos2d_y="-47.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="42.4" y="-47.45" cocos2d_x="42.4" cocos2d_y="-47.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="13" dI="-1"/>
+     <f x="-114.35" y="-121" cocos2d_x="-114.35" cocos2d_y="-121" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-114.35" y="-121" cocos2d_x="-114.35" cocos2d_y="-121" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-114.35" y="-121" cocos2d_x="-114.35" cocos2d_y="-121" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f dr="5" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="9" dI="-1"/>
+     <f x="-14.3" y="-58.6" cocos2d_x="-14.3" cocos2d_y="-58.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="12.6" y="-97.95" cocos2d_x="12.6" cocos2d_y="-97.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="3"/>
+     <f x="-2.3" y="-94.9" cocos2d_x="-2.3" cocos2d_y="-94.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="3"/>
+     <f dr="19" dI="-1"/>
+    </b>
+    <f st="0" dr="35"/>
+    <f st="35" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="GanNing_e" width="2048" height="1024">
+  <SubTexture name="ganningzo-Tween 3" width="369" height="269" cocos2d_pX="184.2" cocos2d_pY="134.5" x="742" y="0"/>
+  <SubTexture name="ganningzo-Tween 2" width="369" height="269" cocos2d_pX="184.2" cocos2d_pY="134.5" x="371" y="0"/>
+  <SubTexture name="ganningzo-Tween 1" width="369" height="269" cocos2d_pX="184.2" cocos2d_pY="134.5" x="0" y="0"/>
+  <SubTexture name="ganningzo-Tween 10" width="241" height="247" cocos2d_pX="120.1" cocos2d_pY="123.25" x="243" y="520"/>
+  <SubTexture name="ganningzo-Tween 9" width="241" height="247" cocos2d_pX="120.1" cocos2d_pY="123.25" x="1658" y="294"/>
+  <SubTexture name="ganningzo-Tween 8" width="241" height="247" cocos2d_pX="120.1" cocos2d_pY="123.25" x="742" y="271"/>
+  <SubTexture name="ganningzo-Tween 7" width="241" height="247" cocos2d_pX="120.1" cocos2d_pY="123.25" x="1228" y="506"/>
+  <SubTexture name="ganningzo-Tween 6" width="241" height="247" cocos2d_pX="120.1" cocos2d_pY="123.25" x="985" y="490"/>
+  <SubTexture name="ganningzo-Tween 5" width="241" height="247" cocos2d_pX="120.1" cocos2d_pY="123.25" x="273" y="271"/>
+  <SubTexture name="ganningzo-Tween 4" width="241" height="247" cocos2d_pX="120.1" cocos2d_pY="123.25" x="0" y="491"/>
+  <SubTexture name="ganningzo-Tween 18" width="234" height="267" cocos2d_pX="116.55" cocos2d_pY="133.15" x="1422" y="237"/>
+  <SubTexture name="ganningzo-Tween 17" width="239" height="292" cocos2d_pX="119.15" cocos2d_pY="145.7" x="1721" y="0"/>
+  <SubTexture name="ganningzo-Tween 16" width="271" height="218" cocos2d_pX="135.1" cocos2d_pY="108.75" x="0" y="271"/>
+  <SubTexture name="ganningzo-Tween 15" width="297" height="235" cocos2d_pX="148.3" cocos2d_pY="117.25" x="1422" y="0"/>
+  <SubTexture name="ganningzo-Tween 14" width="307" height="247" cocos2d_pX="153.2" cocos2d_pY="123.25" x="1113" y="0"/>
+  <SubTexture name="ganningzo-Tween 13" width="224" height="232" cocos2d_pX="111.9" cocos2d_pY="115.85" x="516" y="271"/>
+  <SubTexture name="ganningzo-Tween 12" width="254" height="239" cocos2d_pX="126.85" cocos2d_pY="119.3" x="1113" y="249"/>
+ </TextureAtlas>
+</skeleton>

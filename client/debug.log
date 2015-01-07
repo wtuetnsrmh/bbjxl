@@ -1,0 +1,108 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: NVIDIA Corporation
+	gl.renderer: GeForce GT 630/PCIe/SSE2
+	gl.version: 4.4.0
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 192
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+lua_loadChunksFromZIP() - load zip file: D:\dange\xinsanguozhi\quick-cocos2d-x\lib\framework_precompiled\framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 54
+------------------------------------------------
+LOAD LUA FILE: E:/client_archive/xinsanguozhi/client/scripts/main.lua
+------------------------------------------------
+[0.1500] [INFO] 
+[0.1504] [INFO] # DEBUG                        = 0
+[0.1508] [INFO] #
+[0.1516] [INFO] # device.platform              = windows
+[0.1521] [INFO] # device.model                 = unknown
+[0.1525] [INFO] # device.language              = cn
+[0.1531] [INFO] # device.writablePath          = E:\client_archive\xinsanguozhi\client\
+[0.1542] [INFO] # device.cachePath             = E:\client_archive\xinsanguozhi\client\
+[0.1554] [INFO] # device.directorySeparator    = \
+[0.1561] [INFO] # device.pathSeparator         = ;
+[0.1565] [INFO] #
+[0.1593] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT_PRIOR
+[0.1599] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+[0.1607] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[0.1613] [INFO] # display.widthInPixels        = 960.00
+[0.1619] [INFO] # display.heightInPixels       = 640.00
+[0.1624] [INFO] # display.contentScaleFactor   = 1.00
+[0.1630] [INFO] # display.width                = 960.00
+[0.1635] [INFO] # display.height               = 640.00
+[0.1641] [INFO] # display.cx                   = 480.00
+[0.1647] [INFO] # display.cy                   = 320.00
+[0.1653] [INFO] # display.left                 = 0.00
+[0.1661] [INFO] # display.right                = 960.00
+[0.1666] [INFO] # display.top                  = 640.00
+[0.1676] [INFO] # display.bottom               = 0.00
+[0.1681] [INFO] # display.c_left               = -480.00
+[0.1686] [INFO] # display.c_right              = 480.00
+[0.1692] [INFO] # display.c_top                = 320.00
+[0.1700] [INFO] # display.c_bottom             = -320.00
+[0.1704] [INFO] #
+lua_loadChunksFromZIP() - load zip file: E:\client_archive\xinsanguozhi\client\res/framework_precompiled.dg
+lua_loadChunksFromZIP() - loaded chunks count: 54
+[0.3145] [INFO] GameState.load() - get values from "E:\client_archive\xinsanguozhi\client/user.bin"
+[1.5948] [INFO] Scene "LoginScene:onEnter()"
+[5.9030] send:  Role.queryLogin
+[6.0901] recv message:  Role.queryResponse
+[6.0916] send:  Role.login
+[6.2901] recv message:  Role.updateProperty
+[6.8069] recv message:  Role.loginResponse
+[6.8088] SocketActions:roleLoginResponse
+[7.3622] platform windows unsupport ui.newTTFRichLabel
+[7.3817] recv message:  Role.getActivityTimeListRespose
+[11.5678] nil  1000
+[11.5723] [INFO] Scene "LoginScene:onExit()"
+cocos2d: CCSpriteFrameCache: removing unused frame: modao_1.png
+cocos2d: CCSpriteFrameCache: removing unused frame: modao_2.png
+cocos2d: CCSpriteFrameCache: removing unused frame: modao_3.png
+cocos2d: CCTextureCache: texture: cc_fps_images
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/enter_bg.jpg
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/btn_start_normal.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/btn_start_selected.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_cell.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_cell_sel.png
+cocos2d: CCTextureCache: texture: cc_2x2_white_image
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/hot_server.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_bg.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_long.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_long_sel.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_sel.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/small_bg.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/modao.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/tip.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/hero/card/star.png
+cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/hero/card/attr_bg.png
+cocos2d: CCTextureCache: removing unused texture: cc_2x2_white_image
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_bg.png
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_long.png
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_long_sel.png
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell.png
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_sel.png
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/small_bg.png
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/modao.png
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/tip.png
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/hero/card/star.png
+cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/hero/card/attr_bg.png
+[11.6092] [INFO] Scene "HomeScene:onEnter()"
+cocos2d: padding: 0,0,0,0
+Get data from file(resource/ui_rc/particle/zhangpng3.png) failed!
+[12.9845] platform windows unsupport ui.newTTFRichLabel
+[13.4226] platform windows unsupport ui.newTTFRichLabel
+[13.6208] platform windows unsupport ui.newTTFRichLabel
+[13.9740] platform windows unsupport ui.newTTFRichLabel
+[14.1335] platform windows unsupport ui.newTTFRichLabel
+[14.6625] platform windows unsupport ui.newTTFRichLabel
+[14.9338] platform windows unsupport ui.newTTFRichLabel
+[31.6852] [INFO] Scene "HomeScene:onExit()"

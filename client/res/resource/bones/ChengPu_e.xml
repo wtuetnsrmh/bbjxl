@@ -1,0 +1,159 @@
+<skeleton name="ChengPu_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="ChengPu_e">
+      <b name="图层 2" x="-9.9" y="-141.9" kX="-121.26" kY="52.06" cX="1.01" cY="1.08" pX="0" pY="0" z="0">
+        <d name="cpjis-Tween 8" pX="202.45" pY="171.35"/>
+        <d name="cpjis-Tween 9" pX="202.45" pY="171.35"/>
+        <d name="cpjis-Tween 10" pX="202.45" pY="171.35"/>
+      </b>
+      <b name="图层 3" x="-203.05" y="-41.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="cpjis-Tween 12" pX="142.35" pY="146"/>
+        <d name="cpjis-Tween 13" pX="142.35" pY="146"/>
+        <d name="cpjis-Tween 15" pX="142.35" pY="146"/>
+        <d name="cpjis-Tween 16" pX="142.35" pY="146"/>
+      </b>
+      <b name="图层 4" x="-15.4" y="-159.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="cpjis-Tween 8" pX="202.45" pY="171.35"/>
+        <d name="cpjis-Tween 9" pX="202.45" pY="171.35"/>
+        <d name="cpjis-Tween 10" pX="202.45" pY="171.35"/>
+      </b>
+      <b name="Layer 2" x="8" y="-97.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0">
+        <d name="cpjij-Tween 6" pX="166.05" pY="135.3"/>
+        <d name="cpjij-Tween 7" pX="166.05" pY="135.3"/>
+        <d name="cpjij-Tween 11" pX="166.05" pY="135.3"/>
+        <d name="cpjij-Tween 14" pX="166.05" pY="135.3"/>
+        <d name="cpjij-Tween 17" pX="166.05" pY="135.3"/>
+        <d name="cpjij-Tween 18" pX="166.05" pY="135.3"/>
+      </b>
+      <b name="图层 5" x="5.8" y="-106.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="cpjij-Tween 1" pX="182.65" pY="137.35"/>
+        <d name="cpjij-Tween 2" pX="182.65" pY="137.35"/>
+        <d name="cpjij-Tween 3" pX="182.65" pY="137.35"/>
+        <d name="cpjij-Tween 4" pX="182.65" pY="137.35"/>
+        <d name="cpjij-Tween 5" pX="182.65" pY="137.35"/>
+      </b>
+      <b name="图层 6" x="-6.2" y="-41.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="cpjis-Tween 35" pX="190.3" pY="172.6"/>
+        <d name="cpjis-Tween 36" pX="190.3" pY="172.6"/>
+        <d name="cpjis-Tween 37" pX="190.3" pY="172.6"/>
+        <d name="cpjis-Tween 38" pX="190.3" pY="172.6"/>
+        <d name="cpjis-Tween 39" pX="190.3" pY="172.6"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="ChengPu_e">
+      <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="9" dI="-1"/>
+          <f x="-9.9" y="-141.9" cocos2d_x="-9.9" cocos2d_y="-141.9" kX="-121.26" kY="52.06" cX="1.01" cY="1.08" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-9.9" y="-141.9" cocos2d_x="-9.9" cocos2d_y="-141.9" kX="-121.26" kY="52.06" cX="1.01" cY="1.08" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-9.9" y="-141.9" cocos2d_x="-9.9" cocos2d_y="-141.9" kX="-121.26" kY="52.06" cX="1.01" cY="1.08" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f dr="9" dI="-1"/>
+        </b>
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="9" dI="-1"/>
+          <f x="-203.05" y="-41.4" cocos2d_x="-203.05" cocos2d_y="-41.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-203.05" y="-41.4" cocos2d_x="-203.05" cocos2d_y="-41.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-203.05" y="-41.4" cocos2d_x="-203.05" cocos2d_y="-41.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-203.05" y="-41.4" cocos2d_x="-203.05" cocos2d_y="-41.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="21" dI="-1"/>
+          <f x="-15.4" y="-159.45" cocos2d_x="-15.4" cocos2d_y="-159.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-15.4" y="-159.45" cocos2d_x="-15.4" cocos2d_y="-159.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-15.4" y="-159.45" cocos2d_x="-15.4" cocos2d_y="-159.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f dr="9" dI="-1"/>
+        </b>
+        <b name="Layer 2" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="8" y="-97.5" cocos2d_x="8" cocos2d_y="-97.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="0" dr="3"/>
+          <f x="8" y="-97.5" cocos2d_x="8" cocos2d_y="-97.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="1" dr="3"/>
+          <f x="8" y="-97.5" cocos2d_x="8" cocos2d_y="-97.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="2" dr="3"/>
+          <f x="8" y="-97.5" cocos2d_x="8" cocos2d_y="-97.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="3" dr="3"/>
+          <f x="8" y="-97.5" cocos2d_x="8" cocos2d_y="-97.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="4" dr="3"/>
+          <f x="8" y="-97.5" cocos2d_x="8" cocos2d_y="-97.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="5" dr="3"/>
+          <f dr="16" dI="-1"/>
+        </b>
+        <f st="0" dr="35"/>
+        <f st="35" dr="1"/>
+      </mov>
+      <mov name="damaged" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <f st="0" dr="11"/>
+        <f st="11" dr="1"/>
+      </mov>
+      <mov name="attack3" dr="28" to="0" drTW="28" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="6" dI="-1"/>
+          <f x="5.8" y="-106.8" cocos2d_x="5.8" cocos2d_y="-106.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3"/>
+          <f x="5.8" y="-106.8" cocos2d_x="5.8" cocos2d_y="-106.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="3"/>
+          <f x="5.8" y="-106.8" cocos2d_x="5.8" cocos2d_y="-106.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="3"/>
+          <f x="5.8" y="-106.8" cocos2d_x="5.8" cocos2d_y="-106.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="5.8" y="-106.8" cocos2d_x="5.8" cocos2d_y="-106.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f dr="9" dI="-1"/>
+        </b>
+        <f st="0" dr="27"/>
+        <f st="27" dr="1"/>
+      </mov>
+      <mov name="attack4" dr="28" to="0" drTW="28" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="9" dI="-1"/>
+          <f x="-6.2" y="-41.3" cocos2d_x="-6.2" cocos2d_y="-41.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3"/>
+          <f x="-6.2" y="-41.3" cocos2d_x="-6.2" cocos2d_y="-41.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="3"/>
+          <f x="-6.2" y="-41.3" cocos2d_x="-6.2" cocos2d_y="-41.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="3"/>
+          <f x="-6.2" y="-41.3" cocos2d_x="-6.2" cocos2d_y="-41.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="3"/>
+          <f x="-6.2" y="-41.3" cocos2d_x="-6.2" cocos2d_y="-41.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="3"/>
+          <f dr="4" dI="-1"/>
+        </b>
+        <f st="0" dr="27"/>
+        <f st="27" dr="1"/>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="ChengPu_e" width="2048" height="2048">
+    <SubTexture name="cpjis-Tween 39" width="381" height="346" cocos2d_pX="190.3" cocos2d_pY="172.6" x="1197" y="0"/>
+    <SubTexture name="cpjis-Tween 38" width="381" height="346" cocos2d_pX="190.3" cocos2d_pY="172.6" x="1580" y="0"/>
+    <SubTexture name="cpjis-Tween 37" width="381" height="346" cocos2d_pX="190.3" cocos2d_pY="172.6" x="0" y="345"/>
+    <SubTexture name="cpjis-Tween 36" width="381" height="346" cocos2d_pX="190.3" cocos2d_pY="172.6" x="814" y="0"/>
+    <SubTexture name="cpjis-Tween 35" width="381" height="346" cocos2d_pX="190.3" cocos2d_pY="172.6" x="383" y="345"/>
+    <SubTexture name="cpjij-Tween 5" width="366" height="275" cocos2d_pX="182.65" cocos2d_pY="137.35" x="1502" y="348"/>
+    <SubTexture name="cpjij-Tween 4" width="366" height="275" cocos2d_pX="182.65" cocos2d_pY="137.35" x="766" y="348"/>
+    <SubTexture name="cpjij-Tween 3" width="366" height="275" cocos2d_pX="182.65" cocos2d_pY="137.35" x="1134" y="348"/>
+    <SubTexture name="cpjij-Tween 2" width="366" height="275" cocos2d_pX="182.65" cocos2d_pY="137.35" x="766" y="625"/>
+    <SubTexture name="cpjij-Tween 1" width="366" height="275" cocos2d_pX="182.65" cocos2d_pY="137.35" x="1134" y="625"/>
+    <SubTexture name="cpjij-Tween 18" width="333" height="271" cocos2d_pX="166.05" cocos2d_pY="135.3" x="335" y="693"/>
+    <SubTexture name="cpjij-Tween 17" width="333" height="271" cocos2d_pX="166.05" cocos2d_pY="135.3" x="1502" y="625"/>
+    <SubTexture name="cpjij-Tween 14" width="333" height="271" cocos2d_pX="166.05" cocos2d_pY="135.3" x="1502" y="898"/>
+    <SubTexture name="cpjij-Tween 11" width="333" height="271" cocos2d_pX="166.05" cocos2d_pY="135.3" x="1005" y="902"/>
+    <SubTexture name="cpjij-Tween 7" width="333" height="271" cocos2d_pX="166.05" cocos2d_pY="135.3" x="670" y="902"/>
+    <SubTexture name="cpjij-Tween 6" width="333" height="271" cocos2d_pX="166.05" cocos2d_pY="135.3" x="0" y="693"/>
+    <SubTexture name="cpjis-Tween 16" width="285" height="292" cocos2d_pX="142.35" cocos2d_pY="146" x="1340" y="1171"/>
+    <SubTexture name="cpjis-Tween 15" width="285" height="292" cocos2d_pX="142.35" cocos2d_pY="146" x="287" y="966"/>
+    <SubTexture name="cpjis-Tween 13" width="285" height="292" cocos2d_pX="142.35" cocos2d_pY="146" x="0" y="966"/>
+    <SubTexture name="cpjis-Tween 12" width="285" height="292" cocos2d_pX="142.35" cocos2d_pY="146" x="1627" y="1171"/>
+    <SubTexture name="cpjis-Tween 10" width="211" height="343" cocos2d_pX="202.45" cocos2d_pY="171.35" x="574" y="1175"/>
+    <SubTexture name="cpjis-Tween 9" width="405" height="343" cocos2d_pX="202.45" cocos2d_pY="171.35" x="0" y="0"/>
+    <SubTexture name="cpjis-Tween 8" width="405" height="343" cocos2d_pX="202.45" cocos2d_pY="171.35" x="407" y="0"/>
+  </TextureAtlas>
+</skeleton>

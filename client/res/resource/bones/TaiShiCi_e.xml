@@ -1,0 +1,161 @@
+<skeleton name="TaiShiCi_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="TaiShiCi_e">
+   <b name="图层 5" x="-98.8" y="-150.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="taishicgs-Tween 31" pX="140.9" pY="101"/>
+    <d name="taishicgs-Tween 32" pX="140.9" pY="101"/>
+   </b>
+   <b name="图层 3" x="11.8" y="-53.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="taishicgs-Tween 25" pX="131.15" pY="99.9"/>
+    <d name="taishicgs-Tween 26" pX="131.15" pY="99.9"/>
+    <d name="taishicgs-Tween 27" pX="131.15" pY="99.9"/>
+    <d name="taishicgs-Tween 28" pX="131.15" pY="99.9"/>
+    <d name="taishicgs-Tween 29" pX="131.15" pY="99.9"/>
+    <d name="taishicgs-Tween 30" pX="131.15" pY="99.9"/>
+   </b>
+   <b name="图层 7" x="-6.1" y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="taishicgs-Tween 9" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 10" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 11" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 12" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 13" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 14" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 15" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 16" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 17" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 18" pX="95.85" pY="75.15"/>
+    <d name="taishicgs-Tween 19" pX="95.8" pY="75.15"/>
+    <d name="taishicgs-Tween 20" pX="95.8" pY="75.15"/>
+    <d name="taishicgs-Tween 21" pX="95.8" pY="75.15"/>
+    <d name="taishicgs-Tween 22" pX="95.8" pY="75.15"/>
+    <d name="taishicgs-Tween 23" pX="95.8" pY="75.15"/>
+    <d name="taishicgs-Tween 24" pX="95.8" pY="75.15"/>
+   </b>
+   <b name="Layer 3" x="18.7" y="-95.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="taishicgs-Tween 3" pX="170.1" pY="109.9"/>
+    <d name="taishicgs-Tween 4" pX="170.1" pY="109.9"/>
+    <d name="taishicgs-Tween 5" pX="170.1" pY="109.9"/>
+    <d name="taishicgs-Tween 6" pX="170.1" pY="109.9"/>
+    <d name="taishicgs-Tween 7" pX="170.1" pY="109.9"/>
+    <d name="taishicgs-Tween 8" pX="170.1" pY="109.9"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="TaiShiCi_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+    <f st="0" dr="14"/>
+    <f st="14" dr="1"/>
+   </mov>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 5" sc="1" dl="0">
+     <f dr="15" dI="-1"/>
+     <f x="-98.8" y="-150.9" cocos2d_x="-98.8" cocos2d_y="-150.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-98.8" y="-150.9" cocos2d_x="-98.8" cocos2d_y="-150.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="5" dI="-1"/>
+     <f x="11.8" y="-53.05" cocos2d_x="11.8" cocos2d_y="-53.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="11.8" y="-53.05" cocos2d_x="11.8" cocos2d_y="-53.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="11.8" y="-53.05" cocos2d_x="11.8" cocos2d_y="-53.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="11.8" y="-53.05" cocos2d_x="11.8" cocos2d_y="-53.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="11.8" y="-53.05" cocos2d_x="11.8" cocos2d_y="-53.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="11.8" y="-53.05" cocos2d_x="11.8" cocos2d_y="-53.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f dr="8" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="图层 7" sc="1" dl="0">
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+     <f x="-6.1" y="-46.15" cocos2d_x="-6.1" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+     <f x="3.35" y="-46.15" cocos2d_x="3.35" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="2"/>
+     <f x="3.35" y="-46.15" cocos2d_x="3.35" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="2"/>
+     <f x="3.35" y="-46.15" cocos2d_x="3.35" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="2"/>
+     <f x="3.35" y="-46.15" cocos2d_x="3.35" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="13" dr="2"/>
+     <f x="3.35" y="-46.15" cocos2d_x="3.35" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="14" dr="2"/>
+     <f x="3.35" y="-46.15" cocos2d_x="3.35" cocos2d_y="-46.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="15" dr="2"/>
+     <f dr="4" dI="-1"/>
+    </b>
+    <f st="0" dr="35"/>
+    <f st="35" dr="1"/>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 3" sc="1" dl="0">
+     <f dr="5" dI="-1"/>
+     <f x="18.7" y="-95.1" cocos2d_x="18.7" cocos2d_y="-95.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="18.7" y="-95.1" cocos2d_x="18.7" cocos2d_y="-95.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="18.7" y="-95.1" cocos2d_x="18.7" cocos2d_y="-95.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="18.7" y="-95.1" cocos2d_x="18.7" cocos2d_y="-95.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="18.7" y="-95.1" cocos2d_x="18.7" cocos2d_y="-95.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="18.7" y="-95.1" cocos2d_x="18.7" cocos2d_y="-95.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="7" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="TaiShiCi_e" width="2048" height="1024">
+  <SubTexture name="taishicgs-Tween 8" width="341" height="220" cocos2d_pX="170.1" cocos2d_pY="109.9" x="343" y="0"/>
+  <SubTexture name="taishicgs-Tween 7" width="341" height="220" cocos2d_pX="170.1" cocos2d_pY="109.9" x="0" y="222"/>
+  <SubTexture name="taishicgs-Tween 6" width="341" height="220" cocos2d_pX="170.1" cocos2d_pY="109.9" x="1372" y="0"/>
+  <SubTexture name="taishicgs-Tween 5" width="341" height="220" cocos2d_pX="170.1" cocos2d_pY="109.9" x="0" y="0"/>
+  <SubTexture name="taishicgs-Tween 4" width="341" height="220" cocos2d_pX="170.1" cocos2d_pY="109.9" x="686" y="0"/>
+  <SubTexture name="taishicgs-Tween 3" width="341" height="220" cocos2d_pX="170.1" cocos2d_pY="109.9" x="1029" y="0"/>
+  <SubTexture name="taishicgs-Tween 24" width="192" height="151" cocos2d_pX="95.8" cocos2d_pY="75.15" x="1772" y="610"/>
+  <SubTexture name="taishicgs-Tween 23" width="192" height="151" cocos2d_pX="95.8" cocos2d_pY="75.15" x="1578" y="610"/>
+  <SubTexture name="taishicgs-Tween 22" width="192" height="151" cocos2d_pX="95.8" cocos2d_pY="75.15" x="1384" y="577"/>
+  <SubTexture name="taishicgs-Tween 21" width="192" height="151" cocos2d_pX="95.8" cocos2d_pY="75.15" x="802" y="577"/>
+  <SubTexture name="taishicgs-Tween 20" width="192" height="151" cocos2d_pX="95.8" cocos2d_pY="75.15" x="996" y="528"/>
+  <SubTexture name="taishicgs-Tween 19" width="192" height="151" cocos2d_pX="95.8" cocos2d_pY="75.15" x="1332" y="424"/>
+  <SubTexture name="taishicgs-Tween 18" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="608" y="424"/>
+  <SubTexture name="taishicgs-Tween 17" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="1138" y="375"/>
+  <SubTexture name="taishicgs-Tween 16" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="1190" y="577"/>
+  <SubTexture name="taishicgs-Tween 15" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="1138" y="222"/>
+  <SubTexture name="taishicgs-Tween 14" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="802" y="424"/>
+  <SubTexture name="taishicgs-Tween 13" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="194" y="626"/>
+  <SubTexture name="taishicgs-Tween 12" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="0" y="444"/>
+  <SubTexture name="taishicgs-Tween 11" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="0" y="597"/>
+  <SubTexture name="taishicgs-Tween 10" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="608" y="577"/>
+  <SubTexture name="taishicgs-Tween 9" width="192" height="151" cocos2d_pX="95.85" cocos2d_pY="75.15" x="388" y="626"/>
+  <SubTexture name="taishicgs-Tween 30" width="263" height="200" cocos2d_pX="131.15" cocos2d_pY="99.9" x="1332" y="222"/>
+  <SubTexture name="taishicgs-Tween 29" width="263" height="200" cocos2d_pX="131.15" cocos2d_pY="99.9" x="873" y="222"/>
+  <SubTexture name="taishicgs-Tween 28" width="263" height="200" cocos2d_pX="131.15" cocos2d_pY="99.9" x="608" y="222"/>
+  <SubTexture name="taishicgs-Tween 27" width="263" height="200" cocos2d_pX="131.15" cocos2d_pY="99.9" x="343" y="222"/>
+  <SubTexture name="taishicgs-Tween 26" width="263" height="200" cocos2d_pX="131.15" cocos2d_pY="99.9" x="343" y="424"/>
+  <SubTexture name="taishicgs-Tween 25" width="263" height="200" cocos2d_pX="131.15" cocos2d_pY="99.9" x="1597" y="408"/>
+  <SubTexture name="taishicgs-Tween 32" width="282" height="202" cocos2d_pX="140.9" cocos2d_pY="101" x="1715" y="0"/>
+  <SubTexture name="taishicgs-Tween 31" width="282" height="202" cocos2d_pX="140.9" cocos2d_pY="101" x="1715" y="204"/>
+ </TextureAtlas>
+</skeleton>

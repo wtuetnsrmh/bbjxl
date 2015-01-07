@@ -1,0 +1,122 @@
+<skeleton name="LiuBei_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="LiuBei_e">
+   <b name="图层 4" x="-45.15" y="-133.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="liubeidzon3-Tween 20" pX="197.75" pY="155.05"/>
+    <d name="liubeidzon3-Tween 21" pX="197.75" pY="155.05"/>
+    <d name="liubeidzon3-Tween 22" pX="197.75" pY="155.05"/>
+   </b>
+   <b name="图层 5" x="-146.25" y="-87.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="liubeidzon3-Tween 14" pX="129.3" pY="94.95"/>
+    <d name="liubeidzon3-Tween 15" pX="129.3" pY="94.95"/>
+    <d name="liubeidzon3-Tween 16" pX="129.3" pY="94.95"/>
+    <d name="liubeidzon3-Tween 17" pX="159.55" pY="146.45"/>
+    <d name="liubeidzon3-Tween 18" pX="159.55" pY="146.45"/>
+    <d name="liubeidzon3-Tween 19" pX="159.55" pY="146.45"/>
+   </b>
+   <b name="图层 8" x="26.35" y="-63.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="liubeidzon3-Tween 1" pX="134.85" pY="110.55"/>
+    <d name="liubeidzon3-Tween 2" pX="147.3" pY="120.2"/>
+    <d name="liubeidzon3-Tween 3" pX="142.15" pY="159.75"/>
+    <d name="liubeidzon3-Tween 4" pX="137.15" pY="189.6"/>
+    <d name="liubeidzon3-Tween 5" pX="75.5" pY="103.75"/>
+    <d name="liubeidzon3-Tween 6" pX="91.25" pY="111.4"/>
+    <d name="liubeidzon3-Tween 7" pX="91.25" pY="111.4"/>
+    <d name="liubeidzon3-Tween 8" pX="91.25" pY="111.4"/>
+    <d name="liubeidzon3-Tween 9" pX="91.25" pY="111.4"/>
+    <d name="liubeidzon3-Tween 10" pX="91.25" pY="111.4"/>
+    <d name="liubeidzon3-Tween 11" pX="91.25" pY="111.4"/>
+    <d name="liubeidzon3-Tween 12" pX="91.25" pY="111.4"/>
+    <d name="liubeidzon3-Tween 13" pX="91.25" pY="111.4"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="LiuBei_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="damaged" dr="14" to="0" drTW="14" lp="0" twE="NaN"/>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="12" dI="-1"/>
+     <f x="-45.15" y="-133.6" cocos2d_x="-45.15" cocos2d_y="-133.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-45.15" y="-133.6" cocos2d_x="-45.15" cocos2d_y="-133.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-45.15" y="-133.6" cocos2d_x="-45.15" cocos2d_y="-133.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f dr="7" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 5" sc="1" dl="0">
+     <f dr="11" dI="-1"/>
+     <f x="-146.25" y="-87.55" cocos2d_x="-146.25" cocos2d_y="-87.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-146.25" y="-87.55" cocos2d_x="-146.25" cocos2d_y="-87.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-146.25" y="-87.55" cocos2d_x="-146.25" cocos2d_y="-87.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f dr="7" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="图层 8" sc="1" dl="0">
+     <f dr="9" dI="-1"/>
+     <f x="26.35" y="-63.6" cocos2d_x="26.35" cocos2d_y="-63.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="24.15" y="-72.5" cocos2d_x="24.15" cocos2d_y="-72.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="3"/>
+     <f x="30.05" y="-129.25" cocos2d_x="30.05" cocos2d_y="-129.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="3"/>
+     <f x="26.4" y="-142.65" cocos2d_x="26.4" cocos2d_y="-142.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="3"/>
+     <f x="25.55" y="-103.3" cocos2d_x="25.55" cocos2d_y="-103.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f dr="14" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 5" sc="1" dl="0">
+     <f dr="12" dI="-1"/>
+     <f x="0.9" y="-104.75" cocos2d_x="0.9" cocos2d_y="-104.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="0.9" y="-104.75" cocos2d_x="0.9" cocos2d_y="-104.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="0.9" y="-104.75" cocos2d_x="0.9" cocos2d_y="-104.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="7" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 8" sc="1" dl="0">
+     <f dr="7" dI="-1"/>
+     <f x="-13.7" y="-92.9" cocos2d_x="-13.7" cocos2d_y="-92.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="-13.7" y="-92.9" cocos2d_x="-13.7" cocos2d_y="-92.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="-13.7" y="-92.9" cocos2d_x="-13.7" cocos2d_y="-92.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="-13.7" y="-92.9" cocos2d_x="-13.7" cocos2d_y="-92.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+     <f x="-13.7" y="-92.9" cocos2d_x="-13.7" cocos2d_y="-92.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="-13.7" y="-92.9" cocos2d_x="-13.7" cocos2d_y="-92.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f x="-13.7" y="-92.9" cocos2d_x="-13.7" cocos2d_y="-92.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="1"/>
+     <f x="-13.7" y="-92.9" cocos2d_x="-13.7" cocos2d_y="-92.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="1"/>
+     <f dr="9" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="cheer" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+  </animation>
+ </animations>
+ <TextureAtlas name="LiuBei_e" width="2048" height="1024">
+  <SubTexture name="liubeidzon3-Tween 13" width="183" height="223" cocos2d_pX="91.25" cocos2d_pY="111.4" x="370" y="635"/>
+  <SubTexture name="liubeidzon3-Tween 12" width="183" height="223" cocos2d_pX="91.25" cocos2d_pY="111.4" x="185" y="635"/>
+  <SubTexture name="liubeidzon3-Tween 11" width="183" height="223" cocos2d_pX="91.25" cocos2d_pY="111.4" x="0" y="608"/>
+  <SubTexture name="liubeidzon3-Tween 10" width="183" height="223" cocos2d_pX="91.25" cocos2d_pY="111.4" x="1793" y="450"/>
+  <SubTexture name="liubeidzon3-Tween 9" width="183" height="223" cocos2d_pX="91.25" cocos2d_pY="111.4" x="1793" y="0"/>
+  <SubTexture name="liubeidzon3-Tween 8" width="183" height="223" cocos2d_pX="91.25" cocos2d_pY="111.4" x="609" y="313"/>
+  <SubTexture name="liubeidzon3-Tween 7" width="183" height="223" cocos2d_pX="91.25" cocos2d_pY="111.4" x="609" y="538"/>
+  <SubTexture name="liubeidzon3-Tween 6" width="183" height="223" cocos2d_pX="91.25" cocos2d_pY="111.4" x="1793" y="225"/>
+  <SubTexture name="liubeidzon3-Tween 5" width="151" height="208" cocos2d_pX="75.5" cocos2d_pY="103.75" x="1624" y="590"/>
+  <SubTexture name="liubeidzon3-Tween 4" width="275" height="380" cocos2d_pX="137.15" cocos2d_pY="189.6" x="1194" y="0"/>
+  <SubTexture name="liubeidzon3-Tween 3" width="285" height="320" cocos2d_pX="142.15" cocos2d_pY="159.75" x="322" y="313"/>
+  <SubTexture name="liubeidzon3-Tween 2" width="295" height="241" cocos2d_pX="147.3" cocos2d_pY="120.2" x="794" y="313"/>
+  <SubTexture name="liubeidzon3-Tween 1" width="270" height="222" cocos2d_pX="134.85" cocos2d_pY="110.55" x="1091" y="382"/>
+  <SubTexture name="liubeidzon3-Tween 19" width="320" height="293" cocos2d_pX="159.55" cocos2d_pY="146.45" x="1471" y="295"/>
+  <SubTexture name="liubeidzon3-Tween 18" width="320" height="293" cocos2d_pX="159.55" cocos2d_pY="146.45" x="0" y="313"/>
+  <SubTexture name="liubeidzon3-Tween 17" width="320" height="293" cocos2d_pX="159.55" cocos2d_pY="146.45" x="1471" y="0"/>
+  <SubTexture name="liubeidzon3-Tween 16" width="259" height="190" cocos2d_pX="129.3" cocos2d_pY="94.95" x="1055" y="606"/>
+  <SubTexture name="liubeidzon3-Tween 15" width="259" height="190" cocos2d_pX="129.3" cocos2d_pY="94.95" x="794" y="556"/>
+  <SubTexture name="liubeidzon3-Tween 14" width="259" height="190" cocos2d_pX="129.3" cocos2d_pY="94.95" x="1363" y="590"/>
+  <SubTexture name="liubeidzon3-Tween 22" width="396" height="311" cocos2d_pX="197.75" cocos2d_pY="155.05" x="398" y="0"/>
+  <SubTexture name="liubeidzon3-Tween 21" width="396" height="311" cocos2d_pX="197.75" cocos2d_pY="155.05" x="0" y="0"/>
+  <SubTexture name="liubeidzon3-Tween 20" width="396" height="311" cocos2d_pX="197.75" cocos2d_pY="155.05" x="796" y="0"/>
+ </TextureAtlas>
+</skeleton>

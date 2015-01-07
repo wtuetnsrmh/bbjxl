@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>tianfeng_attack4_01.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{1,1}}</string>
+                <key>offset</key>
+                <string>{-130,97}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{1,1}}</string>
+                <key>sourceSize</key>
+                <string>{261,195}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>tianfeng_attack4.pvr.ccz</string>
+            <key>size</key>
+            <string>{3,3}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:fc86fd47918fffa7fcb6bbca33488c24:70f9f854fb0e700d6562d6dbcb8c7736:fc2a358e7d67b36e009e7c868afb1b0e$</string>
+            <key>textureFileName</key>
+            <string>tianfeng_attack4.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

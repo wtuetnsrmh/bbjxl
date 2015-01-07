@@ -1,0 +1,24 @@
+地图ID,地图类型,地图名,地图描述,副本个数,开启等级,地图
+,,,,,,
+,1=普通副本 2=精英副本 3=传奇副本（武将专属的传记副本） 4=活动副本（经验副本、金钱副本等）,,,地图中副本的个数,开启地图所需要达到的玩家等级,底图列表所调用的资源
+,,,,,,
+201,2,第一章  真·黄巾之乱,,3,1,resource/map/passBgType3.png
+202,2,第二章  真·乱世英杰,,5,5,resource/map/passBgType5.png
+203,2,第三章  真·联军讨董·上,,5,8,resource/map/passBgType5.png
+204,2,第四章  真·联军讨董·下,,5,11,resource/map/passBgType5.png
+205,2,第五章  真·群雄之乱,,5,16,resource/map/passBgType5.png
+206,2,第六章  真·曹操崛起,,5,21,resource/map/passBgType5.png
+207,2,第七章  真·吕布陨落,,5,31,resource/map/passBgType5.png
+208,2,第八章  真·平定江东,,5,36,resource/map/passBgType5.png
+209,2,第九章  真·决战前夕,,5,41,resource/map/passBgType5.png
+210,2,第十章  真·官渡之战·上,,5,46,resource/map/passBgType5.png
+211,2,第十一章  真·官渡之战·下,,5,51,resource/map/passBgType5.png
+212,2,第十二章  真·卧龙出山,,5,56,resource/map/passBgType5.png
+213,2,第十三章  真·稳固江东,,5,61,resource/map/passBgType5.png
+214,2,第十四章  真·卧龙扬名·上,,5,66,resource/map/passBgType5.png
+215,2,第十五章  真·卧龙扬名·下,,5,71,resource/map/passBgType5.png
+216,2,第十六章  真·连环计,,5,76,resource/map/passBgType5.png
+217,2,第十七章  真·借东风,,5,81,resource/map/passBgType5.png
+218,2,第十八章  真·火烧赤壁·上,,5,86,resource/map/passBgType5.png
+219,2,第十九章  真·火烧赤壁·下,,5,91,resource/map/passBgType5.png
+220,2,第二十章  真·华容道,,5,96,resource/map/passBgType5.png

@@ -1,0 +1,105 @@
+<skeleton name="SunQuan_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="SunQuan_e">
+   <b name="图层 2" x="-137.75" y="-162.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="sunquanzong-Tween 11" pX="90.6" pY="69.6"/>
+    <d name="sunquanzong-Tween 12" pX="90.6" pY="69.6"/>
+    <d name="sunquanzong-Tween 13" pX="90.6" pY="69.6"/>
+   </b>
+   <b name="图层 3" x="-130.35" y="-67.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="sunquanzong-Tween 8" pX="89.3" pY="61.7"/>
+    <d name="sunquanzong-Tween 9" pX="89.3" pY="61.7"/>
+    <d name="sunquanzong-Tween 10" pX="89.3" pY="61.7"/>
+   </b>
+   <b name="Layer 2" x="-57.35" y="-136.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="sunquanzong-Tween 5" pX="60.95" pY="64.75"/>
+    <d name="sunquanzong-Tween 6" pX="60.95" pY="64.75"/>
+    <d name="sunquanzong-Tween 7" pX="60.95" pY="64.75"/>
+   </b>
+   <b name="Layer 3" x="-83.35" y="-58.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="sunquanzong-Tween 1" pX="125.05" pY="93.95"/>
+    <d name="sunquanzong-Tween 2" pX="125.05" pY="93.95"/>
+    <d name="sunquanzong-Tween 3" pX="125.05" pY="93.95"/>
+    <d name="sunquanzong-Tween 4" pX="125.05" pY="93.95"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="SunQuan_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="move" dr="24" to="0" drTW="19" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="15" dI="-1"/>
+     <f x="-137.75" y="-162.15" cocos2d_x="-137.75" cocos2d_y="-162.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-137.75" y="-162.15" cocos2d_x="-137.75" cocos2d_y="-162.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-137.75" y="-162.15" cocos2d_x="-137.75" cocos2d_y="-162.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f dr="4" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+    <f st="0" dr="14"/>
+    <f st="14" dr="1"/>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="12" dI="-1"/>
+     <f x="-130.35" y="-67.4" cocos2d_x="-130.35" cocos2d_y="-67.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-130.35" y="-67.4" cocos2d_x="-130.35" cocos2d_y="-67.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-130.35" y="-67.4" cocos2d_x="-130.35" cocos2d_y="-67.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f dr="6" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN"/>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 2" sc="1" dl="0">
+     <f dr="16" dI="-1"/>
+     <f x="-57.35" y="-136.85" cocos2d_x="-57.35" cocos2d_y="-136.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-57.35" y="-136.85" cocos2d_x="-57.35" cocos2d_y="-136.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-57.35" y="-136.85" cocos2d_x="-57.35" cocos2d_y="-136.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f dr="2" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 3" sc="1" dl="0">
+     <f dr="11" dI="-1"/>
+     <f x="-83.35" y="-58.15" cocos2d_x="-83.35" cocos2d_y="-58.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-83.35" y="-58.15" cocos2d_x="-83.35" cocos2d_y="-58.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-83.35" y="-58.15" cocos2d_x="-83.35" cocos2d_y="-58.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-83.35" y="-58.15" cocos2d_x="-83.35" cocos2d_y="-58.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="SunQuan_e" width="1024" height="512">
+  <SubTexture name="sunquanzong-Tween 4" width="251" height="188" cocos2d_pX="125.05" cocos2d_pY="93.95" x="506" y="0"/>
+  <SubTexture name="sunquanzong-Tween 3" width="251" height="188" cocos2d_pX="125.05" cocos2d_pY="93.95" x="759" y="0"/>
+  <SubTexture name="sunquanzong-Tween 2" width="251" height="188" cocos2d_pX="125.05" cocos2d_pY="93.95" x="0" y="0"/>
+  <SubTexture name="sunquanzong-Tween 1" width="251" height="188" cocos2d_pX="125.05" cocos2d_pY="93.95" x="253" y="0"/>
+  <SubTexture name="sunquanzong-Tween 7" width="122" height="130" cocos2d_pX="60.95" cocos2d_pY="64.75" x="857" y="190"/>
+  <SubTexture name="sunquanzong-Tween 6" width="122" height="130" cocos2d_pX="60.95" cocos2d_pY="64.75" x="368" y="322"/>
+  <SubTexture name="sunquanzong-Tween 5" width="122" height="130" cocos2d_pX="60.95" cocos2d_pY="64.75" x="368" y="190"/>
+  <SubTexture name="sunquanzong-Tween 10" width="179" height="124" cocos2d_pX="89.3" cocos2d_pY="61.7" x="676" y="190"/>
+  <SubTexture name="sunquanzong-Tween 9" width="179" height="124" cocos2d_pX="89.3" cocos2d_pY="61.7" x="0" y="332"/>
+  <SubTexture name="sunquanzong-Tween 8" width="179" height="124" cocos2d_pX="89.3" cocos2d_pY="61.7" x="676" y="316"/>
+  <SubTexture name="sunquanzong-Tween 13" width="182" height="140" cocos2d_pX="90.6" cocos2d_pY="69.6" x="492" y="190"/>
+  <SubTexture name="sunquanzong-Tween 12" width="182" height="140" cocos2d_pX="90.6" cocos2d_pY="69.6" x="0" y="190"/>
+  <SubTexture name="sunquanzong-Tween 11" width="182" height="140" cocos2d_pX="90.6" cocos2d_pY="69.6" x="184" y="190"/>
+ </TextureAtlas>
+</skeleton>

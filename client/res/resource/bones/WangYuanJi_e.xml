@@ -1,0 +1,143 @@
+<skeleton name="WangYuanJi_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="WangYuanJi_e">
+      <b name="Effect" x="-10.45" y="-95.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="WangYuan-Tween 17" pX="150.6" pY="143.3"/>
+        <d name="WangYuan-Tween 18" pX="150.6" pY="143.3"/>
+        <d name="WangYuan-Tween 19" pX="150.6" pY="143.3"/>
+      </b>
+      <b name="图层 5" x="-13.75" y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="WangYuan-补间 1" pX="138" pY="201.05"/>
+        <d name="WangYuan-补间 2" pX="138" pY="201.05"/>
+        <d name="WangYuan-补间 3" pX="138" pY="201.05"/>
+        <d name="WangYuan-补间 4" pX="138" pY="201.05"/>
+        <d name="WangYuan-补间 5" pX="138" pY="201.05"/>
+        <d name="WangYuan-补间 6" pX="138" pY="201.05"/>
+        <d name="WangYuan-补间 7" pX="138" pY="201.05"/>
+        <d name="WangYuan-补间 8" pX="138" pY="201.05"/>
+        <d name="WangYuan-补间 9" pX="138" pY="201.05"/>
+      </b>
+      <b name="图层 2" x="-13.35" y="-131.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="WangYuan-补间 10" pX="216.9" pY="229.95"/>
+        <d name="WangYuan-补间 11" pX="216.9" pY="229.95"/>
+        <d name="WangYuan-补间 12" pX="216.9" pY="229.95"/>
+        <d name="WangYuan-补间 13" pX="216.9" pY="229.95"/>
+        <d name="WangYuan-补间 14" pX="230.4" pY="242.65"/>
+        <d name="WangYuan-补间 15" pX="230.4" pY="242.65"/>
+        <d name="WangYuan-补间 16" pX="230.4" pY="242.65"/>
+      </b>
+      <b name="图层 3" x="-24.6" y="-59.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="WangYuan-Tween 1" pX="43.7" pY="110.25"/>
+        <d name="WangYuan-Tween 2" pX="43.7" pY="110.25"/>
+        <d name="WangYuan-Tween 3" pX="43.7" pY="110.25"/>
+        <d name="WangYuan-Tween 4" pX="43.7" pY="110.25"/>
+        <d name="WangYuan-Tween 5" pX="43.7" pY="110.25"/>
+        <d name="WangYuan-Tween 6" pX="43.7" pY="110.25"/>
+      </b>
+      <b name="Effect3" x="-40.05" y="-80.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="WangYuan-Tween 11" pX="131.45" pY="141.45"/>
+        <d name="WangYuan-Tween 12" pX="131.45" pY="141.45"/>
+        <d name="WangYuan-Tween 13" pX="131.45" pY="141.45"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="WangYuanJi_e">
+      <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="damaged" dr="13" to="0" drTW="13" lp="0" twE="NaN"/>
+      <mov name="move" dr="24" to="0" drTW="19" lp="0" twE="NaN"/>
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Effect" sc="1" dl="0">
+          <f dr="10" dI="-1"/>
+          <f x="-10.45" y="-95.1" cocos2d_x="-10.45" cocos2d_y="-95.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-10.4" y="-95" cocos2d_x="-10.4" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-10.4" y="-95" cocos2d_x="-10.4" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f dr="8" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="-13.75" y="-202.05" cocos2d_x="-13.75" cocos2d_y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-13.75" y="-202.05" cocos2d_x="-13.75" cocos2d_y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-13.75" y="-202.05" cocos2d_x="-13.75" cocos2d_y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-13.75" y="-202.05" cocos2d_x="-13.75" cocos2d_y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-13.75" y="-202.05" cocos2d_x="-13.75" cocos2d_y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-13.75" y="-202.05" cocos2d_x="-13.75" cocos2d_y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-13.75" y="-202.05" cocos2d_x="-13.75" cocos2d_y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="-13.75" y="-202.05" cocos2d_x="-13.75" cocos2d_y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f x="-13.75" y="-202.05" cocos2d_x="-13.75" cocos2d_y="-202.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f dr="4" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack2" dr="23" to="0" drTW="23" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="-13.35" y="-131.85" cocos2d_x="-13.35" cocos2d_y="-131.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-13.35" y="-131.85" cocos2d_x="-13.35" cocos2d_y="-131.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-13.35" y="-131.85" cocos2d_x="-13.35" cocos2d_y="-131.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-13.35" y="-131.85" cocos2d_x="-13.35" cocos2d_y="-131.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-13.35" y="-131.9" cocos2d_x="-13.35" cocos2d_y="-131.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-13.35" y="-131.9" cocos2d_x="-13.35" cocos2d_y="-131.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-13.35" y="-131.9" cocos2d_x="-13.35" cocos2d_y="-131.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f dr="8" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="7" dI="-1"/>
+          <f x="-24.6" y="-59.6" cocos2d_x="-24.6" cocos2d_y="-59.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-24.6" y="-59.6" cocos2d_x="-24.6" cocos2d_y="-59.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-24.6" y="-59.6" cocos2d_x="-24.6" cocos2d_y="-59.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-24.6" y="-59.6" cocos2d_x="-24.6" cocos2d_y="-59.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-24.6" y="-59.6" cocos2d_x="-24.6" cocos2d_y="-59.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-24.6" y="-59.6" cocos2d_x="-24.6" cocos2d_y="-59.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f dr="5" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+        <b name="Effect3" sc="1" dl="0">
+          <f dr="21" dI="-1"/>
+          <f x="-40.05" y="-80.15" cocos2d_x="-40.05" cocos2d_y="-80.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-40" y="-80.1" cocos2d_x="-40" cocos2d_y="-80.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-40" y="-80.1" cocos2d_x="-40" cocos2d_y="-80.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f dr="9" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="WangYuanJi_e" width="2048" height="2048">
+    <SubTexture name="WangYuan-Tween 13" width="263" height="283" cocos2d_pX="131.45" cocos2d_pY="141.45" x="265" y="1355"/>
+    <SubTexture name="WangYuan-Tween 12" width="263" height="283" cocos2d_pX="131.45" cocos2d_pY="141.45" x="1416" y="1329"/>
+    <SubTexture name="WangYuan-Tween 11" width="263" height="283" cocos2d_pX="131.45" cocos2d_pY="141.45" x="0" y="1355"/>
+    <SubTexture name="WangYuan-Tween 6" width="88" height="221" cocos2d_pX="43.7" cocos2d_pY="110.25" x="1915" y="446"/>
+    <SubTexture name="WangYuan-Tween 5" width="88" height="221" cocos2d_pX="43.7" cocos2d_pY="110.25" x="1825" y="446"/>
+    <SubTexture name="WangYuan-Tween 4" width="88" height="221" cocos2d_pX="43.7" cocos2d_pY="110.25" x="1915" y="0"/>
+    <SubTexture name="WangYuan-Tween 3" width="88" height="221" cocos2d_pX="43.7" cocos2d_pY="110.25" x="1825" y="223"/>
+    <SubTexture name="WangYuan-Tween 2" width="88" height="221" cocos2d_pX="43.7" cocos2d_pY="110.25" x="1915" y="223"/>
+    <SubTexture name="WangYuan-Tween 1" width="88" height="221" cocos2d_pX="43.7" cocos2d_pY="110.25" x="1825" y="0"/>
+    <SubTexture name="WangYuan-补间 16" width="461" height="486" cocos2d_pX="230.4" cocos2d_pY="242.65" x="926" y="0"/>
+    <SubTexture name="WangYuan-补间 15" width="461" height="486" cocos2d_pX="230.4" cocos2d_pY="242.65" x="0" y="0"/>
+    <SubTexture name="WangYuan-补间 14" width="461" height="486" cocos2d_pX="230.4" cocos2d_pY="242.65" x="463" y="0"/>
+    <SubTexture name="WangYuan-补间 13" width="434" height="460" cocos2d_pX="216.9" cocos2d_pY="229.95" x="436" y="488"/>
+    <SubTexture name="WangYuan-补间 12" width="434" height="460" cocos2d_pX="216.9" cocos2d_pY="229.95" x="1389" y="462"/>
+    <SubTexture name="WangYuan-补间 11" width="434" height="460" cocos2d_pX="216.9" cocos2d_pY="229.95" x="1389" y="0"/>
+    <SubTexture name="WangYuan-补间 10" width="434" height="460" cocos2d_pX="216.9" cocos2d_pY="229.95" x="0" y="488"/>
+    <SubTexture name="WangYuan-补间 9" width="276" height="403" cocos2d_pX="138" cocos2d_pY="201.05" x="872" y="488"/>
+    <SubTexture name="WangYuan-补间 8" width="276" height="403" cocos2d_pX="138" cocos2d_pY="201.05" x="0" y="950"/>
+    <SubTexture name="WangYuan-补间 7" width="276" height="403" cocos2d_pX="138" cocos2d_pY="201.05" x="872" y="893"/>
+    <SubTexture name="WangYuan-补间 6" width="276" height="403" cocos2d_pX="138" cocos2d_pY="201.05" x="1150" y="924"/>
+    <SubTexture name="WangYuan-补间 5" width="276" height="403" cocos2d_pX="138" cocos2d_pY="201.05" x="834" y="1298"/>
+    <SubTexture name="WangYuan-补间 4" width="276" height="403" cocos2d_pX="138" cocos2d_pY="201.05" x="1706" y="924"/>
+    <SubTexture name="WangYuan-补间 3" width="276" height="403" cocos2d_pX="138" cocos2d_pY="201.05" x="278" y="950"/>
+    <SubTexture name="WangYuan-补间 2" width="276" height="403" cocos2d_pX="138" cocos2d_pY="201.05" x="1428" y="924"/>
+    <SubTexture name="WangYuan-补间 1" width="276" height="403" cocos2d_pX="138" cocos2d_pY="201.05" x="556" y="950"/>
+    <SubTexture name="WangYuan-Tween 19" width="302" height="287" cocos2d_pX="150.6" cocos2d_pY="143.3" x="1112" y="1329"/>
+    <SubTexture name="WangYuan-Tween 18" width="302" height="287" cocos2d_pX="150.6" cocos2d_pY="143.3" x="530" y="1355"/>
+    <SubTexture name="WangYuan-Tween 17" width="302" height="287" cocos2d_pX="150.6" cocos2d_pY="143.3" x="1681" y="1329"/>
+  </TextureAtlas>
+</skeleton>

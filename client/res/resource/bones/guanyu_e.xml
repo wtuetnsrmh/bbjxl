@@ -1,0 +1,201 @@
+<skeleton name="guanyu_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="guanyu_e">
+      <b name="图层 2" x="-102.5" y="-134.15" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0">
+        <d name="guanyu_ess-Tween 63" pX="81.95" pY="87.7"/>
+        <d name="guanyu_ess-Tween 64" pX="81.95" pY="87.7"/>
+        <d name="guanyu_ess-Tween 65" pX="81.95" pY="87.7"/>
+        <d name="guanyu_ess-Tween 66" pX="81.95" pY="87.7"/>
+        <d name="guanyu_ess-Tween 67" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 68" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 69" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 70" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 71" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 72" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 73" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 74" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 75" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 76" pX="112.2" pY="93.15"/>
+        <d name="guanyu_ess-Tween 77" pX="113.1" pY="103.75"/>
+        <d name="guanyu_ess-Tween 78" pX="113.1" pY="103.75"/>
+        <d name="guanyu_ess-Tween 79" pX="113.1" pY="103.75"/>
+        <d name="guanyu_ess-Tween 80" pX="113.1" pY="103.75"/>
+        <d name="guanyu_ess-Tween 81" pX="113.1" pY="103.75"/>
+        <d name="guanyu_ess-Tween 82" pX="132" pY="115.3"/>
+        <d name="guanyu_ess-Tween 83" pX="113.1" pY="103.75"/>
+        <d name="guanyu_ess-Tween 84" pX="113.1" pY="103.75"/>
+        <d name="guanyu_ess-Tween 85" pX="113.1" pY="103.75"/>
+        <d name="guanyu_ess-Tween 86" pX="113.1" pY="103.75"/>
+        <d name="guanyu_ess-Tween 87" pX="197.15" pY="155.45"/>
+        <d name="guanyu_ess-Tween 88" pX="197.15" pY="155.45"/>
+        <d name="guanyu_ess-Tween 89" pX="197.15" pY="155.45"/>
+        <d name="guanyu_ess-Tween 90" pX="197.15" pY="155.45"/>
+        <d name="guanyu_ess-Tween 91" pX="197.15" pY="155.45"/>
+        <d name="guanyu_ess-Tween 92" pX="197.15" pY="155.45"/>
+        <d name="guanyu_ess-Tween 93" pX="197.15" pY="155.45"/>
+        <d name="guanyu_ess-Tween 94" pX="197.15" pY="155.45"/>
+      </b>
+      <b name="图层 4" x="13.1" y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0">
+        <d name="guanyu_ess-Tween 48" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 49" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 50" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 51" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 52" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 53" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 54" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 55" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 56" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 57" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 58" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 59" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 60" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 61" pX="188.05" pY="119.15"/>
+        <d name="guanyu_ess-Tween 62" pX="188.05" pY="119.15"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="guanyu_e">
+      <mov name="attack" dr="24" to="0" drTW="0" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="9" dI="-1"/>
+          <f x="-102.5" y="-134.15" cocos2d_x="-102.5" cocos2d_y="-134.15" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-102.5" y="-134.15" cocos2d_x="-102.5" cocos2d_y="-134.15" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-102.5" y="-134.15" cocos2d_x="-102.5" cocos2d_y="-134.15" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-102.5" y="-134.15" cocos2d_x="-102.5" cocos2d_y="-134.15" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="9" dr="2"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="11" dr="2"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="12" dr="2"/>
+          <f x="-13.45" y="-89.75" cocos2d_x="-13.45" cocos2d_y="-89.75" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="13" dr="2"/>
+          <f dr="2" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="skill" dr="40" to="0" drTW="40" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="1" dr="1"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="3" dr="1"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="4" dr="1"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="5" dr="1"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="6" dr="1"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="7" dr="1"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="8" dr="1"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="9" dr="1"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="11" dr="2"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="12" dr="2"/>
+          <f x="13.1" y="-145.9" cocos2d_x="13.1" cocos2d_y="-145.9" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="13" dr="2"/>
+          <f x="21.4" y="-146.95" cocos2d_x="21.4" cocos2d_y="-146.95" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="14" dr="2"/>
+          <f dr="17" dI="-1"/>
+        </b>
+        <f st="0" dr="39"/>
+        <f st="39" dr="1"/>
+      </mov>
+      <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <f st="0" dr="14"/>
+        <f st="14" dr="1"/>
+      </mov>
+      <mov name="dead" dr="25" to="0" drTW="25" lp="0" twE="NaN"/>
+      <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="-72.05" y="-106.7" cocos2d_x="-72.05" cocos2d_y="-106.7" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="14" dr="2"/>
+          <f x="-72.05" y="-106.7" cocos2d_x="-72.05" cocos2d_y="-106.7" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="15" dr="2"/>
+          <f x="-72.05" y="-106.7" cocos2d_x="-72.05" cocos2d_y="-106.7" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="16" dr="2"/>
+          <f x="-78.75" y="-130.95" cocos2d_x="-78.75" cocos2d_y="-130.95" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="17" dr="2"/>
+          <f x="-78.75" y="-130.95" cocos2d_x="-78.75" cocos2d_y="-130.95" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="18" dr="2"/>
+          <f x="-22.1" y="-153.2" cocos2d_x="-22.1" cocos2d_y="-153.2" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="19" dr="2"/>
+          <f x="-72.05" y="-106.7" cocos2d_x="-72.05" cocos2d_y="-106.7" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="20" dr="2"/>
+          <f x="-72.05" y="-106.7" cocos2d_x="-72.05" cocos2d_y="-106.7" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="21" dr="2"/>
+          <f x="-72.05" y="-106.7" cocos2d_x="-72.05" cocos2d_y="-106.7" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="22" dr="2"/>
+          <f x="-72.05" y="-106.7" cocos2d_x="-72.05" cocos2d_y="-106.7" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="23" dr="2"/>
+          <f dr="3" dI="-1"/>
+        </b>
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="-11.05" y="-173.05" cocos2d_x="-11.05" cocos2d_y="-173.05" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="24" dr="2"/>
+          <f x="-11.05" y="-173.05" cocos2d_x="-11.05" cocos2d_y="-173.05" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="25" dr="2"/>
+          <f x="-11.05" y="-173.05" cocos2d_x="-11.05" cocos2d_y="-173.05" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="26" dr="2"/>
+          <f x="-11.05" y="-173.05" cocos2d_x="-11.05" cocos2d_y="-173.05" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="27" dr="2"/>
+          <f x="-11.05" y="-173.05" cocos2d_x="-11.05" cocos2d_y="-173.05" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="28" dr="2"/>
+          <f x="-11.05" y="-173.05" cocos2d_x="-11.05" cocos2d_y="-173.05" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="29" dr="2"/>
+          <f x="-11.05" y="-173.05" cocos2d_x="-11.05" cocos2d_y="-173.05" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="30" dr="2"/>
+          <f x="-11.05" y="-173.05" cocos2d_x="-11.05" cocos2d_y="-173.05" kX="0" kY="0" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="31" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="guanyu_e" width="2048" height="2048">
+    <SubTexture name="guanyu_ess-Tween 62" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="758" y="626"/>
+    <SubTexture name="guanyu_ess-Tween 61" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="1137" y="1036"/>
+    <SubTexture name="guanyu_ess-Tween 60" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="758" y="867"/>
+    <SubTexture name="guanyu_ess-Tween 59" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="0" y="867"/>
+    <SubTexture name="guanyu_ess-Tween 58" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="1137" y="795"/>
+    <SubTexture name="guanyu_ess-Tween 57" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="0" y="626"/>
+    <SubTexture name="guanyu_ess-Tween 56" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="1191" y="554"/>
+    <SubTexture name="guanyu_ess-Tween 55" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="1570" y="313"/>
+    <SubTexture name="guanyu_ess-Tween 54" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="1516" y="795"/>
+    <SubTexture name="guanyu_ess-Tween 53" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="1516" y="1036"/>
+    <SubTexture name="guanyu_ess-Tween 52" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="1570" y="554"/>
+    <SubTexture name="guanyu_ess-Tween 51" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="379" y="867"/>
+    <SubTexture name="guanyu_ess-Tween 50" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="1191" y="313"/>
+    <SubTexture name="guanyu_ess-Tween 49" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="379" y="626"/>
+    <SubTexture name="guanyu_ess-Tween 48" width="377" height="239" cocos2d_pX="188.05" cocos2d_pY="119.15" x="0" y="1108"/>
+    <SubTexture name="guanyu_ess-Tween 94" width="395" height="311" cocos2d_pX="197.15" cocos2d_pY="155.45" x="397" y="0"/>
+    <SubTexture name="guanyu_ess-Tween 93" width="395" height="311" cocos2d_pX="197.15" cocos2d_pY="155.45" x="0" y="313"/>
+    <SubTexture name="guanyu_ess-Tween 92" width="395" height="311" cocos2d_pX="197.15" cocos2d_pY="155.45" x="1588" y="0"/>
+    <SubTexture name="guanyu_ess-Tween 91" width="395" height="311" cocos2d_pX="197.15" cocos2d_pY="155.45" x="794" y="0"/>
+    <SubTexture name="guanyu_ess-Tween 90" width="395" height="311" cocos2d_pX="197.15" cocos2d_pY="155.45" x="0" y="0"/>
+    <SubTexture name="guanyu_ess-Tween 89" width="395" height="311" cocos2d_pX="197.15" cocos2d_pY="155.45" x="794" y="313"/>
+    <SubTexture name="guanyu_ess-Tween 88" width="395" height="311" cocos2d_pX="197.15" cocos2d_pY="155.45" x="1191" y="0"/>
+    <SubTexture name="guanyu_ess-Tween 87" width="395" height="311" cocos2d_pX="197.15" cocos2d_pY="155.45" x="397" y="313"/>
+    <SubTexture name="guanyu_ess-Tween 86" width="227" height="208" cocos2d_pX="113.1" cocos2d_pY="103.75" x="645" y="1108"/>
+    <SubTexture name="guanyu_ess-Tween 85" width="227" height="208" cocos2d_pX="113.1" cocos2d_pY="103.75" x="1727" y="1277"/>
+    <SubTexture name="guanyu_ess-Tween 84" width="227" height="208" cocos2d_pX="113.1" cocos2d_pY="103.75" x="1103" y="1277"/>
+    <SubTexture name="guanyu_ess-Tween 83" width="227" height="208" cocos2d_pX="113.1" cocos2d_pY="103.75" x="379" y="1341"/>
+    <SubTexture name="guanyu_ess-Tween 82" width="264" height="231" cocos2d_pX="132" cocos2d_pY="115.3" x="379" y="1108"/>
+    <SubTexture name="guanyu_ess-Tween 81" width="227" height="208" cocos2d_pX="113.1" cocos2d_pY="103.75" x="0" y="1349"/>
+    <SubTexture name="guanyu_ess-Tween 80" width="227" height="208" cocos2d_pX="113.1" cocos2d_pY="103.75" x="874" y="1108"/>
+    <SubTexture name="guanyu_ess-Tween 79" width="227" height="208" cocos2d_pX="113.1" cocos2d_pY="103.75" x="1498" y="1277"/>
+    <SubTexture name="guanyu_ess-Tween 78" width="227" height="208" cocos2d_pX="113.1" cocos2d_pY="103.75" x="645" y="1318"/>
+    <SubTexture name="guanyu_ess-Tween 77" width="227" height="208" cocos2d_pX="113.1" cocos2d_pY="103.75" x="874" y="1318"/>
+    <SubTexture name="guanyu_ess-Tween 76" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="0" y="1559"/>
+    <SubTexture name="guanyu_ess-Tween 75" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="1723" y="1676"/>
+    <SubTexture name="guanyu_ess-Tween 74" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="608" y="1528"/>
+    <SubTexture name="guanyu_ess-Tween 73" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="1103" y="1487"/>
+    <SubTexture name="guanyu_ess-Tween 72" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="229" y="1551"/>
+    <SubTexture name="guanyu_ess-Tween 71" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="1062" y="1676"/>
+    <SubTexture name="guanyu_ess-Tween 70" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="1496" y="1676"/>
+    <SubTexture name="guanyu_ess-Tween 69" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="1498" y="1487"/>
+    <SubTexture name="guanyu_ess-Tween 68" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="1725" y="1487"/>
+    <SubTexture name="guanyu_ess-Tween 67" width="225" height="187" cocos2d_pX="112.2" cocos2d_pY="93.15" x="835" y="1528"/>
+    <SubTexture name="guanyu_ess-Tween 66" width="164" height="176" cocos2d_pX="81.95" cocos2d_pY="87.7" x="1332" y="1277"/>
+    <SubTexture name="guanyu_ess-Tween 65" width="164" height="176" cocos2d_pX="81.95" cocos2d_pY="87.7" x="456" y="1717"/>
+    <SubTexture name="guanyu_ess-Tween 64" width="164" height="176" cocos2d_pX="81.95" cocos2d_pY="87.7" x="1330" y="1633"/>
+    <SubTexture name="guanyu_ess-Tween 63" width="164" height="176" cocos2d_pX="81.95" cocos2d_pY="87.7" x="1332" y="1455"/>
+  </TextureAtlas>
+</skeleton>

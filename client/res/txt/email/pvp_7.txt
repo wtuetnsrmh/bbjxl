@@ -1,0 +1,8 @@
+﻿[color=ff422820]【战场每日排名奖励】————[/color]
+[color=ff422820]你在战场所向披靡，截至今天21：00，您的战场段位一不小心冲到了：[color=ff2dc049][b]征西将军[/b][/color]![/color]
+[color=ff422820]为奖励您的功勋，现授予您【征西将军】奖状，并快递给您如下奖励：[/color]
+
+[color=ff422820]    [image=resource/ui_rc/global/yinbi.png][/image]x 12000 [image=resource/ui_rc/global/yuanbao.png][/image]x 60 [image=resource/ui_rc/pvp/zhangong.png][/image]x 4000 [/color]
+
+
+[color=ff422820]请在附件中签收！[/color]

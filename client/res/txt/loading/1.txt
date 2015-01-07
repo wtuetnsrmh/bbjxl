@@ -1,0 +1,4 @@
+[size=40][color=ff00ff00]步兵[/color][/size] [size=32]克制[/size] [size=40][color=ffffff00]弓兵[/color][/size]
+[size=40][color=ff00ff00]弓兵[/color][/size] [size=32]克制[/size] [size=40][color=ffffff00]骑兵[/color][/size]
+[size=40][color=ff00ff00]骑兵[/color][/size] [size=32]克制[/size] [size=40][color=ffffff00]军师[/color][/size]
+[size=40][color=ff00ff00]军师[/color][/size] [size=32]克制[/size] [size=40][color=ffffff00]步兵[/color][/size]

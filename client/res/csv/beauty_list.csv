@@ -1,0 +1,15 @@
+美人ID,美人名称,星级,进阶上限,每阶等级上限,美色初始值,才艺初始值,品德初始值,美色成长值,才艺成长值,品德成长值,参悟潜力,潜力评价,美人计1ID,美人计2ID,美人计3ID,激活等级,前提美人ID,前提精英关卡ID,招募金币,头像,全身像,全身像遮罩
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,生命,攻击,防御,生命成长倾向,攻击成长倾向,防御成长倾向,百分比,"IF(M4>=60,""天下无双"",IF(and(M4<60,M4>=55),""万里挑一"",if(and(m4>=50,m4<55),""千里挑一"",if(and(m4>=45,m4<50),""百里挑一"",if(and(m4>=40,m4<45),""十里挑一"")))))",,,,,,,,,,
+12,糜夫人,3,2,10,64,49,70,6.4,4.9,7,25,十里挑一,103,120,154,23,,,1=0,resource/head_pic/MiFuRen.png,resource/card_pic/MiFuRen.jpg,resource/hero_pic/MiFuRenA.jpg
+11,王异,3,2,10,98,82,66,9.8,8.2,6.6,50,百里挑一,102,109,156,25,12,20305,1=2000,resource/head_pic/WangYi.png,resource/card_pic/WangYi.jpg,resource/hero_pic/WangYiA.jpg
+10,祝融夫人,4,2,10,124,120,118,12.4,12,11.8,100,千里挑一,159,158,210,28,12,20305,2=800,resource/head_pic/ZhuRongFuRen.png,resource/card_pic/ZhuRongFuRen.jpg,resource/hero_pic/ZhuRongFuRenA.jpg
+9,花蔓,3,2,10,72,91,74,7.2,9.1,7.4,75,百里挑一,101,119,168,30,11,20503,1=10000,resource/head_pic/HuaMan.png,resource/card_pic/HuaMan.jpg,resource/hero_pic/HuaManA.jpg
+8,郭女王,5,2,10,180,180,180,18,18,18,150,万里挑一,207,205,211,35,10,20503,2=2000,resource/head_pic/GuoNvWang.png,resource/card_pic/GuoNvWang.jpg,resource/hero_pic/GuoNvWangA.jpg
+7,黄月英,4,2,10,83,138,126,8.3,13.8,12.6,100,千里挑一,155,157,201,35,9,20605,1=100000,resource/head_pic/HuangYueYing.png,resource/card_pic/HuangYueYing.jpg,resource/hero_pic/HuangYueYingA.jpg
+6,蔡文姬,4,2,10,109,116,132,10.9,11.6,13.2,100,千里挑一,170,154,203,40,7,20805,1=150000,resource/head_pic/CaiWenJi.png,resource/card_pic/CaiWenJi.jpg,resource/hero_pic/CaiWenJiA.jpg
+5,大乔,4,2,10,141,112,115,14.1,11.2,11.5,150,万里挑一,161,156,202,45,6,21005,1=200000,resource/head_pic/DaQiao.png,resource/card_pic/DaQiao.jpg,resource/hero_pic/DaQiaoA.jpg
+4,貂蝉,5,2,10,199,177,171,19.9,17.7,17.1,200,天下无双,206,203,220,50,8,21105,2=5000,resource/head_pic/DiaoChan.png,resource/card_pic/DiaoChan.jpg,resource/hero_pic/DiaoChanA.jpg
+3,孙尚香,5,2,10,180,182,178,18,18.2,17.8,150,万里挑一,203,202,201,60,5,21205,1=500000,resource/head_pic/SunShangXiang.png,resource/card_pic/SunShangXiang.jpg,resource/hero_pic/SunShangXiangA.jpg
+2,小乔,5,2,10,175,172,192,17.5,17.2,19.2,150,万里挑一,204,202,203,70,3,21405,1=800000,resource/head_pic/XiaoQiao.png,resource/card_pic/XiaoQiao.jpg,resource/hero_pic/XiaoQiaoA.jpg
+1,甄姬,5,2,10,182,197,161,18.2,19.7,16.1,200,天下无双,208,201,210,80,2,21605,1=1000000,resource/head_pic/ZhenJi.png,resource/card_pic/ZhenJi.jpg,resource/hero_pic/ZhenJiA.jpg

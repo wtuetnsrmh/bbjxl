@@ -1,0 +1,17 @@
+关卡,匹配下限,匹配上限,宝箱图标,银币,奖励,武将经验
+,,,路径,暂时为5*power（关卡数，PI）+5000*power（关卡数，1/PI），具体值=银币*（1+0.01*（玩家等级-30））*（1+vip表远征收益提升）,item表id=数量，允许多个,
+1,50,60,resource/ui_rc/expedition/award_type0,5005,850=1,12
+2,60,70,resource/ui_rc/expedition/award_type0,6278,851=2,12
+3,70,80,resource/ui_rc/expedition/award_type1,7251,604=100 861=1,12
+4,80,90,resource/ui_rc/expedition/award_type0,8163,852=1,14
+5,90,100,resource/ui_rc/expedition/award_type0,9131,853=2,14
+6,100,110,resource/ui_rc/expedition/award_type1,10236,604=200 862=1,14
+7,110,115,resource/ui_rc/expedition/award_type0,11548,852=1,16
+8,115,120,resource/ui_rc/expedition/award_type0,13129,853=2,16
+9,120,125,resource/ui_rc/expedition/award_type1,15038,604=300 863=1,16
+10,125,130,resource/ui_rc/expedition/award_type0,17333,854=1,18
+11,130,135,resource/ui_rc/expedition/award_type0,20072,855=2,18
+12,135,140,resource/ui_rc/expedition/award_type1,23311,604=300 864=1,18
+13,140,145,resource/ui_rc/expedition/award_type0,27107,856=1,20
+14,145,150,resource/ui_rc/expedition/award_type0,31518,857=2,20
+15,150,155,resource/ui_rc/expedition/award_type1,36601,604=400 865=1,20

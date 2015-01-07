@@ -1,0 +1,31 @@
+﻿[size=24][color=ff422820]【活动时间】：12月11日11:00~12月17日23:59[/color][/size]
+[size=24][color=ff422820]【活动内容】：游戏内各大排行榜展开竞争，玩家在当日21:00获得排行奖励。[/color][/size]
+[size=24][color=ff422820]【活动奖励】：[/color][/size]
+
+[size=24][color=ff422820]活动期间内，等级排行榜，战场排行榜，过关斩将排行榜，将会根据玩家排名发放左慈碎片，华佗碎片，诸葛亮碎片，以及大量银币和元宝。[/color][/size]
+
+[size=24][color=ff422820]---------------- 等级榜 ----------------[/color][/size]
+[size=24][color=ff422820]第  1  名  左慈碎片x30  银币x50000  元宝x500[/color][/size]
+[size=24][color=ff422820]第  2  名  左慈碎片x26  银币x40000  元宝x400[/color][/size]
+[size=24][color=ff422820]第  3  名  左慈碎片x24  银币x30000  元宝x300[/color][/size]
+[size=24][color=ff422820]第 4~10名  左慈碎片x20  银币x20000  元宝x200[/color][/size]
+[size=24][color=ff422820]第11~20名  左慈碎片x18   银币x20000  元宝x200[/color][/size]
+[size=24][color=ff422820]第20~50名  左慈碎片x16   银币x20000  元宝x200[/color][/size]
+
+[size=24][color=ff422820]---------------- 战场榜 ----------------[/color][/size]
+[size=24][color=ff422820]第  1  名  华佗碎片x30  银币x50000  元宝x500[/color][/size]
+[size=24][color=ff422820]第  2  名  华佗碎片x26  银币x40000  元宝x400[/color][/size]
+[size=24][color=ff422820]第  3  名  华佗碎片x24  银币x30000  元宝x300[/color][/size]
+[size=24][color=ff422820]第 4~10名  华佗碎片x20  银币x20000  元宝x200[/color][/size]
+[size=24][color=ff422820]第11~20名  华佗碎片x18   银币x20000  元宝x200[/color][/size]
+[size=24][color=ff422820]第20~50名  华佗碎片x16   银币x20000  元宝x200[/color][/size]
+
+[size=24][color=ff422820]---------------- 过关斩将榜 ----------------[/color][/size]
+[size=24][color=ff422820]第  1  名  诸葛亮碎片x30  银币x50000  元宝x500[/color][/size]
+[size=24][color=ff422820]第  2  名  诸葛亮碎片x26  银币x40000  元宝x400[/color][/size]
+[size=24][color=ff422820]第  3  名  诸葛亮碎片x24  银币x30000  元宝x300[/color][/size]
+[size=24][color=ff422820]第 4~10名  诸葛亮碎片x20  银币x20000  元宝x200[/color][/size]
+[size=24][color=ff422820]第11~20名  诸葛亮碎片x18   银币x20000  元宝x200[/color][/size]
+[size=24][color=ff422820]第20~50名  诸葛亮碎片x16   银币x20000  元宝x200[/color][/size]
+
+[size=24][color=ff422820]【活动说明】：左慈 华佗 诸葛亮 均为游戏内不可抽卡获得的稀有神将！属性高高，技能强力，carry全场！[/color][/size]

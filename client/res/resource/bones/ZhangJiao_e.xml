@@ -1,0 +1,101 @@
+<skeleton name="ZhangJiao_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="ZhangJiao_e">
+   <b name="图层 5" x="-1.15" y="-45.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zjdger-补间 1" pX="104.4" pY="72"/>
+    <d name="zjdger-补间 2" pX="104.4" pY="72"/>
+    <d name="zjdger-补间 3" pX="104.4" pY="72"/>
+    <d name="zjdger-补间 4" pX="104.4" pY="72"/>
+    <d name="zjdger-补间 5" pX="104.4" pY="72"/>
+    <d name="zjdger-补间 6" pX="104.4" pY="72"/>
+    <d name="zjdger-补间 7" pX="104.4" pY="72"/>
+   </b>
+   <b name="图层 4" x="-56.95" y="-168.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zjdger-Tween 9" pX="102.15" pY="58.85"/>
+    <d name="zjdger-Tween 10" pX="102.15" pY="58.85"/>
+    <d name="zjdger-Tween 11" pX="102.15" pY="58.85"/>
+    <d name="zjdger-Tween 12" pX="102.15" pY="58.85"/>
+    <d name="zjdger-Tween 13" pX="102.15" pY="58.85"/>
+   </b>
+   <b name="图层 2" x="11.95" y="-108.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zjdger-补间 8" pX="115" pY="139"/>
+    <d name="zjdger-补间 9" pX="115" pY="139"/>
+    <d name="zjdger-补间 10" pX="115" pY="139"/>
+    <d name="zjdger-补间 11" pX="115" pY="139"/>
+    <d name="zjdger-补间 12" pX="115" pY="139"/>
+    <d name="zjdger-补间 13" pX="115" pY="139"/>
+    <d name="zjdger-补间 14" pX="115" pY="139"/>
+    <d name="zjdger-补间 15" pX="115" pY="139"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ZhangJiao_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="1" twE="NaN"/>
+   <mov name="move" dr="24" to="0" drTW="24" lp="1" twE="NaN"/>
+   <mov name="damaged" dr="15" to="0" drTW="15" lp="1" twE="NaN"/>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 5" sc="1" dl="0">
+     <f dr="10" dI="-1"/>
+     <f x="-1.15" y="-45.05" cocos2d_x="-1.15" cocos2d_y="-45.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-1.15" y="-45.05" cocos2d_x="-1.15" cocos2d_y="-45.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-1.15" y="-45.05" cocos2d_x="-1.15" cocos2d_y="-45.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-1.15" y="-45.05" cocos2d_x="-1.15" cocos2d_y="-45.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-1.15" y="-45.05" cocos2d_x="-1.15" cocos2d_y="-45.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-1.15" y="-45.05" cocos2d_x="-1.15" cocos2d_y="-45.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-1.15" y="-45.05" cocos2d_x="-1.15" cocos2d_y="-45.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="36" to="4" drTW="36" lp="0" twE="NaN"/>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="2" dI="-1"/>
+     <f x="-56.95" y="-168.45" cocos2d_x="-56.95" cocos2d_y="-168.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-56.95" y="-168.45" cocos2d_x="-56.95" cocos2d_y="-168.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-56.95" y="-168.45" cocos2d_x="-56.95" cocos2d_y="-168.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-56.95" y="-168.45" cocos2d_x="-56.95" cocos2d_y="-168.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-56.95" y="-168.45" cocos2d_x="-56.95" cocos2d_y="-168.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f dr="12" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="11.95" y="-108.15" cocos2d_x="11.95" cocos2d_y="-108.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="11.95" y="-108.15" cocos2d_x="11.95" cocos2d_y="-108.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="11.95" y="-108.15" cocos2d_x="11.95" cocos2d_y="-108.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="11.95" y="-108.15" cocos2d_x="11.95" cocos2d_y="-108.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="11.95" y="-108.15" cocos2d_x="11.95" cocos2d_y="-108.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="11.95" y="-108.15" cocos2d_x="11.95" cocos2d_y="-108.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="11.95" y="-108.15" cocos2d_x="11.95" cocos2d_y="-108.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="11.95" y="-108.15" cocos2d_x="11.95" cocos2d_y="-108.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f dr="4" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ZhangJiao_e" width="1024" height="1024">
+  <SubTexture name="zjdger-补间 15" width="230" height="278" cocos2d_pX="115" cocos2d_pY="139" x="232" y="280"/>
+  <SubTexture name="zjdger-补间 14" width="230" height="278" cocos2d_pX="115" cocos2d_pY="139" x="464" y="280"/>
+  <SubTexture name="zjdger-补间 13" width="230" height="278" cocos2d_pX="115" cocos2d_pY="139" x="696" y="0"/>
+  <SubTexture name="zjdger-补间 12" width="230" height="278" cocos2d_pX="115" cocos2d_pY="139" x="696" y="280"/>
+  <SubTexture name="zjdger-补间 11" width="230" height="278" cocos2d_pX="115" cocos2d_pY="139" x="232" y="0"/>
+  <SubTexture name="zjdger-补间 10" width="230" height="278" cocos2d_pX="115" cocos2d_pY="139" x="464" y="0"/>
+  <SubTexture name="zjdger-补间 9" width="230" height="278" cocos2d_pX="115" cocos2d_pY="139" x="0" y="280"/>
+  <SubTexture name="zjdger-补间 8" width="230" height="278" cocos2d_pX="115" cocos2d_pY="139" x="0" y="0"/>
+  <SubTexture name="zjdger-Tween 13" width="205" height="118" cocos2d_pX="102.15" cocos2d_pY="58.85" x="0" y="852"/>
+  <SubTexture name="zjdger-Tween 12" width="205" height="118" cocos2d_pX="102.15" cocos2d_pY="58.85" x="633" y="826"/>
+  <SubTexture name="zjdger-Tween 11" width="205" height="118" cocos2d_pX="102.15" cocos2d_pY="58.85" x="633" y="706"/>
+  <SubTexture name="zjdger-Tween 10" width="205" height="118" cocos2d_pX="102.15" cocos2d_pY="58.85" x="414" y="852"/>
+  <SubTexture name="zjdger-Tween 9" width="205" height="118" cocos2d_pX="102.15" cocos2d_pY="58.85" x="207" y="852"/>
+  <SubTexture name="zjdger-补间 7" width="209" height="144" cocos2d_pX="104.4" cocos2d_pY="72" x="633" y="560"/>
+  <SubTexture name="zjdger-补间 6" width="209" height="144" cocos2d_pX="104.4" cocos2d_pY="72" x="0" y="706"/>
+  <SubTexture name="zjdger-补间 5" width="209" height="144" cocos2d_pX="104.4" cocos2d_pY="72" x="422" y="706"/>
+  <SubTexture name="zjdger-补间 4" width="209" height="144" cocos2d_pX="104.4" cocos2d_pY="72" x="211" y="560"/>
+  <SubTexture name="zjdger-补间 3" width="209" height="144" cocos2d_pX="104.4" cocos2d_pY="72" x="211" y="706"/>
+  <SubTexture name="zjdger-补间 2" width="209" height="144" cocos2d_pX="104.4" cocos2d_pY="72" x="422" y="560"/>
+  <SubTexture name="zjdger-补间 1" width="209" height="144" cocos2d_pX="104.4" cocos2d_pY="72" x="0" y="560"/>
+ </TextureAtlas>
+</skeleton>

@@ -1,0 +1,166 @@
+<skeleton name="GanFuRen_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="GanFuRen_e">
+   <b name="Layer 4" x="-68.7" y="-109.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="gfrzs-Tween 1" pX="93.5" pY="82"/>
+    <d name="gfrzs-Tween 2" pX="93.5" pY="82"/>
+    <d name="gfrzs-Tween 3" pX="93.5" pY="82"/>
+    <d name="gfrzs-Tween 4" pX="93.5" pY="82"/>
+    <d name="gfrzs-Tween 5" pX="93.5" pY="82"/>
+    <d name="gfrzs-Tween 6" pX="93.5" pY="82"/>
+    <d name="gfrzs-Tween 7" pX="93.5" pY="82"/>
+   </b>
+   <b name="Layer 3" x="-41.15" y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="gfrzs-Tween 8" pX="47.5" pY="70.5"/>
+    <d name="gfrzs-Tween 9" pX="47.5" pY="70.5"/>
+    <d name="gfrzs-Tween 10" pX="47.5" pY="70.5"/>
+    <d name="gfrzs-Tween 11" pX="47.5" pY="70.5"/>
+    <d name="gfrzs-Tween 12" pX="47.5" pY="70.5"/>
+    <d name="gfrzs-Tween 13" pX="47.5" pY="70.5"/>
+    <d name="gfrzs-Tween 14" pX="47.5" pY="70.5"/>
+    <d name="gfrzs-Tween 15" pX="47.5" pY="70.5"/>
+    <d name="gfrzs-Tween 16" pX="47.5" pY="70.5"/>
+   </b>
+   <b name="Layer 6" x="26.95" y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="gfrzs-Tween 37" pX="173" pY="157.5"/>
+    <d name="gfrzs-Tween 38" pX="173" pY="157.5"/>
+    <d name="gfrzs-Tween 39" pX="173" pY="157.5"/>
+    <d name="gfrzs-Tween 40" pX="173" pY="157.5"/>
+    <d name="gfrzs-Tween 41" pX="173" pY="157.5"/>
+    <d name="gfrzs-Tween 42" pX="173" pY="157.5"/>
+   </b>
+   <b name="Layer 2" x="-57.3" y="-101.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="gfrzs-Tween 17" pX="84.5" pY="86.5"/>
+    <d name="gfrzs-Tween 18" pX="84.5" pY="86.5"/>
+    <d name="gfrzs-Tween 19" pX="84.5" pY="86.5"/>
+    <d name="gfrzs-Tween 20" pX="84.5" pY="86.5"/>
+    <d name="gfrzs-Tween 21" pX="84.5" pY="86.5"/>
+    <d name="gfrzs-Tween 22" pX="84.5" pY="86.5"/>
+    <d name="gfrzs-Tween 23" pX="84.5" pY="86.5"/>
+    <d name="gfrzs-Tween 24" pX="84.5" pY="86.5"/>
+   </b>
+   <b name="Layer 5" x="-41.85" y="-128.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="gfrzs-Tween 25" pX="106.5" pY="75.5"/>
+    <d name="gfrzs-Tween 26" pX="106.5" pY="75.5"/>
+    <d name="gfrzs-Tween 27" pX="106.5" pY="75.5"/>
+    <d name="gfrzs-Tween 28" pX="106.5" pY="75.5"/>
+    <d name="gfrzs-Tween 29" pX="106.5" pY="75.5"/>
+    <d name="gfrzs-Tween 30" pX="106.5" pY="75.5"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="GanFuRen_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="damaged" dr="14" to="0" drTW="14" lp="0" twE="NaN"/>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 4" sc="1" dl="0">
+     <f x="-68.7" y="-109.6" cocos2d_x="-68.7" cocos2d_y="-109.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-68.7" y="-109.6" cocos2d_x="-68.7" cocos2d_y="-109.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-68.7" y="-109.6" cocos2d_x="-68.7" cocos2d_y="-109.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-68.7" y="-109.6" cocos2d_x="-68.7" cocos2d_y="-109.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-68.7" y="-109.6" cocos2d_x="-68.7" cocos2d_y="-109.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-68.7" y="-109.6" cocos2d_x="-68.7" cocos2d_y="-109.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-68.7" y="-109.6" cocos2d_x="-68.7" cocos2d_y="-109.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f dr="10" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 3" sc="1" dl="0">
+     <f x="-41.15" y="-102.4" cocos2d_x="-41.15" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-41.15" y="-102.4" cocos2d_x="-41.15" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-41.15" y="-102.4" cocos2d_x="-41.15" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-41.15" y="-102.4" cocos2d_x="-41.15" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-41.15" y="-102.4" cocos2d_x="-41.15" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-41.15" y="-102.4" cocos2d_x="-41.15" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-41.15" y="-102.4" cocos2d_x="-41.15" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="-41.15" y="-102.4" cocos2d_x="-41.15" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f x="-41.15" y="-102.4" cocos2d_x="-41.15" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+     <f dr="6" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="Layer 6" sc="1" dl="0">
+     <f x="26.95" y="-82.5" cocos2d_x="26.95" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="26.95" y="-82.5" cocos2d_x="26.95" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="26.95" y="-82.5" cocos2d_x="26.95" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="26.95" y="-82.5" cocos2d_x="26.95" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="26.95" y="-82.5" cocos2d_x="26.95" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="26.95" y="-82.5" cocos2d_x="26.95" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="24" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="dead" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+    <f st="0" dr="21"/>
+    <f st="21" dr="1"/>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 2" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="-57.3" y="-101.55" cocos2d_x="-57.3" cocos2d_y="-101.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-57.3" y="-101.55" cocos2d_x="-57.3" cocos2d_y="-101.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-57.3" y="-101.55" cocos2d_x="-57.3" cocos2d_y="-101.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-57.3" y="-101.55" cocos2d_x="-57.3" cocos2d_y="-101.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-57.3" y="-101.55" cocos2d_x="-57.3" cocos2d_y="-101.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-57.3" y="-101.55" cocos2d_x="-57.3" cocos2d_y="-101.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-57.3" y="-101.55" cocos2d_x="-57.3" cocos2d_y="-101.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="-48.3" y="-101.55" cocos2d_x="-48.3" cocos2d_y="-101.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 5" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="-41.85" y="-128.35" cocos2d_x="-41.85" cocos2d_y="-128.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-41.85" y="-128.35" cocos2d_x="-41.85" cocos2d_y="-128.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-41.85" y="-128.35" cocos2d_x="-41.85" cocos2d_y="-128.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-55.9" y="-132.4" cocos2d_x="-55.9" cocos2d_y="-132.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-99.9" y="-120.4" cocos2d_x="-99.9" cocos2d_y="-120.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-99.9" y="-120.4" cocos2d_x="-99.9" cocos2d_y="-120.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="8" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="GanFuRen_e" width="2048" height="1024">
+  <SubTexture name="gfrzs-Tween 30" width="213" height="151" cocos2d_pX="106.5" cocos2d_pY="75.5" x="1740" y="0"/>
+  <SubTexture name="gfrzs-Tween 29" width="213" height="151" cocos2d_pX="106.5" cocos2d_pY="75.5" x="1740" y="306"/>
+  <SubTexture name="gfrzs-Tween 28" width="213" height="151" cocos2d_pX="106.5" cocos2d_pY="75.5" x="972" y="317"/>
+  <SubTexture name="gfrzs-Tween 27" width="213" height="151" cocos2d_pX="106.5" cocos2d_pY="75.5" x="1740" y="153"/>
+  <SubTexture name="gfrzs-Tween 26" width="213" height="151" cocos2d_pX="106.5" cocos2d_pY="75.5" x="348" y="317"/>
+  <SubTexture name="gfrzs-Tween 25" width="213" height="151" cocos2d_pX="106.5" cocos2d_pY="75.5" x="660" y="317"/>
+  <SubTexture name="gfrzs-Tween 24" width="169" height="173" cocos2d_pX="84.5" cocos2d_pY="86.5" x="342" y="636"/>
+  <SubTexture name="gfrzs-Tween 23" width="169" height="173" cocos2d_pX="84.5" cocos2d_pY="86.5" x="1692" y="625"/>
+  <SubTexture name="gfrzs-Tween 22" width="169" height="173" cocos2d_pX="84.5" cocos2d_pY="86.5" x="1521" y="492"/>
+  <SubTexture name="gfrzs-Tween 21" width="169" height="173" cocos2d_pX="84.5" cocos2d_pY="86.5" x="634" y="636"/>
+  <SubTexture name="gfrzs-Tween 20" width="169" height="173" cocos2d_pX="84.5" cocos2d_pY="86.5" x="1350" y="483"/>
+  <SubTexture name="gfrzs-Tween 19" width="169" height="173" cocos2d_pX="84.5" cocos2d_pY="86.5" x="0" y="634"/>
+  <SubTexture name="gfrzs-Tween 18" width="169" height="173" cocos2d_pX="84.5" cocos2d_pY="86.5" x="171" y="634"/>
+  <SubTexture name="gfrzs-Tween 17" width="169" height="173" cocos2d_pX="84.5" cocos2d_pY="86.5" x="1565" y="317"/>
+  <SubTexture name="gfrzs-Tween 42" width="346" height="315" cocos2d_pX="173" cocos2d_pY="157.5" x="0" y="317"/>
+  <SubTexture name="gfrzs-Tween 41" width="346" height="315" cocos2d_pX="173" cocos2d_pY="157.5" x="1044" y="0"/>
+  <SubTexture name="gfrzs-Tween 40" width="346" height="315" cocos2d_pX="173" cocos2d_pY="157.5" x="696" y="0"/>
+  <SubTexture name="gfrzs-Tween 39" width="346" height="315" cocos2d_pX="173" cocos2d_pY="157.5" x="348" y="0"/>
+  <SubTexture name="gfrzs-Tween 38" width="346" height="315" cocos2d_pX="173" cocos2d_pY="157.5" x="0" y="0"/>
+  <SubTexture name="gfrzs-Tween 37" width="346" height="315" cocos2d_pX="173" cocos2d_pY="157.5" x="1392" y="0"/>
+  <SubTexture name="gfrzs-Tween 16" width="95" height="141" cocos2d_pX="47.5" cocos2d_pY="70.5" x="537" y="603"/>
+  <SubTexture name="gfrzs-Tween 15" width="95" height="141" cocos2d_pX="47.5" cocos2d_pY="70.5" x="563" y="317"/>
+  <SubTexture name="gfrzs-Tween 14" width="95" height="141" cocos2d_pX="47.5" cocos2d_pY="70.5" x="1925" y="602"/>
+  <SubTexture name="gfrzs-Tween 13" width="95" height="141" cocos2d_pX="47.5" cocos2d_pY="70.5" x="563" y="460"/>
+  <SubTexture name="gfrzs-Tween 12" width="95" height="141" cocos2d_pX="47.5" cocos2d_pY="70.5" x="875" y="317"/>
+  <SubTexture name="gfrzs-Tween 11" width="95" height="141" cocos2d_pX="47.5" cocos2d_pY="70.5" x="946" y="636"/>
+  <SubTexture name="gfrzs-Tween 10" width="95" height="141" cocos2d_pX="47.5" cocos2d_pY="70.5" x="875" y="460"/>
+  <SubTexture name="gfrzs-Tween 9" width="95" height="141" cocos2d_pX="47.5" cocos2d_pY="70.5" x="849" y="603"/>
+  <SubTexture name="gfrzs-Tween 8" width="95" height="141" cocos2d_pX="47.5" cocos2d_pY="70.5" x="1925" y="459"/>
+  <SubTexture name="gfrzs-Tween 7" width="187" height="164" cocos2d_pX="93.5" cocos2d_pY="82" x="1187" y="317"/>
+  <SubTexture name="gfrzs-Tween 6" width="187" height="164" cocos2d_pX="93.5" cocos2d_pY="82" x="972" y="470"/>
+  <SubTexture name="gfrzs-Tween 5" width="187" height="164" cocos2d_pX="93.5" cocos2d_pY="82" x="1736" y="459"/>
+  <SubTexture name="gfrzs-Tween 4" width="187" height="164" cocos2d_pX="93.5" cocos2d_pY="82" x="348" y="470"/>
+  <SubTexture name="gfrzs-Tween 3" width="187" height="164" cocos2d_pX="93.5" cocos2d_pY="82" x="660" y="470"/>
+  <SubTexture name="gfrzs-Tween 2" width="187" height="164" cocos2d_pX="93.5" cocos2d_pY="82" x="1161" y="483"/>
+  <SubTexture name="gfrzs-Tween 1" width="187" height="164" cocos2d_pX="93.5" cocos2d_pY="82" x="1376" y="317"/>
+ </TextureAtlas>
+</skeleton>

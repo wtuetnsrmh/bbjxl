@@ -1,0 +1,111 @@
+<skeleton name="ZhuGeLiang_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="ZhuGeLiang_e">
+   <b name="Effect1" x="-95" y="-79.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zgler3-Tween 27" pX="81.9" pY="97.15"/>
+    <d name="zgler3-Tween 28" pX="79.2" pY="90.3"/>
+   </b>
+   <b name="Effect2" x="-71.75" y="-100.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zgler3-Tween 24" pX="135.05" pY="118.65"/>
+    <d name="zgler3-Tween 25" pX="160.4" pY="134.25"/>
+    <d name="zgler3-Tween 26" pX="151.7" pY="121.8"/>
+   </b>
+   <b name="图层 2" x="-1.95" y="-96.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zgler3-Tween 13" pX="150.1" pY="134.7"/>
+    <d name="zgler3-Tween 14" pX="150.1" pY="134.7"/>
+    <d name="zgler3-Tween 15" pX="150.1" pY="134.7"/>
+    <d name="zgler3-Tween 16" pX="150.1" pY="134.7"/>
+   </b>
+   <b name="Effect3" x="-52.2" y="-67.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zgler3-Tween 19" pX="96.7" pY="94.25"/>
+    <d name="zgler3-Tween 20" pX="99.6" pY="100.9"/>
+    <d name="zgler3-Tween 21" pX="149.15" pY="126.05"/>
+    <d name="zgler3-Tween 22" pX="122.55" pY="106"/>
+    <d name="zgler3-Tween 23" pX="105.9" pY="102.65"/>
+   </b>
+   <b name="Effect4" x="-101.3" y="-103.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+    <d name="zgler3-Tween 17" pX="68.2" pY="130.3"/>
+    <d name="zgler3-Tween 18" pX="60.15" pY="126.35"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ZhuGeLiang_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="dead" dr="24" to="6" drTW="24" lp="1" twE="NaN"/>
+   <mov name="damaged" dr="12" to="6" drTW="12" lp="1" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Effect1" sc="1" dl="0">
+     <f dr="12" dI="-1"/>
+     <f x="-95" y="-79.5" cocos2d_x="-95" cocos2d_y="-79.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-94.4" y="-80.5" cocos2d_x="-94.4" cocos2d_y="-80.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f dr="8" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Effect2" sc="1" dl="0">
+     <f dr="15" dI="-1"/>
+     <f x="-71.75" y="-100.45" cocos2d_x="-71.75" cocos2d_y="-100.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-100.1" y="-116.15" cocos2d_x="-100.1" cocos2d_y="-116.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-90" y="-105.35" cocos2d_x="-90" cocos2d_y="-105.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f dr="4" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="7" dI="-1"/>
+     <f x="-1.95" y="-96.7" cocos2d_x="-1.95" cocos2d_y="-96.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-1.95" y="-96.7" cocos2d_x="-1.95" cocos2d_y="-96.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-1.95" y="-96.7" cocos2d_x="-1.95" cocos2d_y="-96.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-1.95" y="-96.7" cocos2d_x="-1.95" cocos2d_y="-96.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-1.95" y="-96.7" cocos2d_x="-1.95" cocos2d_y="-96.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-1.95" y="-96.7" cocos2d_x="-1.95" cocos2d_y="-96.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-1.95" y="-96.7" cocos2d_x="-1.95" cocos2d_y="-96.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f dr="3" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="Effect3" sc="1" dl="0">
+     <f dr="16" dI="-1"/>
+     <f x="-52.2" y="-67.75" cocos2d_x="-52.2" cocos2d_y="-67.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-41.3" y="-78.85" cocos2d_x="-41.3" cocos2d_y="-78.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="4"/>
+     <f x="-29.45" y="-99.55" cocos2d_x="-29.45" cocos2d_y="-99.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="3"/>
+     <f x="-17.6" y="-79.5" cocos2d_x="-17.6" cocos2d_y="-79.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="-29.85" y="-78.85" cocos2d_x="-29.85" cocos2d_y="-78.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f dr="8" dI="-1"/>
+    </b>
+    <b name="Effect4" sc="1" dl="0">
+     <f dr="25" dI="-1"/>
+     <f x="-101.3" y="-103.8" cocos2d_x="-101.3" cocos2d_y="-103.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="1"/>
+     <f x="-96.7" y="-99.85" cocos2d_x="-96.7" cocos2d_y="-99.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" dr="1"/>
+     <f dr="9" dI="-1"/>
+    </b>
+    <f st="0" dr="35"/>
+    <f st="35" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ZhuGeLiang_e" width="1024" height="2048">
+  <SubTexture name="zgler3-Tween 18" width="121" height="253" cocos2d_pX="60.15" cocos2d_pY="126.35" x="0" y="783"/>
+  <SubTexture name="zgler3-Tween 17" width="137" height="261" cocos2d_pX="68.2" cocos2d_pY="130.3" x="689" y="773"/>
+  <SubTexture name="zgler3-Tween 23" width="212" height="206" cocos2d_pX="105.9" cocos2d_pY="102.65" x="273" y="758"/>
+  <SubTexture name="zgler3-Tween 22" width="246" height="212" cocos2d_pX="122.55" cocos2d_pY="106" x="273" y="544"/>
+  <SubTexture name="zgler3-Tween 21" width="299" height="253" cocos2d_pX="149.15" cocos2d_pY="126.05" x="606" y="272"/>
+  <SubTexture name="zgler3-Tween 20" width="200" height="202" cocos2d_pX="99.6" cocos2d_pY="100.9" x="487" y="773"/>
+  <SubTexture name="zgler3-Tween 19" width="194" height="189" cocos2d_pX="96.7" cocos2d_pY="94.25" x="828" y="773"/>
+  <SubTexture name="zgler3-Tween 16" width="301" height="270" cocos2d_pX="150.1" cocos2d_pY="134.7" x="303" y="272"/>
+  <SubTexture name="zgler3-Tween 15" width="301" height="270" cocos2d_pX="150.1" cocos2d_pY="134.7" x="323" y="0"/>
+  <SubTexture name="zgler3-Tween 14" width="301" height="270" cocos2d_pX="150.1" cocos2d_pY="134.7" x="626" y="0"/>
+  <SubTexture name="zgler3-Tween 13" width="301" height="270" cocos2d_pX="150.1" cocos2d_pY="134.7" x="0" y="271"/>
+  <SubTexture name="zgler3-Tween 26" width="304" height="244" cocos2d_pX="151.7" cocos2d_pY="121.8" x="606" y="527"/>
+  <SubTexture name="zgler3-Tween 25" width="321" height="269" cocos2d_pX="160.4" cocos2d_pY="134.25" x="0" y="0"/>
+  <SubTexture name="zgler3-Tween 24" width="271" height="238" cocos2d_pX="135.05" cocos2d_pY="118.65" x="0" y="543"/>
+  <SubTexture name="zgler3-Tween 28" width="159" height="181" cocos2d_pX="79.2" cocos2d_pY="90.3" x="123" y="966"/>
+  <SubTexture name="zgler3-Tween 27" width="164" height="195" cocos2d_pX="81.9" cocos2d_pY="97.15" x="828" y="964"/>
+ </TextureAtlas>
+</skeleton>

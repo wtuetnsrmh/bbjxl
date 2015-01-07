@@ -1,0 +1,94 @@
+<skeleton name="ZuoCi_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="ZuoCi_e">
+   <b name="图层 3" x="-58.2" y="-39.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zcewr-Tween 10" pX="195.7" pY="63.35"/>
+    <d name="zcewr-Tween 11" pX="195.7" pY="63.35"/>
+    <d name="zcewr-Tween 12" pX="195.7" pY="63.35"/>
+    <d name="zcewr-Tween 13" pX="195.7" pY="63.35"/>
+   </b>
+   <b name="图层 5" x="-53.15" y="-71.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zcewr-Tween 7" pX="124.5" pY="113.75"/>
+    <d name="zcewr-Tween 8" pX="124.5" pY="113.75"/>
+    <d name="zcewr-Tween 9" pX="124.5" pY="113.75"/>
+   </b>
+   <b name="Layer 2" x="13.15" y="-73.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zcewr-Tween 1" pX="88.3" pY="87.8"/>
+    <d name="zcewr-Tween 2" pX="88.3" pY="87.8"/>
+    <d name="zcewr-Tween 3" pX="88.3" pY="87.8"/>
+    <d name="zcewr-Tween 4" pX="88.3" pY="87.8"/>
+    <d name="zcewr-Tween 5" pX="88.3" pY="87.8"/>
+    <d name="zcewr-Tween 6" pX="88.3" pY="87.8"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ZuoCi_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="1" twE="NaN"/>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+    <f st="0" dr="14"/>
+    <f st="14" dr="1"/>
+   </mov>
+   <mov name="dead" dr="25" to="6" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="11" dI="-1"/>
+     <f x="-58.2" y="-39.4" cocos2d_x="-58.2" cocos2d_y="-39.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-58.2" y="-39.4" cocos2d_x="-58.2" cocos2d_y="-39.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-58.2" y="-39.4" cocos2d_x="-58.2" cocos2d_y="-39.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-58.2" y="-39.4" cocos2d_x="-58.2" cocos2d_y="-39.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f dr="5" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN"/>
+   <mov name="attack3" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+    <b name="图层 5" sc="1" dl="0">
+     <f dr="13" dI="-1"/>
+     <f x="-53.15" y="-71.3" cocos2d_x="-53.15" cocos2d_y="-71.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-53.15" y="-71.3" cocos2d_x="-53.15" cocos2d_y="-71.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-53.15" y="-71.3" cocos2d_x="-53.15" cocos2d_y="-71.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f dr="6" dI="-1"/>
+    </b>
+    <f st="0" dr="24"/>
+    <f st="24" dr="1"/>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 2" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="13.15" y="-73.4" cocos2d_x="13.15" cocos2d_y="-73.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="13.15" y="-73.4" cocos2d_x="13.15" cocos2d_y="-73.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="13.15" y="-73.4" cocos2d_x="13.15" cocos2d_y="-73.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="13.15" y="-73.4" cocos2d_x="13.15" cocos2d_y="-73.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="13.15" y="-73.4" cocos2d_x="13.15" cocos2d_y="-73.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="13.15" y="-73.4" cocos2d_x="13.15" cocos2d_y="-73.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="8" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ZuoCi_e" width="1024" height="1024">
+  <SubTexture name="zcewr-Tween 6" width="177" height="176" cocos2d_pX="88.3" cocos2d_pY="87.8" x="358" y="488"/>
+  <SubTexture name="zcewr-Tween 5" width="177" height="176" cocos2d_pX="88.3" cocos2d_pY="87.8" x="0" y="488"/>
+  <SubTexture name="zcewr-Tween 4" width="177" height="176" cocos2d_pX="88.3" cocos2d_pY="87.8" x="753" y="356"/>
+  <SubTexture name="zcewr-Tween 3" width="177" height="176" cocos2d_pX="88.3" cocos2d_pY="87.8" x="788" y="178"/>
+  <SubTexture name="zcewr-Tween 2" width="177" height="176" cocos2d_pX="88.3" cocos2d_pY="87.8" x="788" y="0"/>
+  <SubTexture name="zcewr-Tween 1" width="177" height="176" cocos2d_pX="88.3" cocos2d_pY="87.8" x="179" y="488"/>
+  <SubTexture name="zcewr-Tween 9" width="249" height="228" cocos2d_pX="124.5" cocos2d_pY="113.75" x="0" y="258"/>
+  <SubTexture name="zcewr-Tween 8" width="249" height="228" cocos2d_pX="124.5" cocos2d_pY="113.75" x="502" y="258"/>
+  <SubTexture name="zcewr-Tween 7" width="249" height="228" cocos2d_pX="124.5" cocos2d_pY="113.75" x="251" y="258"/>
+  <SubTexture name="zcewr-Tween 13" width="392" height="127" cocos2d_pX="195.7" cocos2d_pY="63.35" x="0" y="129"/>
+  <SubTexture name="zcewr-Tween 12" width="392" height="127" cocos2d_pX="195.7" cocos2d_pY="63.35" x="394" y="0"/>
+  <SubTexture name="zcewr-Tween 11" width="392" height="127" cocos2d_pX="195.7" cocos2d_pY="63.35" x="0" y="0"/>
+  <SubTexture name="zcewr-Tween 10" width="392" height="127" cocos2d_pX="195.7" cocos2d_pY="63.35" x="394" y="129"/>
+ </TextureAtlas>
+</skeleton>

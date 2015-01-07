@@ -1,0 +1,155 @@
+<skeleton name="JiLing_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="JiLing_e">
+      <b name="图层 48" x="-112.3" y="-97.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="jiling2-Tween 19" pX="164.85" pY="162.65"/>
+        <d name="jiling2-Tween 20" pX="164.85" pY="162.65"/>
+        <d name="jiling2-Tween 21" pX="164.85" pY="162.65"/>
+        <d name="jiling2-Tween 25" pX="215.55" pY="253.9"/>
+        <d name="jiling2-Tween 26" pX="215.55" pY="253.9"/>
+        <d name="jiling2-Tween 27" pX="215.55" pY="253.9"/>
+      </b>
+      <b name="Layer 2" x="30.4" y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="jiling2-补间 1" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 46" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 47" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 48" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 49" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 50" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 51" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 52" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 53" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 54" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 55" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 56" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 57" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 58" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 59" pX="309.5" pY="229.5"/>
+        <d name="jiling2-补间 60" pX="309.5" pY="229.5"/>
+      </b>
+      <b name="图层 50" x="-133" y="-54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="jiling2-Tween 5" pX="180.9" pY="122.75"/>
+        <d name="jiling2-Tween 6" pX="180.9" pY="122.75"/>
+        <d name="jiling2-Tween 7" pX="180.9" pY="122.75"/>
+        <d name="jiling2-Tween 8" pX="180.9" pY="122.75"/>
+        <d name="jiling2-Tween 9" pX="180.9" pY="122.75"/>
+        <d name="jiling2-Tween 10" pX="180.9" pY="122.75"/>
+        <d name="jiling2-Tween 11" pX="180.9" pY="122.75"/>
+      </b>
+      <b name="图层 52" x="-14.15" y="-163.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="jiling2-Tween 1" pX="106.9" pY="146.55"/>
+        <d name="jiling2-Tween 2" pX="106.9" pY="146.55"/>
+        <d name="jiling2-Tween 3" pX="106.9" pY="146.55"/>
+        <d name="jiling2-Tween 4" pX="106.9" pY="146.55"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="JiLing_e">
+      <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="damaged" dr="13" to="0" drTW="13" lp="0" twE="NaN"/>
+      <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="10"/>
+        <f st="10" dr="14"/>
+      </mov>
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 48" sc="1" dl="0">
+          <f dr="12" dI="-1"/>
+          <f x="-112.3" y="-97.6" cocos2d_x="-112.3" cocos2d_y="-97.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-112.3" y="-97.6" cocos2d_x="-112.3" cocos2d_y="-97.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-112.3" y="-97.6" cocos2d_x="-112.3" cocos2d_y="-97.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f dr="6" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 48" sc="1" dl="0">
+          <f dr="12" dI="-1"/>
+          <f x="21.75" y="-156.25" cocos2d_x="21.75" cocos2d_y="-156.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="21.75" y="-156.25" cocos2d_x="21.75" cocos2d_y="-156.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="21.75" y="-156.25" cocos2d_x="21.75" cocos2d_y="-156.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f dr="6" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+        <b name="Layer 2" sc="1" dl="0">
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="1"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="1"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="13" dr="1"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="14" dr="1"/>
+          <f x="30.4" y="-147.6" cocos2d_x="30.4" cocos2d_y="-147.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="15" dr="2"/>
+          <f dr="8" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 50" sc="1" dl="0">
+          <f dr="5" dI="-1"/>
+          <f x="-133" y="-54" cocos2d_x="-133" cocos2d_y="-54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-133" y="-54" cocos2d_x="-133" cocos2d_y="-54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-133" y="-54" cocos2d_x="-133" cocos2d_y="-54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-133" y="-54" cocos2d_x="-133" cocos2d_y="-54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-133" y="-54" cocos2d_x="-133" cocos2d_y="-54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-133" y="-54" cocos2d_x="-133" cocos2d_y="-54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-133" y="-54" cocos2d_x="-133" cocos2d_y="-54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f dr="5" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 52" sc="1" dl="0">
+          <f dr="7" dI="-1"/>
+          <f x="-14.15" y="-163.45" cocos2d_x="-14.15" cocos2d_y="-163.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-14.15" y="-163.45" cocos2d_x="-14.15" cocos2d_y="-163.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-14.15" y="-163.45" cocos2d_x="-14.15" cocos2d_y="-163.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-14.15" y="-163.45" cocos2d_x="-14.15" cocos2d_y="-163.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f dr="9" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="JiLing_e" width="4096" height="2048">
+    <SubTexture name="jiling2-Tween 4" width="214" height="294" cocos2d_pX="106.9" cocos2d_pY="146.55" x="1958" y="1383"/>
+    <SubTexture name="jiling2-Tween 3" width="214" height="294" cocos2d_pX="106.9" cocos2d_pY="146.55" x="1526" y="1383"/>
+    <SubTexture name="jiling2-Tween 2" width="214" height="294" cocos2d_pX="106.9" cocos2d_pY="146.55" x="2174" y="1383"/>
+    <SubTexture name="jiling2-Tween 1" width="214" height="294" cocos2d_pX="106.9" cocos2d_pY="146.55" x="1742" y="1383"/>
+    <SubTexture name="jiling2-Tween 11" width="362" height="246" cocos2d_pX="180.9" cocos2d_pY="122.75" x="434" y="1383"/>
+    <SubTexture name="jiling2-Tween 10" width="362" height="246" cocos2d_pX="180.9" cocos2d_pY="122.75" x="3716" y="1232"/>
+    <SubTexture name="jiling2-Tween 9" width="362" height="246" cocos2d_pX="180.9" cocos2d_pY="122.75" x="3716" y="984"/>
+    <SubTexture name="jiling2-Tween 8" width="362" height="246" cocos2d_pX="180.9" cocos2d_pY="122.75" x="798" y="1383"/>
+    <SubTexture name="jiling2-Tween 7" width="362" height="246" cocos2d_pX="180.9" cocos2d_pY="122.75" x="3352" y="922"/>
+    <SubTexture name="jiling2-Tween 6" width="362" height="246" cocos2d_pX="180.9" cocos2d_pY="122.75" x="3352" y="1170"/>
+    <SubTexture name="jiling2-Tween 5" width="362" height="246" cocos2d_pX="180.9" cocos2d_pY="122.75" x="1162" y="1383"/>
+    <SubTexture name="jiling2-补间 60" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="1863" y="0"/>
+    <SubTexture name="jiling2-补间 59" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="3105" y="0"/>
+    <SubTexture name="jiling2-补间 58" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="2484" y="461"/>
+    <SubTexture name="jiling2-补间 57" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="0" y="922"/>
+    <SubTexture name="jiling2-补间 56" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="1242" y="0"/>
+    <SubTexture name="jiling2-补间 55" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="0" y="0"/>
+    <SubTexture name="jiling2-补间 54" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="621" y="0"/>
+    <SubTexture name="jiling2-补间 53" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="0" y="461"/>
+    <SubTexture name="jiling2-补间 52" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="2484" y="0"/>
+    <SubTexture name="jiling2-补间 51" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="621" y="922"/>
+    <SubTexture name="jiling2-补间 50" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="621" y="461"/>
+    <SubTexture name="jiling2-补间 49" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="3105" y="461"/>
+    <SubTexture name="jiling2-补间 48" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="1242" y="922"/>
+    <SubTexture name="jiling2-补间 47" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="1863" y="461"/>
+    <SubTexture name="jiling2-补间 46" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="1863" y="922"/>
+    <SubTexture name="jiling2-补间 1" width="619" height="459" cocos2d_pX="309.5" cocos2d_pY="229.5" x="1242" y="461"/>
+    <SubTexture name="jiling2-Tween 27" width="432" height="508" cocos2d_pX="215.55" cocos2d_pY="253.9" x="2484" y="922"/>
+    <SubTexture name="jiling2-Tween 26" width="432" height="508" cocos2d_pX="215.55" cocos2d_pY="253.9" x="2918" y="922"/>
+    <SubTexture name="jiling2-Tween 25" width="432" height="508" cocos2d_pX="215.55" cocos2d_pY="253.9" x="0" y="1383"/>
+    <SubTexture name="jiling2-Tween 21" width="330" height="326" cocos2d_pX="164.85" cocos2d_pY="162.65" x="3726" y="656"/>
+    <SubTexture name="jiling2-Tween 20" width="330" height="326" cocos2d_pX="164.85" cocos2d_pY="162.65" x="3726" y="0"/>
+    <SubTexture name="jiling2-Tween 19" width="330" height="326" cocos2d_pX="164.85" cocos2d_pY="162.65" x="3726" y="328"/>
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,15 @@
+公告ID,标题,正文,显示顺序
+,,,
+,ChineseFont字体,txt路径,0=空=不显示，数字越小排在前面
+,,,
+,三国之乱舞，豪华封测,txt/notice/notice_0.txt,
+,活动七：建议捉虫有奖励，助你快速升实力,txt/notice/notice_5.txt,
+,,,
+1,活动一：充值元宝双倍返还！,txt/notice/notice_8.txt,1
+2,活动二：首充送绝世美女貂蝉！,txt/notice/notice_11.txt,2
+3,活动三：累计充值领豪礼，情缘紫武限时送！,txt/notice/notice_9.txt,3
+5,活动五：限时神将—吕布，等你来战！,txt/notice/notice_12.txt,4
+4,活动四：神将赵云，横空出世！,txt/notice/notice_10.txt,5
+6,活动六：连续登录送绝世美女—小乔！,txt/notice/notice_7.txt,6
+8,活动七：签到4天送神将—周瑜！,txt/notice/notice_13.txt,7
+7,活动八：等级礼包保送60级！,txt/notice/notice_6.txt,8

@@ -1,0 +1,150 @@
+<skeleton name="HuangZhong_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="HuangZhong_e">
+   <b name="图层 2" x="-28.3" y="-86.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huangsdhdfh-Tween 21" pX="78.7" pY="28.25"/>
+    <d name="huangsdhdfh-Tween 22" pX="125.95" pY="23"/>
+   </b>
+   <b name="图层 3" x="-83.7" y="-76.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huangsdhdfh-Tween 19" pX="131.5" pY="85.5"/>
+    <d name="huangsdhdfh-Tween 20" pX="161" pY="85.5"/>
+   </b>
+   <b name="图层 4" x="-31.6" y="-103.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huangsdhdfh-Tween 17" pX="89.5" pY="95"/>
+    <d name="huangsdhdfh-Tween 18" pX="55" pY="58.5"/>
+   </b>
+   <b name="图层 5" x="-29.25" y="-97.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huangsdhdfh-Tween 14" pX="146" pY="117.5"/>
+    <d name="huangsdhdfh-Tween 15" pX="171.5" pY="127.5"/>
+    <d name="huangsdhdfh-Tween 16" pX="171.5" pY="128.5"/>
+   </b>
+   <b name="Layer 12" x="-103.65" y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huangsdhdfh-Tween 8" pX="156.4" pY="74.35"/>
+    <d name="huangsdhdfh-Tween 9" pX="156.4" pY="74.35"/>
+    <d name="huangsdhdfh-Tween 10" pX="156.4" pY="74.35"/>
+    <d name="huangsdhdfh-Tween 11" pX="156.4" pY="74.35"/>
+    <d name="huangsdhdfh-Tween 12" pX="156.4" pY="74.35"/>
+    <d name="huangsdhdfh-Tween 13" pX="156.4" pY="74.35"/>
+   </b>
+   <b name="Layer 13" x="-11.3" y="-171.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huangsdhdfh-Tween 1" pX="127.4" pY="136.2"/>
+    <d name="huangsdhdfh-Tween 2" pX="127.4" pY="136.2"/>
+    <d name="huangsdhdfh-Tween 3" pX="127.4" pY="136.2"/>
+    <d name="huangsdhdfh-Tween 4" pX="127.4" pY="136.2"/>
+    <d name="huangsdhdfh-Tween 5" pX="127.4" pY="136.2"/>
+    <d name="huangsdhdfh-Tween 6" pX="127.4" pY="136.2"/>
+    <d name="huangsdhdfh-Tween 7" pX="127.4" pY="136.2"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="HuangZhong_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="15" dI="-1"/>
+     <f x="-28.3" y="-86.45" cocos2d_x="-28.3" cocos2d_y="-86.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-76.05" y="-91.7" cocos2d_x="-76.05" cocos2d_y="-91.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="15" dI="-1"/>
+     <f x="-83.7" y="-76.4" cocos2d_x="-83.7" cocos2d_y="-76.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-96.35" y="-76.4" cocos2d_x="-96.35" cocos2d_y="-76.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="20" dI="-1"/>
+     <f x="-31.6" y="-103.45" cocos2d_x="-31.6" cocos2d_y="-103.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-26.25" y="-102.25" cocos2d_x="-26.25" cocos2d_y="-102.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f dr="12" dI="-1"/>
+    </b>
+    <b name="图层 5" sc="1" dl="0">
+     <f dr="25" dI="-1"/>
+     <f x="-29.25" y="-97.8" cocos2d_x="-29.25" cocos2d_y="-97.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-55.2" y="-110.05" cocos2d_x="-55.2" cocos2d_y="-110.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-55.2" y="-109.05" cocos2d_x="-55.2" cocos2d_y="-109.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <f st="0" dr="35"/>
+    <f st="35" dr="1"/>
+   </mov>
+   <mov name="damaged" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+    <f st="0" dr="11"/>
+    <f st="11" dr="1"/>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 12" sc="1" dl="0">
+     <f dr="5" dI="-1"/>
+     <f x="-103.65" y="-82.5" cocos2d_x="-103.65" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-103.65" y="-82.5" cocos2d_x="-103.65" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-103.65" y="-82.5" cocos2d_x="-103.65" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-103.65" y="-82.5" cocos2d_x="-103.65" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-103.65" y="-82.5" cocos2d_x="-103.65" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-103.65" y="-82.5" cocos2d_x="-103.65" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="7" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 13" sc="1" dl="0">
+     <f dr="7" dI="-1"/>
+     <f x="-11.3" y="-171.55" cocos2d_x="-11.3" cocos2d_y="-171.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-11.3" y="-171.55" cocos2d_x="-11.3" cocos2d_y="-171.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-11.3" y="-171.55" cocos2d_x="-11.3" cocos2d_y="-171.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-11.3" y="-171.55" cocos2d_x="-11.3" cocos2d_y="-171.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-11.3" y="-171.55" cocos2d_x="-11.3" cocos2d_y="-171.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-11.3" y="-171.55" cocos2d_x="-11.3" cocos2d_y="-171.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-11.3" y="-171.55" cocos2d_x="-11.3" cocos2d_y="-171.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f dr="3" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="HuangZhong_e" width="2048" height="1024">
+  <SubTexture name="huangsdhdfh-Tween 7" width="255" height="273" cocos2d_pX="127.4" cocos2d_pY="136.2" x="345" y="257"/>
+  <SubTexture name="huangsdhdfh-Tween 6" width="255" height="273" cocos2d_pX="127.4" cocos2d_pY="136.2" x="1718" y="0"/>
+  <SubTexture name="huangsdhdfh-Tween 5" width="255" height="273" cocos2d_pX="127.4" cocos2d_pY="136.2" x="0" y="259"/>
+  <SubTexture name="huangsdhdfh-Tween 4" width="255" height="273" cocos2d_pX="127.4" cocos2d_pY="136.2" x="1204" y="0"/>
+  <SubTexture name="huangsdhdfh-Tween 3" width="255" height="273" cocos2d_pX="127.4" cocos2d_pY="136.2" x="1461" y="0"/>
+  <SubTexture name="huangsdhdfh-Tween 2" width="255" height="273" cocos2d_pX="127.4" cocos2d_pY="136.2" x="690" y="0"/>
+  <SubTexture name="huangsdhdfh-Tween 1" width="255" height="273" cocos2d_pX="127.4" cocos2d_pY="136.2" x="947" y="0"/>
+  <SubTexture name="huangsdhdfh-Tween 13" width="313" height="149" cocos2d_pX="156.4" cocos2d_pY="74.35" x="896" y="467"/>
+  <SubTexture name="huangsdhdfh-Tween 12" width="313" height="149" cocos2d_pX="156.4" cocos2d_pY="74.35" x="1657" y="448"/>
+  <SubTexture name="huangsdhdfh-Tween 11" width="313" height="149" cocos2d_pX="156.4" cocos2d_pY="74.35" x="257" y="532"/>
+  <SubTexture name="huangsdhdfh-Tween 10" width="313" height="149" cocos2d_pX="156.4" cocos2d_pY="74.35" x="572" y="532"/>
+  <SubTexture name="huangsdhdfh-Tween 9" width="313" height="149" cocos2d_pX="156.4" cocos2d_pY="74.35" x="1342" y="394"/>
+  <SubTexture name="huangsdhdfh-Tween 8" width="313" height="149" cocos2d_pX="156.4" cocos2d_pY="74.35" x="1211" y="545"/>
+  <SubTexture name="huangsdhdfh-Tween 16" width="343" height="257" cocos2d_pX="171.5" cocos2d_pY="128.5" x="0" y="0"/>
+  <SubTexture name="huangsdhdfh-Tween 15" width="343" height="255" cocos2d_pX="171.5" cocos2d_pY="127.5" x="345" y="0"/>
+  <SubTexture name="huangsdhdfh-Tween 14" width="292" height="235" cocos2d_pX="146" cocos2d_pY="117.5" x="602" y="275"/>
+  <SubTexture name="huangsdhdfh-Tween 18" width="110" height="117" cocos2d_pX="55" cocos2d_pY="58.5" x="1342" y="275"/>
+  <SubTexture name="huangsdhdfh-Tween 17" width="179" height="190" cocos2d_pX="89.5" cocos2d_pY="95" x="1161" y="275"/>
+  <SubTexture name="huangsdhdfh-Tween 20" width="322" height="171" cocos2d_pX="161" cocos2d_pY="85.5" x="1708" y="275"/>
+  <SubTexture name="huangsdhdfh-Tween 19" width="263" height="171" cocos2d_pX="131.5" cocos2d_pY="85.5" x="896" y="275"/>
+  <SubTexture name="huangsdhdfh-Tween 22" width="252" height="46" cocos2d_pX="125.95" cocos2d_pY="23" x="1454" y="275"/>
+  <SubTexture name="huangsdhdfh-Tween 21" width="158" height="57" cocos2d_pX="78.7" cocos2d_pY="28.25" x="1454" y="323"/>
+ </TextureAtlas>
+</skeleton>
