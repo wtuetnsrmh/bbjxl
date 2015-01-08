@@ -200,6 +200,7 @@ function gameApp:closeSocket()
 	if self.tcpSocket then
 		self.tcpSocket:close()
 		self.tcpSocket:disconnect()
+		self.tcpSocket = nil
 	end
 end
 
@@ -288,7 +289,7 @@ end
 function gameApp:sendData(actionCode, binaray)
 	local msgData = self:packMsg(actionCode, binaray)
 
-    local result = self.tcpSocket:send(msgData)
+    local result = self.tcpSocket and self.tcpSocket:send(msgData) or false
 
     if actionCode ~= actionCodes.HeartBeat then
     	print("send:", actionModules[actionCode])
@@ -456,11 +457,15 @@ function gameApp:activeGuide(id, oldId)
 	id = id or 0
 	oldId = oldId or 0
 
+	if id ~= self.guideId then
+		self:removeAllEventListenersForEvent("btnClicked")
+	end
 	self.guideId = id
 	if id == 0 then
 		if self.role then
 			self.role:updateGuideStep(1000)
 		end
+
 		return
 	end
 

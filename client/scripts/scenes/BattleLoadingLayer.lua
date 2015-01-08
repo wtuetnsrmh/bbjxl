@@ -73,8 +73,12 @@ function BattleLoadingLayer:loadResources()
 		end
 	end
 
-	for type, _ in pairs(heroTypes) do
-		armatureManager:asyncLoad(type, boneLoaded)
+	if table.nums(heroTypes) == 0 then
+		if self.callback then self.callback() end
+	else
+		for type, _ in pairs(heroTypes) do
+			armatureManager:asyncLoad(type, boneLoaded)
+		end
 	end
 end
 

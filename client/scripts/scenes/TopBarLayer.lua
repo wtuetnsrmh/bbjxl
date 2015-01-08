@@ -117,7 +117,7 @@ function TopBarLayer:ctor(params)
 	yuanbaoBg:anch(0, 0):pos(moneyBg:getPositionX() + offset, yy):addTo(self)
 
 	--元宝label：
-	local yuanbaoLabel = ui.newTTFLabel({ text = game.role.yuanbao, size = 22, font = ChineseFont })
+	local yuanbaoLabel = ui.newTTFLabel({ text = math.floor(game.role.yuanbao), size = 22, font = ChineseFont })
 		:anch(0.5, 0.5):pos(yuanbaoBg:getContentSize().width/2, yuanbaoBg:getContentSize().height/2):addTo(yuanbaoBg, 9)
 	--元宝图标
 	display.newSprite(GlobalRes .. "yuanbao.png")

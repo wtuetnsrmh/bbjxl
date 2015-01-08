@@ -91,31 +91,12 @@ function SocketActions:roleLoginResponse(event, params)
 			local battleLoadingLayer
 			battleLoadingLayer = require("scenes.BattleLoadingLayer").new({ priority = -128,showText=true,
 				callback = function()
-					
+					switchScene("home", {toPopNotice = true, activesuccess = params.create })
 				end,
 				loadingInfo = {
-					
 				}
 			})
 			battleLoadingLayer:getLayer():addTo(display:getRunningScene())
-			local actions={}
-			actions[#actions+1]=CCCallFunc:create(function()
-				-- 加载必要配表
-				local configs = {
-					["itemCsv"] = { parser = "ItemCsv", file = "csv/item.csv"},
-					["skillLevelCsv"] = { parser = "SkillLevelCsv", file = "csv/skill_level.csv"},
-					["skillPassiveLevelCsv"] = { parser = "SkillPassiveLevelCsv", file = "csv/skill_passive_level.csv"},
-					["skillCsv"] = { parser = "SkillCsv", file = "csv/skill.csv",},
-					["skillPassiveCsv"] = {parser = "SkillPassiveCsv", file = "csv/skill_passive.csv",},
-				}
-				for name, data in pairs(configs) do
-					_G[name]:load(data.file)
-				end
-
-				switchScene("home", {toPopNotice = true, activesuccess = params.create })
-			end)
-			actions[#actions+1]=CCRemoveSelf:create()
-			battleLoadingLayer:getLayer():runAction(transition.sequence(actions))
 			
 			-- 玩家数据需要处理
 			local submitRoleData
