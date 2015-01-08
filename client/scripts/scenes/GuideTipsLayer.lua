@@ -192,9 +192,9 @@ function GuideTipsLayer:showHand(from, to)
 end
 
 function GuideTipsLayer:onCleanup()
-	-- if game.role then
-	-- 	game.role:removeEventListener("btnClicked", self.btnClickHandle)
-	-- end
+	if game.role then
+		game.role:removeEventListener("btnClicked", self.btnClickHandle)
+	end
 end
 
 return GuideTipsLayer

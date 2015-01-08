@@ -55,6 +55,7 @@ function BattlePauseLayer:initUI()
 						CCDirector:sharedDirector():getScheduler():unscheduleScriptEntry(self.parent.battleScheduleHandler)
 						self.parent.battleScheduleHandler = nil
 					end
+					CCDirector:sharedDirector():getActionManager():removeAllActions()
 					
 					self:getLayer():removeSelf()
 

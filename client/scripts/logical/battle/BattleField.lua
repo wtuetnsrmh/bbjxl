@@ -18,10 +18,15 @@ function BattleField:ctor(params)
 
 	self.leftSoldierMap = {}	-- 武将描点和武将的映射表 "11" -> 貂蝉
 	self.rightSoldierMap = {}	-- 武将描点和武将的映射表 "11" -> 貂蝉
+
+	self.curControlSoldier = nil -- 当前受控武将
 end
 
 function BattleField:init(params)
 	for anchKey, soldier in pairs(self.leftSoldierMap) do
+		if not self.curControlSoldier then
+			self.curControlSoldier = soldier
+		end
 		soldier.battle = params.battle
 	end
 	self.leftCamp.battle = params.battle

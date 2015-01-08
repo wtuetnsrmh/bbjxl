@@ -461,9 +461,6 @@ function gameApp:activeGuide(id, oldId)
 		if self.role then
 			self.role:updateGuideStep(1000)
 		end
-
-		self:removeAllEventListenersForEvent("btnClicked")
-
 		return
 	end
 

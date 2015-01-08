@@ -668,7 +668,6 @@ function HeroChooseLayer:showHeroInfo(hero, index)
 	                    		local bin = pb.encode("SimpleEvent", starRequst)
 	                    		game:sendData(actionCodes.HeroStarUpRequest, bin)
 	    						game:addEventListener(actionModules[actionCodes.HeroStarUpRequest], function(event)
-	    							game.role:dispatchEvent({ name = "notifyNewMessage", type = "heroList"})
 							    	--播放成功特效
 							    	StarUpSuccessLayer.new({priority = self.priority - 200, hero = hero, endEffectCallback = function() self:showMainLayer(index) end})
 							    	playAnimation(3)

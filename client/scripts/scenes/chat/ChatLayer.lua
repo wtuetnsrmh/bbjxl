@@ -525,7 +525,7 @@ function ChatLayer:createWorldUILayer()
 		})
 		CCDirector:sharedDirector():getRunningScene():setTouchPriority(self.priority - 1)
 
-		self.chatWorldInputBox:setReturnType(kKeyboardReturnTypeDefault)
+		self.chatWorldInputBox:setReturnType(kKeyboardReturnTypeSend)
 		self.chatWorldInputBox:setFontColor(display.COLOR_BLACK)
 		self.chatWorldInputBox:setMaxLength(30)
 		self.chatWorldInputBox:setFontSize(18)
@@ -565,7 +565,7 @@ function ChatLayer:createPrivateUILayer()
 			end
 		end
 	})
-	self.chatPrivateInputBox:setReturnType(kKeyboardReturnTypeDefault)
+	self.chatPrivateInputBox:setReturnType(kKeyboardReturnTypeSend)
 	self.chatPrivateInputBox:setFontColor(display.COLOR_BLACK)
 	self.chatPrivateInputBox:anch(0, 0):pos(228, contentSize.height - 604):addTo(self.chatUILayer)
 end

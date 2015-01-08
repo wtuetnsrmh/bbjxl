@@ -490,7 +490,6 @@ function HeroInfoLayer:initContentRight()
 	                    		local bin = pb.encode("SimpleEvent", starRequst)
 	                    		game:sendData(actionCodes.HeroStarUpRequest, bin)
 	    						game:addEventListener(actionModules[actionCodes.HeroStarUpRequest], function(event)
-	    							game.role:dispatchEvent({ name = "notifyNewMessage", type = "heroList"})
 							    	--播放成功特效
 							    	StarUpSuccessLayer.new({priority = self.priority - 200, hero = self.curHero, endEffectCallback = function()
 							    		self:initContentLeft() 
@@ -500,6 +499,7 @@ function HeroInfoLayer:initContentRight()
 							    	playAnimation(3)
 							    	game:playMusic(33)
 							    	self.star = self.curHero.star
+							    	game.role:dispatchEvent({ name = "notifyNewMessage", type = "heroList"})
 							    	
 							    	return "__REMOVE__"
 							    end)

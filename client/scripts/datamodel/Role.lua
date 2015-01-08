@@ -85,8 +85,6 @@ function Role:ctor(pbSource)
 
 	--是否今天首次登陆
 	self.firstLogin = not isToday(self.lastLoginTime)
-	--跑马灯缓存
-	self.worldNotices = {}
 
 	game:addEventListener(actionModules[actionCodes.RoleUpdateProperty], function(event)
 		local msg = pb.decode("RoleUpdateProperty", event.data)
@@ -224,27 +222,6 @@ function Role:ctor(pbSource)
 		self.activityTimeList = tempData["activityTimeList"]
 		self:dispatchEvent({name = "ActivityTimeListRefresh"})
 	end)
-
-	--跑马灯
-	if not ServerConf[ServerIndex].public then
-		game:addEventListener(actionModules[actionCodes.RoleWorldNotice], function(event)
-			local msg = pb.decode("SimpleEvent", event.data)
-			table.insert(self.worldNotices, msg.param5)
-			local WorldNoticeLayer = require("scenes.WorldNoticeLayer")
-			local closeCallback
-			closeCallback = function(noRemove)
-				if not noRemove then
-					table.remove(self.worldNotices, 1)
-				end
-				if self.worldNotices[1] then
-					WorldNoticeLayer.new({text = self.worldNotices[1], closeCallback = closeCallback})
-				end 
-			end
-			if #self.worldNotices == 1 then
-				closeCallback(true)
-			end
-		end)
-	end
 end
 
 function Role:reset()
@@ -257,7 +234,6 @@ function Role:reset()
 	game:removeAllEventListenersForEvent(actionModules[actionCodes.ChatReceiveResponse])
 	game:removeAllEventListenersForEvent(actionModules[actionCodes.EquipUpdateProperty])
 	game:removeAllEventListenersForEvent(actionModules[actionCodes.RoleGetActivityTimeListRespose])
-	game:removeAllEventListenersForEvent(actionModules[actionCodes.RoleWorldNotice])
 end
 
 function Role:addFragments(fragments)

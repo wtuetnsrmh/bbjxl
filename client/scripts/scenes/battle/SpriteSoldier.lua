@@ -312,6 +312,7 @@ function SpriteSoldier:moveEvent(armature, evtType, moveId)
 	end
 end
 
+-- 帧事件，用于控制攻击，放技能时在哪一帧开始生效
 function SpriteSoldier:frameEvent(bone, frameEventName, orginFrameIndex, currentFrameIndex)
 	if string.trim(bone:getName()) ~= "shadow" then return end
 
