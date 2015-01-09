@@ -1,0 +1,109 @@
+<skeleton name="yaoshi_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="yaoshi_e">
+      <b name="Layer 8" x="-2.95" y="-74.85" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="yaoshi_ess-补间 1" pX="125.5" pY="81"/>
+        <d name="yaoshi_ess-补间 2" pX="125.5" pY="81"/>
+        <d name="yaoshi_ess-补间 3" pX="125.5" pY="81"/>
+        <d name="yaoshi_ess-补间 4" pX="117" pY="146.5"/>
+        <d name="yaoshi_ess-补间 5" pX="117" pY="146.5"/>
+        <d name="yaoshi_ess-补间 6" pX="117" pY="146.5"/>
+        <d name="yaoshi_ess-补间 7" pX="117" pY="146.5"/>
+        <d name="yaoshi_ess-补间 8" pX="117" pY="146.5"/>
+        <d name="yaoshi_ess-补间 9" pX="117" pY="146.5"/>
+        <d name="yaoshi_ess-补间 10" pX="117" pY="146.5"/>
+        <d name="yaoshi_ess-补间 11" pX="117" pY="146.5"/>
+        <d name="yaoshi_ess-补间 12" pX="167" pY="242"/>
+        <d name="yaoshi_ess-补间 13" pX="167" pY="242"/>
+        <d name="yaoshi_ess-补间 14" pX="167" pY="242"/>
+        <d name="yaoshi_ess-补间 15" pX="167" pY="242"/>
+        <d name="yaoshi_ess-补间 16" pX="167" pY="242"/>
+        <d name="yaoshi_ess-补间 17" pX="167" pY="242"/>
+        <d name="yaoshi_ess-补间 18" pX="167" pY="242"/>
+        <d name="yaoshi_ess-补间 19" pX="167" pY="242"/>
+        <d name="yaoshi_ess-补间 20" pX="167" pY="242"/>
+        <d name="yaoshi_ess-补间 21" pX="167" pY="242"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="yaoshi_e">
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 8" sc="1" dl="0">
+          <f dr="8" dI="-1"/>
+          <f x="-2.95" y="-74.85" cocos2d_x="-2.95" cocos2d_y="-74.85" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-2.95" y="-74.85" cocos2d_x="-2.95" cocos2d_y="-74.85" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-2.95" y="-74.85" cocos2d_x="-2.95" cocos2d_y="-74.85" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f dr="10" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 8" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="19.1" y="-120.8" cocos2d_x="19.1" cocos2d_y="-120.8" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="19.1" y="-120.8" cocos2d_x="19.1" cocos2d_y="-120.8" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="19.1" y="-120.8" cocos2d_x="19.1" cocos2d_y="-120.8" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="19.1" y="-120.8" cocos2d_x="19.1" cocos2d_y="-120.8" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="19.1" y="-120.8" cocos2d_x="19.1" cocos2d_y="-120.8" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f x="19.1" y="-120.8" cocos2d_x="19.1" cocos2d_y="-120.8" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f x="19.1" y="-120.8" cocos2d_x="19.1" cocos2d_y="-120.8" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+          <f x="19.1" y="-120.8" cocos2d_x="19.1" cocos2d_y="-120.8" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f dr="6" dI="-1"/>
+        </b>
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="idle" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <f st="0" dr="14"/>
+        <f st="14" dr="1"/>
+      </mov>
+      <mov name="dead" dr="25" to="0" drTW="25" lp="0" twE="NaN"/>
+      <mov name="move" dr="24" to="0" drTW="24" lp="1" twE="NaN"/>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 8" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="2"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="2"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="13" dr="2"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="14" dr="2"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="15" dr="2"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="16" dr="2"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="17" dr="2"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="18" dr="2"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="19" dr="2"/>
+          <f x="23.55" y="-198.95" cocos2d_x="23.55" cocos2d_y="-198.95" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="20" dr="2"/>
+          <f dr="3" dI="-1"/>
+        </b>
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="yaoshi_e" width="2048" height="2048">
+    <SubTexture name="yaoshi_ess-补间 21" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="336" y="0"/>
+    <SubTexture name="yaoshi_ess-补间 20" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="1008" y="486"/>
+    <SubTexture name="yaoshi_ess-补间 19" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="1008" y="0"/>
+    <SubTexture name="yaoshi_ess-补间 18" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="672" y="486"/>
+    <SubTexture name="yaoshi_ess-补间 17" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="1680" y="0"/>
+    <SubTexture name="yaoshi_ess-补间 16" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="0" y="0"/>
+    <SubTexture name="yaoshi_ess-补间 15" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="672" y="0"/>
+    <SubTexture name="yaoshi_ess-补间 14" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="1344" y="0"/>
+    <SubTexture name="yaoshi_ess-补间 13" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="0" y="486"/>
+    <SubTexture name="yaoshi_ess-补间 12" width="334" height="484" cocos2d_pX="167" cocos2d_pY="242" x="336" y="486"/>
+    <SubTexture name="yaoshi_ess-补间 11" width="234" height="293" cocos2d_pX="117" cocos2d_pY="146.5" x="1344" y="486"/>
+    <SubTexture name="yaoshi_ess-补间 10" width="234" height="293" cocos2d_pX="117" cocos2d_pY="146.5" x="1344" y="781"/>
+    <SubTexture name="yaoshi_ess-补间 9" width="234" height="293" cocos2d_pX="117" cocos2d_pY="146.5" x="472" y="972"/>
+    <SubTexture name="yaoshi_ess-补间 8" width="234" height="293" cocos2d_pX="117" cocos2d_pY="146.5" x="0" y="972"/>
+    <SubTexture name="yaoshi_ess-补间 7" width="234" height="293" cocos2d_pX="117" cocos2d_pY="146.5" x="236" y="972"/>
+    <SubTexture name="yaoshi_ess-补间 6" width="234" height="293" cocos2d_pX="117" cocos2d_pY="146.5" x="708" y="972"/>
+    <SubTexture name="yaoshi_ess-补间 5" width="234" height="293" cocos2d_pX="117" cocos2d_pY="146.5" x="1580" y="486"/>
+    <SubTexture name="yaoshi_ess-补间 4" width="234" height="293" cocos2d_pX="117" cocos2d_pY="146.5" x="1580" y="781"/>
+    <SubTexture name="yaoshi_ess-补间 3" width="251" height="162" cocos2d_pX="125.5" cocos2d_pY="81" x="944" y="972"/>
+    <SubTexture name="yaoshi_ess-补间 2" width="251" height="162" cocos2d_pX="125.5" cocos2d_pY="81" x="1450" y="1076"/>
+    <SubTexture name="yaoshi_ess-补间 1" width="251" height="162" cocos2d_pX="125.5" cocos2d_pY="81" x="1197" y="1076"/>
+  </TextureAtlas>
+</skeleton>

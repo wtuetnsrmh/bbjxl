@@ -1,0 +1,163 @@
+<skeleton name="ZhangFei_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="ZhangFei_e">
+   <b name="Layer 7" x="-99.9" y="-40.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zf_es-补间 1" pX="147.4" pY="101.1"/>
+    <d name="zf_es-补间 2" pX="151.75" pY="107.85"/>
+    <d name="zf_es-补间 3" pX="148.7" pY="103.1"/>
+    <d name="zf_es-补间 4" pX="148.25" pY="102.4"/>
+    <d name="zf_es-补间 5" pX="149.5" pY="102.75"/>
+    <d name="zf_es-补间 6" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 7" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 8" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 9" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 10" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 11" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 12" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 13" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 14" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 15" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 16" pX="204.5" pY="150"/>
+    <d name="zf_es-补间 17" pX="194.5" pY="139"/>
+    <d name="zf_es-补间 18" pX="194.5" pY="139"/>
+    <d name="zf_es-补间 19" pX="194.5" pY="139"/>
+    <d name="zf_es-补间 20" pX="202.5" pY="150"/>
+    <d name="zf_es-补间 21" pX="202.5" pY="150"/>
+    <d name="zf_es-补间 22" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 23" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 24" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 25" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 26" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 27" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 28" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 29" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 30" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 31" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 32" pX="204.5" pY="174.5"/>
+    <d name="zf_es-补间 33" pX="159" pY="170"/>
+    <d name="zf_es-补间 34" pX="159" pY="170"/>
+    <d name="zf_es-补间 35" pX="159" pY="170"/>
+    <d name="zf_es-补间 36" pX="159" pY="170"/>
+    <d name="zf_es-补间 37" pX="159" pY="170"/>
+    <d name="zf_es-补间 38" pX="159" pY="170"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ZhangFei_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="damaged" dr="14" to="0" drTW="14" lp="0" twE="NaN"/>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 7" sc="1" dl="0">
+     <f dr="10" dI="-1"/>
+     <f x="-99.9" y="-40.95" cocos2d_x="-99.9" cocos2d_y="-40.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-111.45" y="-53.95" cocos2d_x="-111.45" cocos2d_y="-53.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-98.95" y="-62.5" cocos2d_x="-98.95" cocos2d_y="-62.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-94.95" y="-61.5" cocos2d_x="-94.95" cocos2d_y="-61.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-94.95" y="-61.55" cocos2d_x="-94.95" cocos2d_y="-61.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f dr="4" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 7" sc="1" dl="0">
+     <f dr="2" dI="-1"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="2"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="2"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="2"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="13" dr="2"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="14" dr="2"/>
+     <f x="-87.6" y="-89.05" cocos2d_x="-87.6" cocos2d_y="-89.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="15" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="Layer 7" sc="1" dl="0">
+     <f x="7.45" y="-86.1" cocos2d_x="7.45" cocos2d_y="-86.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="16" dr="2"/>
+     <f x="38.05" y="-86.1" cocos2d_x="38.05" cocos2d_y="-86.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="17" dr="2"/>
+     <f x="16.75" y="-103.85" cocos2d_x="16.75" cocos2d_y="-103.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="18" dr="2"/>
+     <f dr="24" dI="-1"/>
+     <f x="26.65" y="-115.75" cocos2d_x="26.65" cocos2d_y="-115.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="19" dr="2"/>
+     <f x="26.65" y="-115.75" cocos2d_x="26.65" cocos2d_y="-115.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="20" dr="2"/>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 7" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="-46.1" y="-95.7" cocos2d_x="-46.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="21" dr="2"/>
+     <f x="-46.1" y="-95.7" cocos2d_x="-46.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="22" dr="2"/>
+     <f x="-46.1" y="-95.7" cocos2d_x="-46.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="23" dr="2"/>
+     <f x="-46.1" y="-95.7" cocos2d_x="-46.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="24" dr="2"/>
+     <f x="-46.1" y="-95.7" cocos2d_x="-46.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="25" dr="2"/>
+     <f x="-46.1" y="-95.7" cocos2d_x="-46.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="26" dr="2"/>
+     <f x="-46.1" y="-95.7" cocos2d_x="-46.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="27" dr="2"/>
+     <f dr="9" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 7" sc="1" dl="0">
+     <f x="-46.1" y="-95.7" cocos2d_x="-46.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="28" dr="2"/>
+     <f x="-46.1" y="-95.7" cocos2d_x="-46.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="29" dr="2"/>
+     <f x="-42.7" y="-95.7" cocos2d_x="-42.7" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="30" dr="2"/>
+     <f x="-68.2" y="-95.7" cocos2d_x="-68.2" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="31" dr="2"/>
+     <f x="-63.5" y="-50" cocos2d_x="-63.5" cocos2d_y="-50" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="32" dr="2"/>
+     <f x="-63.5" y="-50" cocos2d_x="-63.5" cocos2d_y="-50" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="33" dr="2"/>
+     <f x="-63.5" y="-50" cocos2d_x="-63.5" cocos2d_y="-50" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="34" dr="2"/>
+     <f x="-63.5" y="-50" cocos2d_x="-63.5" cocos2d_y="-50" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="35" dr="2"/>
+     <f x="-63.5" y="-50" cocos2d_x="-63.5" cocos2d_y="-50" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="36" dr="2"/>
+     <f x="-63.5" y="-50" cocos2d_x="-63.5" cocos2d_y="-50" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="37" dr="2"/>
+     <f dr="4" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ZhangFei_e" width="4096" height="2048">
+  <SubTexture name="zf_es-补间 38" width="318" height="340" cocos2d_pX="159" cocos2d_pY="170" x="0" y="702"/>
+  <SubTexture name="zf_es-补间 37" width="318" height="340" cocos2d_pX="159" cocos2d_pY="170" x="3600" y="840"/>
+  <SubTexture name="zf_es-补间 36" width="318" height="340" cocos2d_pX="159" cocos2d_pY="170" x="3280" y="653"/>
+  <SubTexture name="zf_es-补间 35" width="318" height="340" cocos2d_pX="159" cocos2d_pY="170" x="960" y="955"/>
+  <SubTexture name="zf_es-补间 34" width="318" height="340" cocos2d_pX="159" cocos2d_pY="170" x="320" y="702"/>
+  <SubTexture name="zf_es-补间 33" width="318" height="340" cocos2d_pX="159" cocos2d_pY="170" x="640" y="955"/>
+  <SubTexture name="zf_es-补间 32" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="411" y="0"/>
+  <SubTexture name="zf_es-补间 31" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="1233" y="0"/>
+  <SubTexture name="zf_es-补间 30" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="2055" y="0"/>
+  <SubTexture name="zf_es-补间 29" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="2877" y="0"/>
+  <SubTexture name="zf_es-补间 28" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="3288" y="0"/>
+  <SubTexture name="zf_es-补间 27" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="822" y="0"/>
+  <SubTexture name="zf_es-补间 26" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="0" y="0"/>
+  <SubTexture name="zf_es-补间 25" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="2466" y="0"/>
+  <SubTexture name="zf_es-补间 24" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="0" y="351"/>
+  <SubTexture name="zf_es-补间 23" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="1644" y="0"/>
+  <SubTexture name="zf_es-补间 22" width="409" height="349" cocos2d_pX="204.5" cocos2d_pY="174.5" x="411" y="351"/>
+  <SubTexture name="zf_es-补间 21" width="405" height="300" cocos2d_pX="202.5" cocos2d_pY="150" x="2873" y="653"/>
+  <SubTexture name="zf_es-补间 20" width="405" height="300" cocos2d_pX="202.5" cocos2d_pY="150" x="2466" y="653"/>
+  <SubTexture name="zf_es-补间 19" width="389" height="278" cocos2d_pX="194.5" cocos2d_pY="139" x="3699" y="0"/>
+  <SubTexture name="zf_es-补间 18" width="389" height="278" cocos2d_pX="194.5" cocos2d_pY="139" x="3699" y="280"/>
+  <SubTexture name="zf_es-补间 17" width="389" height="278" cocos2d_pX="194.5" cocos2d_pY="139" x="3699" y="560"/>
+  <SubTexture name="zf_es-补间 16" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="1644" y="351"/>
+  <SubTexture name="zf_es-补间 15" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="1233" y="351"/>
+  <SubTexture name="zf_es-补间 14" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="822" y="351"/>
+  <SubTexture name="zf_es-补间 13" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="1233" y="653"/>
+  <SubTexture name="zf_es-补间 12" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="822" y="653"/>
+  <SubTexture name="zf_es-补间 11" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="2877" y="351"/>
+  <SubTexture name="zf_es-补间 10" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="2055" y="653"/>
+  <SubTexture name="zf_es-补间 9" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="2466" y="351"/>
+  <SubTexture name="zf_es-补间 8" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="1644" y="653"/>
+  <SubTexture name="zf_es-补间 7" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="3288" y="351"/>
+  <SubTexture name="zf_es-补间 6" width="409" height="300" cocos2d_pX="204.5" cocos2d_pY="150" x="2055" y="351"/>
+  <SubTexture name="zf_es-补间 5" width="299" height="206" cocos2d_pX="149.5" cocos2d_pY="102.75" x="1586" y="955"/>
+  <SubTexture name="zf_es-补间 4" width="297" height="205" cocos2d_pX="148.25" cocos2d_pY="102.4" x="2187" y="955"/>
+  <SubTexture name="zf_es-补间 3" width="298" height="207" cocos2d_pX="148.7" cocos2d_pY="103.1" x="1887" y="955"/>
+  <SubTexture name="zf_es-补间 2" width="304" height="216" cocos2d_pX="151.75" cocos2d_pY="107.85" x="1280" y="955"/>
+  <SubTexture name="zf_es-补间 1" width="295" height="203" cocos2d_pX="147.4" cocos2d_pY="101.1" x="2486" y="955"/>
+ </TextureAtlas>
+</skeleton>

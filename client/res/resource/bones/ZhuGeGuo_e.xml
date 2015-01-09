@@ -1,0 +1,100 @@
+<skeleton name="ZhuGeGuo_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="ZhuGeGuo_e">
+   <b name="Effect" x="-64.05" y="-81.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zgg234-Tween 12" pX="69.1" pY="81"/>
+    <d name="zgg234-Tween 13" pX="85.55" pY="81.8"/>
+   </b>
+   <b name="Effect2" x="33.45" y="-50.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zgg234-Tween 4" pX="50.85" pY="58.85"/>
+    <d name="zgg234-Tween 5" pX="47" pY="61.55"/>
+    <d name="zgg234-Tween 6" pX="52.5" pY="50.55"/>
+    <d name="zgg234-Tween 7" pX="54.05" pY="52.05"/>
+    <d name="zgg234-Tween 8" pX="60.15" pY="64.55"/>
+    <d name="zgg234-Tween 9" pX="58.9" pY="56.8"/>
+    <d name="zgg234-Tween 10" pX="77.8" pY="48.35"/>
+    <d name="zgg234-Tween 11" pX="81.9" pY="35.4"/>
+   </b>
+   <b name="Effect3" x="-28.1" y="-136.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zgg234-Tween 1" pX="113.45" pY="70.4"/>
+    <d name="zgg234-Tween 2" pX="115.05" pY="80.2"/>
+    <d name="zgg234-Tween 3" pX="123.95" pY="97.95"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ZhuGeGuo_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="move" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="damaged" dr="15" to="0" drTW="15" lp="1" twE="NaN"/>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="1" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Effect" sc="1" dl="0">
+     <f dr="6" dI="-1"/>
+     <f x="-64.05" y="-81.05" cocos2d_x="-64.05" cocos2d_y="-81.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-69" y="-76.1" cocos2d_x="-69" cocos2d_y="-76.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f dr="14" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Effect2" sc="1" dl="0">
+     <f dr="2" dI="-1"/>
+     <f x="33.45" y="-50.45" cocos2d_x="33.45" cocos2d_y="-50.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="39.15" y="-51.1" cocos2d_x="39.15" cocos2d_y="-51.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="37.5" y="-50.35" cocos2d_x="37.5" cocos2d_y="-50.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="39.35" y="-60.75" cocos2d_x="39.35" cocos2d_y="-60.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="42.45" y="-58.3" cocos2d_x="42.45" cocos2d_y="-58.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="43.15" y="-59.4" cocos2d_x="43.15" cocos2d_y="-59.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f dr="2" dI="-1"/>
+     <f x="-143.4" y="-87.9" cocos2d_x="-143.4" cocos2d_y="-87.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="-155.15" y="-75.25" cocos2d_x="-155.15" cocos2d_y="-75.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f dr="6" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="Effect3" sc="1" dl="0">
+     <f dr="14" dI="-1"/>
+     <f x="-28.1" y="-136.1" cocos2d_x="-28.1" cocos2d_y="-136.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3"/>
+     <f x="-31.25" y="-121.5" cocos2d_x="-31.25" cocos2d_y="-121.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="3"/>
+     <f x="-39.75" y="-111.9" cocos2d_x="-39.75" cocos2d_y="-111.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="3"/>
+     <f dr="13" dI="-1"/>
+    </b>
+    <f st="0" dr="35"/>
+    <f st="35" dr="1"/>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="cheer" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ZhuGeGuo_e" width="1024" height="512">
+  <SubTexture name="zgg234-Tween 3" width="248" height="196" cocos2d_pX="123.95" cocos2d_pY="97.95" x="0" y="0"/>
+  <SubTexture name="zgg234-Tween 2" width="231" height="161" cocos2d_pX="115.05" cocos2d_pY="80.2" x="250" y="0"/>
+  <SubTexture name="zgg234-Tween 1" width="227" height="141" cocos2d_pX="113.45" cocos2d_pY="70.4" x="483" y="0"/>
+  <SubTexture name="zgg234-Tween 11" width="164" height="71" cocos2d_pX="81.9" cocos2d_pY="35.4" x="624" y="166"/>
+  <SubTexture name="zgg234-Tween 10" width="156" height="97" cocos2d_pX="77.8" cocos2d_pY="48.35" x="250" y="163"/>
+  <SubTexture name="zgg234-Tween 9" width="118" height="114" cocos2d_pX="58.9" cocos2d_pY="56.8" x="886" y="132"/>
+  <SubTexture name="zgg234-Tween 8" width="121" height="130" cocos2d_pX="60.15" cocos2d_pY="64.55" x="886" y="0"/>
+  <SubTexture name="zgg234-Tween 7" width="109" height="105" cocos2d_pX="54.05" cocos2d_pY="52.05" x="104" y="198"/>
+  <SubTexture name="zgg234-Tween 6" width="106" height="102" cocos2d_pX="52.5" cocos2d_pY="50.55" x="624" y="239"/>
+  <SubTexture name="zgg234-Tween 5" width="94" height="124" cocos2d_pX="47" cocos2d_pY="61.55" x="790" y="166"/>
+  <SubTexture name="zgg234-Tween 4" width="102" height="118" cocos2d_pX="50.85" cocos2d_pY="58.85" x="0" y="198"/>
+  <SubTexture name="zgg234-Tween 13" width="172" height="164" cocos2d_pX="85.55" cocos2d_pY="81.8" x="712" y="0"/>
+  <SubTexture name="zgg234-Tween 12" width="139" height="162" cocos2d_pX="69.1" cocos2d_pY="81" x="483" y="143"/>
+ </TextureAtlas>
+</skeleton>

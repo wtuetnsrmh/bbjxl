@@ -1,0 +1,127 @@
+<skeleton name="LvBu_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="LvBu_e">
+      <b name="图层 3" x="-42.8" y="-132.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="lbsghA-Tween 57" pX="173.85" pY="175.85"/>
+        <d name="lbsghA-Tween 58" pX="173.85" pY="175.85"/>
+      </b>
+      <b name="图层 2" x="-157.35" y="-104.7" kX="25.72" kY="25.72" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="lbsghA-Tween 38" pX="181.1" pY="102.5"/>
+        <d name="lbsghA-Tween 39" pX="181.1" pY="102.5"/>
+      </b>
+      <b name="Layer 2" x="-3.05" y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="lbsghA-补间 1" pX="268" pY="229"/>
+        <d name="lbsghA-补间 2" pX="268" pY="229"/>
+        <d name="lbsghA-补间 3" pX="268" pY="229"/>
+        <d name="lbsghA-补间 4" pX="268" pY="229"/>
+        <d name="lbsghA-补间 5" pX="268" pY="229"/>
+        <d name="lbsghA-补间 6" pX="268" pY="229"/>
+        <d name="lbsghA-补间 7" pX="268" pY="229"/>
+        <d name="lbsghA-补间 8" pX="268" pY="229"/>
+        <d name="lbsghA-补间 9" pX="268" pY="229"/>
+        <d name="lbsghA-补间 10" pX="268" pY="229"/>
+        <d name="lbsghA-补间 11" pX="268" pY="229"/>
+        <d name="lbsghA-补间 12" pX="268" pY="229"/>
+      </b>
+      <b name="Layer 55" x="39.85" y="-176.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="lbsghA-Tween 44" pX="257.3" pY="227.3"/>
+        <d name="lbsghA-Tween 46" pX="257.3" pY="227.3"/>
+        <d name="lbsghA-Tween 48" pX="257.3" pY="227.3"/>
+      </b>
+      <b name="Layer 56" x="-93.3" y="-68.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="lbsghA-Tween 38" pX="181.1" pY="102.5"/>
+        <d name="lbsghA-Tween 39" pX="181.1" pY="102.5"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="LvBu_e">
+      <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="damaged" dr="13" to="0" drTW="15" lp="0" twE="NaN"/>
+      <mov name="move" dr="24" to="0" drTW="17" lp="0" twE="NaN"/>
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="11" dI="-1"/>
+          <f x="-42.8" y="-132.9" cocos2d_x="-42.8" cocos2d_y="-132.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="5.6" y="-131.9" cocos2d_x="5.6" cocos2d_y="-131.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f dr="9" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="10" dI="-1"/>
+          <f x="-157.35" y="-104.7" cocos2d_x="-157.35" cocos2d_y="-104.7" kX="25.72" kY="25.72" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-157.35" y="-104.7" cocos2d_x="-157.35" cocos2d_y="-104.7" kX="25.72" kY="25.72" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f dr="10" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+        <b name="Layer 2" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+          <f x="-3.05" y="-174.05" cocos2d_x="-3.05" cocos2d_y="-174.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f x="-3.05" y="-170.1" cocos2d_x="-3.05" cocos2d_y="-170.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="2"/>
+          <f dr="10" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 55" sc="1" dl="0">
+          <f dr="7" dI="-1"/>
+          <f x="39.85" y="-176.15" cocos2d_x="39.85" cocos2d_y="-176.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3"/>
+          <f x="39.85" y="-176.15" cocos2d_x="39.85" cocos2d_y="-176.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="3"/>
+          <f x="39.85" y="-176.15" cocos2d_x="39.85" cocos2d_y="-176.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="4"/>
+          <f dr="7" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 56" sc="1" dl="0">
+          <f dr="6" dI="-1"/>
+          <f x="-93.3" y="-68.7" cocos2d_x="-93.3" cocos2d_y="-68.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-88.3" y="-57.7" cocos2d_x="-88.3" cocos2d_y="-57.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+          <f dr="2" dI="-1"/>
+          <f x="-93.3" y="-68.7" cocos2d_x="-93.3" cocos2d_y="-68.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-88.3" y="-57.7" cocos2d_x="-88.3" cocos2d_y="-57.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+          <f dr="4" dI="-1"/>
+          <f x="-93.3" y="-68.7" cocos2d_x="-93.3" cocos2d_y="-68.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-93.3" y="-68.7" cocos2d_x="-93.3" cocos2d_y="-68.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f dr="4" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="cheer" dr="23" to="0" drTW="23" lp="0" twE="NaN"/>
+    </animation>
+  </animations>
+  <TextureAtlas name="LvBu_e" width="2048" height="4096">
+    <SubTexture name="lbsghA-Tween 48" width="515" height="455" cocos2d_pX="257.3" cocos2d_pY="227.3" x="517" y="1840"/>
+    <SubTexture name="lbsghA-Tween 46" width="515" height="455" cocos2d_pX="257.3" cocos2d_pY="227.3" x="0" y="1840"/>
+    <SubTexture name="lbsghA-Tween 44" width="515" height="455" cocos2d_pX="257.3" cocos2d_pY="227.3" x="1034" y="1840"/>
+    <SubTexture name="lbsghA-补间 12" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="1076" y="1380"/>
+    <SubTexture name="lbsghA-补间 11" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="1076" y="460"/>
+    <SubTexture name="lbsghA-补间 10" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="538" y="1380"/>
+    <SubTexture name="lbsghA-补间 9" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="538" y="920"/>
+    <SubTexture name="lbsghA-补间 8" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="1076" y="0"/>
+    <SubTexture name="lbsghA-补间 7" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="538" y="460"/>
+    <SubTexture name="lbsghA-补间 6" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="0" y="0"/>
+    <SubTexture name="lbsghA-补间 5" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="538" y="0"/>
+    <SubTexture name="lbsghA-补间 4" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="0" y="1380"/>
+    <SubTexture name="lbsghA-补间 3" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="0" y="460"/>
+    <SubTexture name="lbsghA-补间 2" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="1076" y="920"/>
+    <SubTexture name="lbsghA-补间 1" width="536" height="458" cocos2d_pX="268" cocos2d_pY="229" x="0" y="920"/>
+    <SubTexture name="lbsghA-Tween 39" width="363" height="205" cocos2d_pX="181.1" cocos2d_pY="102.5" x="1614" y="915"/>
+    <SubTexture name="lbsghA-Tween 38" width="363" height="205" cocos2d_pX="181.1" cocos2d_pY="102.5" x="1614" y="708"/>
+    <SubTexture name="lbsghA-Tween 58" width="348" height="352" cocos2d_pX="173.85" cocos2d_pY="175.85" x="1614" y="354"/>
+    <SubTexture name="lbsghA-Tween 57" width="348" height="352" cocos2d_pX="173.85" cocos2d_pY="175.85" x="1614" y="0"/>
+  </TextureAtlas>
+</skeleton>

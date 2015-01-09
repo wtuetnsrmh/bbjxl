@@ -1,0 +1,20 @@
+任务ID,任务名,任务描述,开放等级,系统,次数,经验,银币,元宝,战功,星魂,将魂,道具,icon
+,,,该等级以下过滤掉,,,当玩家等级大于等于20时，经验量 = 表内经验*（1+（等级-20）*0.1）,,,,,,ID=数量,
+1,每日普通副本,完成任意普通副本挑战10次,11,副本,10,120,2500,0,0,0,0,,resource/icon/task/carbon.png
+2,每日精英副本,完成任意精英副本挑战5次,12,精英副本,5,120,2500,0,0,0,0,,resource/icon/task/challenge.png
+14,每日抽卡,完成抽卡5次,1,,5,80,1000,0,0,0,0,,resource/icon/task/drawcard.png
+15,每日试练,完成试练副本3次,16,,3,120,1000,0,0,0,0,,resource/icon/task/shilian.png
+10,每日招财,完成招财一次,1,,1,50,1000,0,0,0,0,,resource/icon/task/zhaocai.png
+13,装备强化,完成任意装备强化5次,13,装备,5,60,2000,0,0,0,0,,resource/icon/task/equip.png
+4,大将军王,完成战场挑战5次,14,战场,5,100,0,0,120,0,0,,resource/icon/task/pvp.png
+5,科技狂,完成科技升级1次,30,科技,1,50,0,10,0,0,0,,resource/icon/task/tech.png
+6,宠幸美人,完成美人宠幸1次,33,美人宠幸,1,80,0,10,0,0,0,,resource/icon/task/beauty.png
+7,过五关斩六将,完成过关斩将1次,28,过关斩将,1,180,500,0,0,0,0,,resource/icon/task/tower.png
+9,我是传奇,完成名将挑战1次,42,名将,1,60,0,0,0,0,120,,resource/icon/task/legend.png
+11,月卡,购买月卡，每天领取120元宝,1,,1,20,0,120,0,0,0,,resource/icon/task/yueka.png
+16,秦时明月汉时关,成功完成1次出塞挑战。,36,,1,240,1000,0,0,0,0,,resource/icon/task/chusai.png
+3,武将升级,武将升级1次,8,,1,50,1000,0,0,0,0,,resource/icon/task/intensify.png
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,每日地狱副本,完成任意地狱副本挑战5次,12,地狱副本,5,120,2500,0,0,0,0,,resource/icon/task/hard.png
+,来自星星的你,完成点亮1颗将星,20,将星,1,60,0,0,0,80,0,,resource/icon/task/herostar.png

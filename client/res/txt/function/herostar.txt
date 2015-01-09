@@ -1,0 +1,5 @@
+[size=28][color=ff000000]1、点亮将星点，需要消耗星魂和银币 [/color][/size]
+[size=28][color=ff000000]2、星魂，产自活动之过关斩将，闯关多多星魂多多 [/color][/size]
+[size=28][color=ff000000]3、点亮将星点，会增加群雄、魏、蜀、吴4个阵营的属性 [/color][/size]
+[size=28][color=ff000000]4、点亮一张星图上所有的将星点，会开启下一张将星图 [/color][/size]
+[size=28][color=ff000000]5、来自星星的你，点亮所有的星星吧 [/color][/size]

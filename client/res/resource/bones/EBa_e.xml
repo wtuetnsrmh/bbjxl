@@ -1,0 +1,100 @@
+<skeleton name="EBa_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="EBa_e">
+      <b name="Layer 3" x="-102.95" y="-126.65" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0">
+        <d name="eba_ess-Tween 29" pX="108.5" pY="119.7"/>
+        <d name="eba_ess-Tween 30" pX="108.5" pY="119.7"/>
+        <d name="eba_ess-Tween 31" pX="108.5" pY="119.7"/>
+        <d name="eba_ess-Tween 32" pX="183.4" pY="154"/>
+        <d name="eba_ess-Tween 33" pX="183.4" pY="154"/>
+        <d name="eba_ess-Tween 34" pX="183.4" pY="154"/>
+        <d name="eba_ess-Tween 35" pX="183.4" pY="154"/>
+        <d name="eba_ess-Tween 36" pX="183.4" pY="154"/>
+        <d name="eba_ess-Tween 37" pX="183.4" pY="154"/>
+        <d name="eba_ess-Tween 41" pX="91.7" pY="72.1"/>
+        <d name="eba_ess-Tween 42" pX="91.7" pY="72.1"/>
+        <d name="eba_ess-Tween 43" pX="91.7" pY="72.1"/>
+        <d name="eba_ess-Tween 44" pX="91.7" pY="72.1"/>
+      </b>
+      <b name="Layer 5" x="-16.5" y="-86.55" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0">
+        <d name="eba_ess-Tween 23" pX="257.95" pY="106.75"/>
+        <d name="eba_ess-Tween 24" pX="257.95" pY="106.75"/>
+        <d name="eba_ess-Tween 25" pX="257.95" pY="106.75"/>
+        <d name="eba_ess-Tween 26" pX="257.95" pY="106.75"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="EBa_e">
+      <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="damaged" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <f st="0" dr="13"/>
+        <f st="13" dr="1"/>
+      </mov>
+      <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 3" sc="1" dl="0">
+          <f dr="11" dI="-1"/>
+          <f x="-102.95" y="-126.65" cocos2d_x="-102.95" cocos2d_y="-126.65" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-102.95" y="-126.65" cocos2d_x="-102.95" cocos2d_y="-126.65" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-102.95" y="-126.65" cocos2d_x="-102.95" cocos2d_y="-126.65" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 3" sc="1" dl="0">
+          <f dr="5" dI="-1"/>
+          <f x="-81.7" y="-145.95" cocos2d_x="-81.7" cocos2d_y="-145.95" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-81.7" y="-145.95" cocos2d_x="-81.7" cocos2d_y="-145.95" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-81.7" y="-145.95" cocos2d_x="-81.7" cocos2d_y="-145.95" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="5" dr="1"/>
+          <f dr="1" dI="-1"/>
+          <f x="-81.7" y="-145.95" cocos2d_x="-81.7" cocos2d_y="-145.95" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="-81.7" y="-145.95" cocos2d_x="-81.7" cocos2d_y="-145.95" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f x="-81.7" y="-145.95" cocos2d_x="-81.7" cocos2d_y="-145.95" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 3" sc="1" dl="0">
+          <f dr="3" dI="-1"/>
+          <f x="16.85" y="-69.65" cocos2d_x="16.85" cocos2d_y="-69.65" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="9" dr="2"/>
+          <f x="16.85" y="-69.65" cocos2d_x="16.85" cocos2d_y="-69.65" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f x="16.85" y="-69.65" cocos2d_x="16.85" cocos2d_y="-69.65" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="11" dr="2"/>
+          <f x="16.85" y="-69.65" cocos2d_x="16.85" cocos2d_y="-69.65" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="12" dr="2"/>
+          <f dr="13" dI="-1"/>
+        </b>
+        <b name="Layer 5" sc="1" dl="0">
+          <f dr="12" dI="-1"/>
+          <f x="-16.5" y="-86.55" cocos2d_x="-16.5" cocos2d_y="-86.55" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-16.5" y="-86.55" cocos2d_x="-16.5" cocos2d_y="-86.55" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-16.5" y="-86.55" cocos2d_x="-16.5" cocos2d_y="-86.55" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-16.5" y="-86.55" cocos2d_x="-16.5" cocos2d_y="-86.55" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f dr="4" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="dead" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <f st="0" dr="19"/>
+        <f st="19" dr="1"/>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="EBa_e" width="2048" height="1024">
+    <SubTexture name="eba_ess-Tween 26" width="516" height="214" cocos2d_pX="257.95" cocos2d_pY="106.75" x="1036" y="0"/>
+    <SubTexture name="eba_ess-Tween 25" width="516" height="214" cocos2d_pX="257.95" cocos2d_pY="106.75" x="0" y="216"/>
+    <SubTexture name="eba_ess-Tween 24" width="516" height="214" cocos2d_pX="257.95" cocos2d_pY="106.75" x="0" y="0"/>
+    <SubTexture name="eba_ess-Tween 23" width="516" height="214" cocos2d_pX="257.95" cocos2d_pY="106.75" x="518" y="0"/>
+    <SubTexture name="eba_ess-Tween 44" width="184" height="145" cocos2d_pX="91.7" cocos2d_pY="72.1" x="957" y="526"/>
+    <SubTexture name="eba_ess-Tween 43" width="184" height="145" cocos2d_pX="91.7" cocos2d_pY="72.1" x="1844" y="310"/>
+    <SubTexture name="eba_ess-Tween 42" width="184" height="145" cocos2d_pX="91.7" cocos2d_pY="72.1" x="1844" y="604"/>
+    <SubTexture name="eba_ess-Tween 41" width="184" height="145" cocos2d_pX="91.7" cocos2d_pY="72.1" x="1844" y="457"/>
+    <SubTexture name="eba_ess-Tween 37" width="367" height="308" cocos2d_pX="183.4" cocos2d_pY="154" x="1554" y="0"/>
+    <SubTexture name="eba_ess-Tween 36" width="367" height="308" cocos2d_pX="183.4" cocos2d_pY="154" x="887" y="216"/>
+    <SubTexture name="eba_ess-Tween 35" width="367" height="308" cocos2d_pX="183.4" cocos2d_pY="154" x="1475" y="310"/>
+    <SubTexture name="eba_ess-Tween 34" width="367" height="308" cocos2d_pX="183.4" cocos2d_pY="154" x="518" y="216"/>
+    <SubTexture name="eba_ess-Tween 33" width="367" height="308" cocos2d_pX="183.4" cocos2d_pY="154" x="369" y="526"/>
+    <SubTexture name="eba_ess-Tween 32" width="367" height="308" cocos2d_pX="183.4" cocos2d_pY="154" x="0" y="432"/>
+    <SubTexture name="eba_ess-Tween 31" width="217" height="240" cocos2d_pX="108.5" cocos2d_pY="119.7" x="738" y="526"/>
+    <SubTexture name="eba_ess-Tween 30" width="217" height="240" cocos2d_pX="108.5" cocos2d_pY="119.7" x="1256" y="458"/>
+    <SubTexture name="eba_ess-Tween 29" width="217" height="240" cocos2d_pX="108.5" cocos2d_pY="119.7" x="1256" y="216"/>
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,6 @@
+id,副本描述,难度,体力消耗,开放等级,实力系数,战斗配表,战斗阶段,战斗场景1,战斗场景2,战斗场景3,战斗对话,单位道具奖励,通关奖励,武将经验
+,,,,,,,,,,,talk表id,item表id=数量,item表id=数量,
+1,断后,简单,3,20,100,csv/scene/special/1011.csv,1,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_1.jpg,20001,1=1=60 2=1=40,3=1=100,50
+2,断后,普通,3,35,100,csv/scene/special/1012.csv,1,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_1.jpg,20001,1=1=35 2=1=45 3=1=20,3=1=100,100
+3,断后,困难,3,50,100,csv/scene/special/1013.csv,1,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_1.jpg,20001,1=1=15 2=1=50 3=1=30 4=1=5,4=1=100,300
+4,断后,地狱,3,75,100,csv/scene/special/1014.csv,1,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_1.jpg,20001,2=1=50 3=1=35 4=1=15,4=1=100,620

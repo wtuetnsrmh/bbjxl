@@ -1,0 +1,146 @@
+<skeleton name="HuaTuo_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="HuaTuo_e">
+   <b name="图层 5" x="-42.85" y="-93.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huatde-Tween 18" pX="91.45" pY="58.9"/>
+    <d name="huatde-Tween 19" pX="91.45" pY="58.9"/>
+    <d name="huatde-Tween 20" pX="91.45" pY="58.9"/>
+   </b>
+   <b name="图层 6" x="-1.45" y="-11.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huatde-Tween 13" pX="108.75" pY="62.15"/>
+    <d name="huatde-Tween 14" pX="108.75" pY="62.15"/>
+    <d name="huatde-Tween 15" pX="106.75" pY="61"/>
+    <d name="huatde-Tween 16" pX="106.75" pY="61"/>
+    <d name="huatde-Tween 17" pX="106.75" pY="61"/>
+   </b>
+   <b name="图层 4" x="-56.8" y="-154.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+    <d name="huatde-Tween 1" pX="91.5" pY="104.8"/>
+    <d name="huatde-Tween 2" pX="136.45" pY="176.15"/>
+    <d name="huatde-Tween 3" pX="137.25" pY="152.8"/>
+    <d name="huatde-Tween 4" pX="145.95" pY="161"/>
+    <d name="huatde-Tween 5" pX="127.95" pY="137.1"/>
+    <d name="huatde-Tween 6" pX="139.4" pY="118.05"/>
+    <d name="huatde-Tween 7" pX="115.2" pY="114.2"/>
+    <d name="huatde-Tween 8" pX="94.9" pY="80.7"/>
+    <d name="huatde-Tween 9" pX="75.6" pY="92.6"/>
+    <d name="huatde-Tween 10" pX="81.35" pY="75.05"/>
+    <d name="huatde-Tween 11" pX="81.6" pY="67.8"/>
+    <d name="huatde-Tween 12" pX="75.1" pY="74.15"/>
+   </b>
+   <b name="Layer 2" x="-68.55" y="-210.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huatde-Tween 26" pX="193.1" pY="91.85"/>
+    <d name="huatde-Tween 27" pX="193.1" pY="91.85"/>
+    <d name="huatde-Tween 28" pX="193.1" pY="91.85"/>
+    <d name="huatde-Tween 29" pX="193.1" pY="91.85"/>
+    <d name="huatde-Tween 30" pX="193.1" pY="91.85"/>
+    <d name="huatde-Tween 31" pX="193.1" pY="91.85"/>
+   </b>
+   <b name="Layer 3" x="-1.05" y="-105.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="huatde-Tween 21" pX="174.7" pY="115.95"/>
+    <d name="huatde-Tween 23" pX="174.7" pY="115.95"/>
+    <d name="huatde-Tween 25" pX="174.7" pY="115.95"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="HuaTuo_e">
+   <mov name="idle" dr="25" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="dead" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+    <f st="0" dr="15"/>
+    <f st="15" dr="1"/>
+   </mov>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 5" sc="1" dl="0">
+     <f dr="15" dI="-1"/>
+     <f x="-42.85" y="-93.05" cocos2d_x="-42.85" cocos2d_y="-93.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="-42.85" y="-93.05" cocos2d_x="-42.85" cocos2d_y="-93.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="-42.85" y="-93.05" cocos2d_x="-42.85" cocos2d_y="-93.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f dr="6" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack2" dr="25" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="图层 6" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="-1.45" y="-11.55" cocos2d_x="-1.45" cocos2d_y="-11.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-1.45" y="-11.55" cocos2d_x="-1.45" cocos2d_y="-11.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="0.9" y="-9.1" cocos2d_x="0.9" cocos2d_y="-9.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="0.9" y="-9.1" cocos2d_x="0.9" cocos2d_y="-9.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="0.9" y="-9.1" cocos2d_x="0.9" cocos2d_y="-9.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f dr="25" dI="-1"/>
+    </b>
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="-56.8" y="-154.25" cocos2d_x="-56.8" cocos2d_y="-154.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="2"/>
+     <f x="-48.55" y="-169.25" cocos2d_x="-48.55" cocos2d_y="-169.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" dr="2"/>
+     <f x="-38.15" y="-212.6" cocos2d_x="-38.15" cocos2d_y="-212.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="3"/>
+     <f x="-62.35" y="-208.35" cocos2d_x="-62.35" cocos2d_y="-208.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-27.9" y="-186.75" cocos2d_x="-27.9" cocos2d_y="-186.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="3"/>
+     <f x="-30.05" y="-173.45" cocos2d_x="-30.05" cocos2d_y="-173.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="16.3" y="-200.85" cocos2d_x="16.3" cocos2d_y="-200.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="-7.2" y="-179.3" cocos2d_x="-7.2" cocos2d_y="-179.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f x="7.4" y="-181.1" cocos2d_x="7.4" cocos2d_y="-181.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+     <f x="9.15" y="-197.9" cocos2d_x="9.15" cocos2d_y="-197.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+     <f x="8.8" y="-187.45" cocos2d_x="8.8" cocos2d_y="-187.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f x="7.8" y="-170.35" cocos2d_x="7.8" cocos2d_y="-170.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="1"/>
+     <f dr="10" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN"/>
+   <mov name="move" dr="25" to="0" drTW="25" lp="0" twE="NaN"/>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 2" sc="1" dl="0">
+     <f dr="10" dI="-1"/>
+     <f x="-68.55" y="-210.45" cocos2d_x="-68.55" cocos2d_y="-210.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-68.55" y="-210.45" cocos2d_x="-68.55" cocos2d_y="-210.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-68.55" y="-210.45" cocos2d_x="-68.55" cocos2d_y="-210.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-68.55" y="-210.45" cocos2d_x="-68.55" cocos2d_y="-210.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-68.55" y="-210.45" cocos2d_x="-68.55" cocos2d_y="-210.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-68.55" y="-210.45" cocos2d_x="-68.55" cocos2d_y="-210.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 3" sc="1" dl="0">
+     <f dr="18" dI="-1"/>
+     <f x="-1.05" y="-105.6" cocos2d_x="-1.05" cocos2d_y="-105.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-1.05" y="-105.6" cocos2d_x="-1.05" cocos2d_y="-105.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-1.05" y="-105.6" cocos2d_x="-1.05" cocos2d_y="-105.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="cheer" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+  </animation>
+ </animations>
+ <TextureAtlas name="HuaTuo_e" width="2048" height="1024">
+  <SubTexture name="huatde-Tween 25" width="350" height="232" cocos2d_pX="174.7" cocos2d_pY="115.95" x="921" y="0"/>
+  <SubTexture name="huatde-Tween 23" width="350" height="232" cocos2d_pX="174.7" cocos2d_pY="115.95" x="1273" y="0"/>
+  <SubTexture name="huatde-Tween 21" width="350" height="232" cocos2d_pX="174.7" cocos2d_pY="115.95" x="569" y="0"/>
+  <SubTexture name="huatde-Tween 31" width="387" height="184" cocos2d_pX="193.1" cocos2d_pY="91.85" x="1605" y="308"/>
+  <SubTexture name="huatde-Tween 30" width="387" height="184" cocos2d_pX="193.1" cocos2d_pY="91.85" x="1216" y="234"/>
+  <SubTexture name="huatde-Tween 29" width="387" height="184" cocos2d_pX="193.1" cocos2d_pY="91.85" x="1216" y="420"/>
+  <SubTexture name="huatde-Tween 28" width="387" height="184" cocos2d_pX="193.1" cocos2d_pY="91.85" x="1605" y="494"/>
+  <SubTexture name="huatde-Tween 27" width="387" height="184" cocos2d_pX="193.1" cocos2d_pY="91.85" x="827" y="234"/>
+  <SubTexture name="huatde-Tween 26" width="387" height="184" cocos2d_pX="193.1" cocos2d_pY="91.85" x="827" y="420"/>
+  <SubTexture name="huatde-Tween 12" width="151" height="149" cocos2d_pX="75.1" cocos2d_pY="74.15" x="1281" y="730"/>
+  <SubTexture name="huatde-Tween 11" width="164" height="136" cocos2d_pX="81.6" cocos2d_pY="67.8" x="1115" y="730"/>
+  <SubTexture name="huatde-Tween 10" width="163" height="151" cocos2d_pX="81.35" cocos2d_pY="75.05" x="1763" y="680"/>
+  <SubTexture name="huatde-Tween 9" width="152" height="186" cocos2d_pX="75.6" cocos2d_pY="92.6" x="961" y="606"/>
+  <SubTexture name="huatde-Tween 8" width="190" height="162" cocos2d_pX="94.9" cocos2d_pY="80.7" x="233" y="563"/>
+  <SubTexture name="huatde-Tween 7" width="231" height="229" cocos2d_pX="115.2" cocos2d_pY="114.2" x="0" y="355"/>
+  <SubTexture name="huatde-Tween 6" width="279" height="237" cocos2d_pX="139.4" cocos2d_pY="118.05" x="275" y="324"/>
+  <SubTexture name="huatde-Tween 5" width="256" height="275" cocos2d_pX="127.95" cocos2d_pY="137.1" x="569" y="234"/>
+  <SubTexture name="huatde-Tween 4" width="292" height="322" cocos2d_pX="145.95" cocos2d_pY="161" x="275" y="0"/>
+  <SubTexture name="huatde-Tween 3" width="275" height="306" cocos2d_pX="137.25" cocos2d_pY="152.8" x="1625" y="0"/>
+  <SubTexture name="huatde-Tween 2" width="273" height="353" cocos2d_pX="136.45" cocos2d_pY="176.15" x="0" y="0"/>
+  <SubTexture name="huatde-Tween 1" width="183" height="210" cocos2d_pX="91.5" cocos2d_pY="104.8" x="556" y="511"/>
+  <SubTexture name="huatde-Tween 17" width="214" height="122" cocos2d_pX="106.75" cocos2d_pY="61" x="1331" y="606"/>
+  <SubTexture name="huatde-Tween 16" width="214" height="122" cocos2d_pX="106.75" cocos2d_pY="61" x="1115" y="606"/>
+  <SubTexture name="huatde-Tween 15" width="214" height="122" cocos2d_pX="106.75" cocos2d_pY="61" x="1547" y="680"/>
+  <SubTexture name="huatde-Tween 14" width="218" height="125" cocos2d_pX="108.75" cocos2d_pY="62.15" x="741" y="606"/>
+  <SubTexture name="huatde-Tween 13" width="218" height="125" cocos2d_pX="108.75" cocos2d_pY="62.15" x="0" y="586"/>
+  <SubTexture name="huatde-Tween 20" width="183" height="118" cocos2d_pX="91.45" cocos2d_pY="58.9" x="0" y="713"/>
+  <SubTexture name="huatde-Tween 19" width="183" height="118" cocos2d_pX="91.45" cocos2d_pY="58.9" x="425" y="723"/>
+  <SubTexture name="huatde-Tween 18" width="183" height="118" cocos2d_pX="91.45" cocos2d_pY="58.9" x="185" y="727"/>
+ </TextureAtlas>
+</skeleton>

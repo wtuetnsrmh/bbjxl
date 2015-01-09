@@ -1,0 +1,17 @@
+[color=ff422820]【封测维护补偿】————[/color]
+
+[color=ff422820]各位英明的主公：[/color]
+
+[color=ff422820]今天是三国之乱舞开服第[color=ff2dc049][b] 4 [/b][/color]天!非常感激您参加封测！[/color]
+
+[color=ff422820]今日很多热情的主公报告了游戏中的问题，开发组特此更新，并对各位主公致谢！[/color]
+
+[color=ff422820]快递如下：[/color]
+[color=ff422820]    [image=resource/ui_rc/global/yinbi_big.png][/image]x 500000  [image=resource/ui_rc/global/yuanbao_big.png][/image]x 500 [/color]
+
+[color=ff422820]请在附件中签收！尽情游戏吧~[/color]
+
+[color=ff422820]————三国之乱舞开发组[/color]
+
+701=1 601=500000 1001=1
+601=500000 602=500

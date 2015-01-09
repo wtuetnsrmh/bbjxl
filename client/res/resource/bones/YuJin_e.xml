@@ -1,0 +1,121 @@
+<skeleton name="YuJin_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="YuJin_e">
+   <b name="图层 2" x="-93.75" y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="YuJinE-补间 13" pX="67.6" pY="44"/>
+    <d name="YuJinE-补间 14" pX="67.6" pY="44"/>
+   </b>
+   <b name="图层 3" x="-34.7" y="-150.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="YuJinE-补间 11" pX="117" pY="112"/>
+    <d name="YuJinE-补间 12" pX="117" pY="112"/>
+   </b>
+   <b name="图层 4" x="-28.1" y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="YuJinE-补间 1" pX="169.7" pY="146.8"/>
+    <d name="YuJinE-补间 2" pX="169.7" pY="146.8"/>
+    <d name="YuJinE-补间 3" pX="169.7" pY="146.8"/>
+    <d name="YuJinE-补间 4" pX="169.7" pY="146.8"/>
+    <d name="YuJinE-补间 5" pX="169.7" pY="146.8"/>
+    <d name="YuJinE-补间 6" pX="169.7" pY="146.8"/>
+    <d name="YuJinE-补间 7" pX="169.7" pY="146.8"/>
+    <d name="YuJinE-补间 8" pX="169.7" pY="146.8"/>
+    <d name="YuJinE-补间 9" pX="169.7" pY="146.8"/>
+    <d name="YuJinE-补间 10" pX="169.7" pY="146.8"/>
+   </b>
+   <b name="图层 5" x="7.25" y="-143.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="YuJinE-Tween 1" pX="136.5" pY="182.3"/>
+    <d name="YuJinE-Tween 2" pX="136.5" pY="182.3"/>
+    <d name="YuJinE-Tween 3" pX="136.5" pY="182.3"/>
+    <d name="YuJinE-Tween 4" pX="136.5" pY="182.3"/>
+    <d name="YuJinE-Tween 5" pX="136.5" pY="182.3"/>
+    <d name="YuJinE-Tween 6" pX="136.5" pY="182.3"/>
+    <d name="YuJinE-Tween 7" pX="136.5" pY="182.3"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="YuJin_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN"/>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="14" dI="-1"/>
+     <f x="-93.75" y="-102.4" cocos2d_x="-93.75" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-93.75" y="-102.4" cocos2d_x="-93.75" cocos2d_y="-102.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f dr="6" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="15" dI="-1"/>
+     <f x="-34.7" y="-150.1" cocos2d_x="-34.7" cocos2d_y="-150.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-34.7" y="-150.1" cocos2d_x="-34.7" cocos2d_y="-150.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f dr="5" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="9" dI="-1"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f dr="3" dI="-1"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+     <f x="-28.1" y="-112.4" cocos2d_x="-28.1" cocos2d_y="-112.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+     <f dr="4" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 5" sc="1" dl="0">
+     <f dr="10" dI="-1"/>
+     <f x="7.25" y="-143.6" cocos2d_x="7.25" cocos2d_y="-143.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="7.25" y="-143.6" cocos2d_x="7.25" cocos2d_y="-143.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="7.25" y="-143.6" cocos2d_x="7.25" cocos2d_y="-143.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="7.25" y="-143.6" cocos2d_x="7.25" cocos2d_y="-143.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="7.25" y="-143.6" cocos2d_x="7.25" cocos2d_y="-143.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="7.25" y="-143.6" cocos2d_x="7.25" cocos2d_y="-143.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="7.25" y="-143.6" cocos2d_x="7.25" cocos2d_y="-143.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="YuJin_e" width="2048" height="2048">
+  <SubTexture name="YuJinE-Tween 7" width="274" height="365" cocos2d_pX="136.5" cocos2d_pY="182.3" x="1380" y="0"/>
+  <SubTexture name="YuJinE-Tween 6" width="274" height="365" cocos2d_pX="136.5" cocos2d_pY="182.3" x="552" y="0"/>
+  <SubTexture name="YuJinE-Tween 5" width="274" height="365" cocos2d_pX="136.5" cocos2d_pY="182.3" x="1656" y="0"/>
+  <SubTexture name="YuJinE-Tween 4" width="274" height="365" cocos2d_pX="136.5" cocos2d_pY="182.3" x="0" y="0"/>
+  <SubTexture name="YuJinE-Tween 3" width="274" height="365" cocos2d_pX="136.5" cocos2d_pY="182.3" x="276" y="0"/>
+  <SubTexture name="YuJinE-Tween 2" width="274" height="365" cocos2d_pX="136.5" cocos2d_pY="182.3" x="828" y="0"/>
+  <SubTexture name="YuJinE-Tween 1" width="274" height="365" cocos2d_pX="136.5" cocos2d_pY="182.3" x="1104" y="0"/>
+  <SubTexture name="YuJinE-补间 10" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="1026" y="663"/>
+  <SubTexture name="YuJinE-补间 9" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="342" y="959"/>
+  <SubTexture name="YuJinE-补间 8" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="0" y="593"/>
+  <SubTexture name="YuJinE-补间 7" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="472" y="367"/>
+  <SubTexture name="YuJinE-补间 6" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="684" y="663"/>
+  <SubTexture name="YuJinE-补间 5" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="1368" y="663"/>
+  <SubTexture name="YuJinE-补间 4" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="0" y="889"/>
+  <SubTexture name="YuJinE-补间 3" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="1090" y="367"/>
+  <SubTexture name="YuJinE-补间 2" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="1432" y="367"/>
+  <SubTexture name="YuJinE-补间 1" width="340" height="294" cocos2d_pX="169.7" cocos2d_pY="146.8" x="342" y="663"/>
+  <SubTexture name="YuJinE-补间 12" width="234" height="224" cocos2d_pX="117" cocos2d_pY="112" x="0" y="367"/>
+  <SubTexture name="YuJinE-补间 11" width="234" height="224" cocos2d_pX="117" cocos2d_pY="112" x="236" y="367"/>
+  <SubTexture name="YuJinE-补间 14" width="136" height="88" cocos2d_pX="67.6" cocos2d_pY="44" x="952" y="367"/>
+  <SubTexture name="YuJinE-补间 13" width="136" height="88" cocos2d_pX="67.6" cocos2d_pY="44" x="814" y="367"/>
+ </TextureAtlas>
+</skeleton>

@@ -1,0 +1,26 @@
+id,副本描述,难度,体力消耗,开放等级,开放日期,战斗配表,战斗阶段,战斗场景1,战斗场景2,战斗场景3,武将经验,单位道具奖励
+,,,,,,,,,,,,item表id=数量
+11,群雄试炼,简单,3,44,1 6,csv/scene/special/1111.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,64,6021=2=100=2 6025=2=100=1 6021=2=50=0 6025=2=50=0 6029=2=50=0 6033=2=50=0
+12,群雄试炼,普通,3,60,1 6,csv/scene/special/1112.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,112,6051=2=100=2 6055=2=100=1 6051=2=50=0 6055=2=50=0 6059=2=50=0 6063=2=50=0
+13,群雄试炼,困难,3,75,1 6,csv/scene/special/1113.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,300,6101=2=100=2 6105=2=100=1 6101=2=50=0 6105=2=50=0 6109=2=50=0 6113=2=50=0
+14,群雄试炼,地狱,3,90,1 6,csv/scene/special/1114.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,618,6151=2=100=2 6155=2=100=1 6151=2=50=0 6155=2=50=0 6159=2=50=0 6163=2=50=0
+,,,,,,,,,,,,
+21,魏の试炼,简单,3,44,2 7,csv/scene/special/1121.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,64,6022=2=100=2 6026=2=100=1 6022=2=50=0 6026=2=50=0 6030=2=50=0 6034=2=50=0
+22,魏の试炼,普通,3,60,2 7,csv/scene/special/1122.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,112,6052=2=100=2 6056=2=100=1 6052=2=50=0 6056=2=50=0 6060=2=50=0 6064=2=50=0
+23,魏の试炼,困难,3,75,2 7,csv/scene/special/1123.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,300,6102=2=100=2 6106=2=100=1 6102=2=50=0 6106=2=50=0 6110=2=50=0 6114=2=50=0
+24,魏の试炼,地狱,3,90,2 7,csv/scene/special/1124.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,618,6152=2=100=2 6156=2=100=1 6152=2=50=0 6156=2=50=0 6160=2=50=0 6164=2=50=0
+,,,,,,,,,,,,
+31,蜀の试炼,简单,3,44,3 6,csv/scene/special/1131.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,64,6023=2=100=2 6027=2=100=1 6023=2=50=0 6027=2=50=0 6031=2=50=0 6035=2=50=0
+32,蜀の试炼,普通,3,60,3 6,csv/scene/special/1132.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,112,6053=2=100=2 6057=2=100=1 6053=2=50=0 6057=2=50=0 6061=2=50=0 6065=2=50=0
+33,蜀の试炼,困难,3,75,3 6,csv/scene/special/1133.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,300,6103=2=100=2 6107=2=100=1 6103=2=50=0 6107=2=50=0 6111=2=50=0 6115=2=50=0
+34,蜀の试炼,地狱,3,90,3 6,csv/scene/special/1134.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,618,6153=2=100=2 6157=2=100=1 6153=2=50=0 6157=2=50=0 6161=2=50=0 6165=2=50=0
+,,,,,,,,,,,,
+41,吴の试炼,简单,3,44,4 7,csv/scene/special/1141.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,64,6024=2=100=2 6028=2=100=1 6024=2=50=0 6028=2=50=0 6032=2=50=0 6036=2=50=0
+42,吴の试炼,普通,3,60,4 7,csv/scene/special/1142.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,112,6054=2=100=2 6058=2=100=1 6054=2=50=0 6058=2=50=0 6062=2=50=0 6066=2=50=0
+43,吴の试炼,困难,3,75,4 7,csv/scene/special/1143.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,300,6104=2=100=2 6108=2=100=1 6104=2=50=0 6108=2=50=0 6112=2=50=0 6116=2=50=0
+44,吴の试炼,地狱,3,90,4 7,csv/scene/special/1144.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,618,6154=2=100=2 6158=2=100=1 6154=2=50=0 6158=2=50=0 6162=2=50=0 6166=2=50=0
+,,,,,,,,,,,,
+51,女王试炼,简单,3,44,5 7,csv/scene/special/1151.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,64,31=5=100=1 31=5=50=1
+52,女王试炼,普通,3,60,5 7,csv/scene/special/1152.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,112,32=5=100=1 32=5=50=1
+53,女王试炼,困难,3,75,5 7,csv/scene/special/1153.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,300,33=5=100=1 33=5=50=1
+54,女王试炼,地狱,3,90,5 7,csv/scene/special/1154.csv,3,resource/bg/ShuLin_1.jpg,resource/bg/ShuLin_2.jpg,resource/bg/ShuLin_3.jpg,618,34=5=100=1 34=5=50=1

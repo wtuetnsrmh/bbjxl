@@ -1,0 +1,11 @@
+副本id,开放日期,武将id,武将名,难度,武将等级,小兵等级,游戏币奖励,碎片掉落,碎片掉落名称,权值,场景背景,场景id,场景背景2,场景id2,场景背景3,场景id3
+,,,,,,,,,,,,,,,,
+,和雷电时做的那个活动时间一个逻辑。时间范围内，一切生效；时间范围外，一切不生效。如果写了ID，没写开放日期，则永久生效,unit表里的武将id,武将名，策划自己看,面板显示,等级=权值，该武将在战斗中相对玩家的等级,除了武将外，所有小兵的等级,奖励值+等级*星级,碎片id=百分比概率，每个碎片单独判断,策划看,服务器默认生成，或玩家手动刷新时候，出现供玩家挑战的武将，用这个权值计算（得前面id生效、开放日期生效才行）。,,,,,,
+,,,,,,,,,,,,,,,,
+1,2014/02/01-2015/02/01,13,曹操,普通,5=100 2=100 0=100,5=100 2=100 0=100,240,2013=100,,200,resource/bg/JunYingWai_1.jpg,csv/scene/legend/3002.csv,resource/bg/JunYingWai_2.jpg,csv/scene/legend/3012.csv,resource/bg/JunYingWai_3.jpg,csv/scene/legend/3022.csv
+2,2014/02/01-2015/02/01,19,刘备,普通,5=100 2=100 0=100,5=100 2=100 0=100,240,2019=100,,200,resource/bg/HuLaoGuan_1.jpg,csv/scene/legend/3003.csv,resource/bg/HuLaoGuan_2.jpg,csv/scene/legend/3013.csv,resource/bg/HuLaoGuan_3.jpg,csv/scene/legend/3023.csv
+3,2014/02/01-2015/02/01,5,孙权,普通,5=100 2=100 0=100,5=100 2=100 0=100,240,2005=100,,200,resource/bg/ShanGu_1.jpg,csv/scene/legend/3001.csv,resource/bg/ShanGu_3.jpg,csv/scene/legend/3011.csv,resource/bg/ShanGu_3.jpg,csv/scene/legend/3021.csv
+,,,,,,,,,,,,,,,,
+,2014/02/01-2015/02/01,22,华佗,普通,5=100 2=100 0=100,5=100 2=100 0=100,240,2022=100 ,,200,resource/bg/ChengQiang_1.jpg,csv/scene/legend/3004.csv,,,,
+,2014/02/01-2015/02/01,36,王元姬,普通,5=100 2=100 0=100,5=100 2=100 0=100,240,2036=100,,400,resource/bg/JunYingWai_1.jpg,csv/scene/legend/3005.csv,,,,
+,2014/02/01-2015/02/01,71,周泰,普通,5=100 2=100 0=100,5=100 2=100 0=100,240,2071=100,,400,resource/bg/ShanGu_1.jpg,csv/scene/legend/3006.csv,,,,

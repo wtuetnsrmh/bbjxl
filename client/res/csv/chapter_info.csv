@@ -1,0 +1,24 @@
+地图ID,地图类型,地图名,地图描述,副本个数,开启等级,地图
+,,,,,,
+,1=普通副本 2=精英副本 3=传奇副本（武将专属的传记副本） 4=活动副本（经验副本、金钱副本等）,,,地图中副本的个数,开启地图所需要达到的玩家等级,底图列表所调用的资源
+,,,,,,
+101,1,第一章  黄巾之乱,,5,1,resource/map/passBgType5.png
+102,1,第二章  乱世英杰,,10,5,resource/map/passBgType10.png
+103,1,第三章  联军讨董·上,,10,8,resource/map/passBgType10.png
+104,1,第四章  联军讨董·下,,10,11,resource/map/passBgType10.png
+105,1,第五章  群雄之乱,,10,16,resource/map/passBgType10.png
+106,1,第六章  曹操崛起,,10,21,resource/map/passBgType10.png
+107,1,第七章  吕布陨落,,10,31,resource/map/passBgType10.png
+108,1,第八章  平定江东,,10,36,resource/map/passBgType10.png
+109,1,第九章  决战前夕,,10,41,resource/map/passBgType10.png
+110,1,第十章  官渡之战·上,,10,46,resource/map/passBgType10.png
+111,1,第十一章  官渡之战·下,,10,51,resource/map/passBgType10.png
+112,1,第十二章  卧龙出山,,10,56,resource/map/passBgType10.png
+113,1,第十三章  稳固江东,,10,61,resource/map/passBgType10.png
+114,1,第十四章  卧龙扬名·上,,10,66,resource/map/passBgType10.png
+115,1,第十五章  卧龙扬名·下,,10,71,resource/map/passBgType10.png
+116,1,第十六章  连环计,,10,76,resource/map/passBgType10.png
+117,1,第十七章  借东风,,10,81,resource/map/passBgType10.png
+118,1,第十八章  火烧赤壁·上,,10,86,resource/map/passBgType10.png
+119,1,第十九章  火烧赤壁·下,,10,91,resource/map/passBgType10.png
+120,1,第二十章  华容道,,10,96,resource/map/passBgType10.png

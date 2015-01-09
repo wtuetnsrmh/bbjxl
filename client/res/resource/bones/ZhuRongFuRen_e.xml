@@ -1,0 +1,173 @@
+<skeleton name="ZhuRongFuRen_e" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="ZhuRongFuRen_e">
+   <b name="图层 2" x="40.95" y="-113.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zrfrze-Tween 32" pX="53.75" pY="53.8"/>
+    <d name="zrfrze-Tween 33" pX="53.75" pY="53.8"/>
+    <d name="zrfrze-Tween 34" pX="53.75" pY="53.8"/>
+    <d name="zrfrze-Tween 35" pX="53.75" pY="53.8"/>
+    <d name="zrfrze-Tween 30" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 31" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 26" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 27" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 28" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 29" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 22" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 23" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 24" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 25" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 14" pX="43.6" pY="43.6"/>
+    <d name="zrfrze-Tween 15" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 16" pX="43.6" pY="43.6"/>
+    <d name="zrfrze-Tween 17" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 18" pX="43.6" pY="43.6"/>
+    <d name="zrfrze-Tween 19" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 20" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 21" pX="53.8" pY="53.8"/>
+   </b>
+   <b name="图层 20" x="-59.35" y="-66.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+    <d name="zrfrze-Tween 6" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 7" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 8" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 9" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 10" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 11" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 12" pX="53.8" pY="53.8"/>
+    <d name="zrfrze-Tween 13" pX="53.8" pY="53.8"/>
+   </b>
+   <b name="Layer 4" x="10.05" y="-173.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zrfrze-Tween 1" pX="189.9" pY="246.65"/>
+    <d name="zrfrze-Tween 2" pX="189.9" pY="246.65"/>
+    <d name="zrfrze-Tween 3" pX="189.9" pY="246.65"/>
+    <d name="zrfrze-Tween 4" pX="189.9" pY="246.65"/>
+    <d name="zrfrze-Tween 5" pX="189.9" pY="246.65"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ZhuRongFuRen_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="damaged" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+    <f st="0" dr="14"/>
+    <f st="14" dr="1"/>
+   </mov>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="6" dI="-1"/>
+     <f x="40.95" y="-113.85" cocos2d_x="40.95" cocos2d_y="-113.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="40.95" y="-113.85" cocos2d_x="40.95" cocos2d_y="-113.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="40.95" y="-113.85" cocos2d_x="40.95" cocos2d_y="-113.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="40.95" y="-113.85" cocos2d_x="40.95" cocos2d_y="-113.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="-21.9" y="-103.2" cocos2d_x="-21.9" cocos2d_y="-103.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="-45.05" y="-47.25" cocos2d_x="-45.05" cocos2d_y="-47.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f dr="12" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="6" dI="-1"/>
+     <f x="-95.65" y="-54.4" cocos2d_x="-95.65" cocos2d_y="-54.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="-121.55" y="-69.35" cocos2d_x="-121.55" cocos2d_y="-69.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="-103" y="-91.2" cocos2d_x="-103" cocos2d_y="-91.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+     <f x="-91.55" y="-99.4" cocos2d_x="-91.55" cocos2d_y="-99.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="-82.65" y="-114.65" cocos2d_x="-82.65" cocos2d_y="-114.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f x="-77.45" y="-125.25" cocos2d_x="-77.45" cocos2d_y="-125.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="1"/>
+     <f x="-68.95" y="-134.25" cocos2d_x="-68.95" cocos2d_y="-134.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="1"/>
+     <f x="-56.7" y="-120.5" cocos2d_x="-56.7" cocos2d_y="-120.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="13" dr="1"/>
+     <f dr="10" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="-77" y="-87.75" cocos2d_x="-77" cocos2d_y="-87.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="14" dr="2"/>
+     <f x="-121.65" y="-205.8" cocos2d_x="-121.65" cocos2d_y="-205.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="15" dr="2"/>
+     <f x="-118.6" y="-227.05" cocos2d_x="-118.6" cocos2d_y="-227.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="16" dr="2"/>
+     <f x="-111.05" y="-231.95" cocos2d_x="-111.05" cocos2d_y="-231.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="17" dr="2"/>
+     <f x="-112.65" y="-235.6" cocos2d_x="-112.65" cocos2d_y="-235.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="18" dr="2"/>
+     <f x="-110.25" y="-234.35" cocos2d_x="-110.25" cocos2d_y="-234.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="19" dr="2"/>
+     <f x="-109.65" y="-237.65" cocos2d_x="-109.65" cocos2d_y="-237.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="20" dr="2"/>
+     <f x="-60.9" y="-227.85" cocos2d_x="-60.9" cocos2d_y="-227.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="21" dr="2"/>
+     <f dr="16" dI="-1"/>
+    </b>
+    <b name="图层 20" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="-59.35" y="-66.05" cocos2d_x="-59.35" cocos2d_y="-66.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="2"/>
+     <f x="-97.15" y="-173.9" cocos2d_x="-97.15" cocos2d_y="-173.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" dr="2"/>
+     <f x="-98.6" y="-189.45" cocos2d_x="-98.6" cocos2d_y="-189.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="2"/>
+     <f x="-96.35" y="-188.6" cocos2d_x="-96.35" cocos2d_y="-188.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="3" dr="2"/>
+     <f x="-95.35" y="-195.95" cocos2d_x="-95.35" cocos2d_y="-195.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="4" dr="2"/>
+     <f x="-93.9" y="-187.8" cocos2d_x="-93.9" cocos2d_y="-187.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="5" dr="2"/>
+     <f x="-95.35" y="-195.95" cocos2d_x="-95.35" cocos2d_y="-195.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="6" dr="2"/>
+     <f x="-50.35" y="-191.9" cocos2d_x="-50.35" cocos2d_y="-191.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="7" dr="2"/>
+     <f dr="16" dI="-1"/>
+    </b>
+    <f st="0" dr="35"/>
+    <f st="35" dr="1"/>
+   </mov>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+   <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Layer 4" sc="1" dl="0">
+     <f dr="6" dI="-1"/>
+     <f x="10.05" y="-173.4" cocos2d_x="10.05" cocos2d_y="-173.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="10.05" y="-173.4" cocos2d_x="10.05" cocos2d_y="-173.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="10.05" y="-173.4" cocos2d_x="10.05" cocos2d_y="-173.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="10.05" y="-173.4" cocos2d_x="10.05" cocos2d_y="-173.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="10.05" y="-173.4" cocos2d_x="10.05" cocos2d_y="-173.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f dr="8" dI="-1"/>
+    </b>
+    <f st="0" dr="23"/>
+    <f st="23" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ZhuRongFuRen_e" width="2048" height="1024">
+  <SubTexture name="zrfrze-Tween 5" width="380" height="494" cocos2d_pX="189.9" cocos2d_pY="246.65" x="1528" y="0"/>
+  <SubTexture name="zrfrze-Tween 4" width="380" height="494" cocos2d_pX="189.9" cocos2d_pY="246.65" x="1146" y="0"/>
+  <SubTexture name="zrfrze-Tween 3" width="380" height="494" cocos2d_pX="189.9" cocos2d_pY="246.65" x="0" y="0"/>
+  <SubTexture name="zrfrze-Tween 2" width="380" height="494" cocos2d_pX="189.9" cocos2d_pY="246.65" x="382" y="0"/>
+  <SubTexture name="zrfrze-Tween 1" width="380" height="494" cocos2d_pX="189.9" cocos2d_pY="246.65" x="764" y="0"/>
+  <SubTexture name="zrfrze-Tween 13" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1740" y="496"/>
+  <SubTexture name="zrfrze-Tween 12" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1910" y="330"/>
+  <SubTexture name="zrfrze-Tween 11" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="330" y="606"/>
+  <SubTexture name="zrfrze-Tween 10" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1910" y="440"/>
+  <SubTexture name="zrfrze-Tween 9" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1300" y="496"/>
+  <SubTexture name="zrfrze-Tween 8" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="110" y="496"/>
+  <SubTexture name="zrfrze-Tween 7" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="0" y="606"/>
+  <SubTexture name="zrfrze-Tween 6" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="330" y="496"/>
+  <SubTexture name="zrfrze-Tween 21" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1520" y="496"/>
+  <SubTexture name="zrfrze-Tween 20" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="550" y="496"/>
+  <SubTexture name="zrfrze-Tween 19" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="440" y="606"/>
+  <SubTexture name="zrfrze-Tween 18" width="88" height="88" cocos2d_pX="43.6" cocos2d_pY="43.6" x="660" y="586"/>
+  <SubTexture name="zrfrze-Tween 17" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1910" y="0"/>
+  <SubTexture name="zrfrze-Tween 16" width="88" height="88" cocos2d_pX="43.6" cocos2d_pY="43.6" x="550" y="606"/>
+  <SubTexture name="zrfrze-Tween 15" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1910" y="110"/>
+  <SubTexture name="zrfrze-Tween 14" width="88" height="88" cocos2d_pX="43.6" cocos2d_pY="43.6" x="660" y="496"/>
+  <SubTexture name="zrfrze-Tween 25" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="0" y="496"/>
+  <SubTexture name="zrfrze-Tween 24" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="220" y="496"/>
+  <SubTexture name="zrfrze-Tween 23" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="440" y="496"/>
+  <SubTexture name="zrfrze-Tween 22" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="750" y="496"/>
+  <SubTexture name="zrfrze-Tween 29" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="970" y="496"/>
+  <SubTexture name="zrfrze-Tween 28" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1190" y="496"/>
+  <SubTexture name="zrfrze-Tween 27" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1410" y="496"/>
+  <SubTexture name="zrfrze-Tween 26" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1630" y="496"/>
+  <SubTexture name="zrfrze-Tween 31" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="1850" y="550"/>
+  <SubTexture name="zrfrze-Tween 30" width="108" height="108" cocos2d_pX="53.8" cocos2d_pY="53.8" x="110" y="606"/>
+  <SubTexture name="zrfrze-Tween 35" width="108" height="108" cocos2d_pX="53.75" cocos2d_pY="53.8" x="220" y="606"/>
+  <SubTexture name="zrfrze-Tween 34" width="108" height="108" cocos2d_pX="53.75" cocos2d_pY="53.8" x="1910" y="220"/>
+  <SubTexture name="zrfrze-Tween 33" width="108" height="108" cocos2d_pX="53.75" cocos2d_pY="53.8" x="1080" y="496"/>
+  <SubTexture name="zrfrze-Tween 32" width="108" height="108" cocos2d_pX="53.75" cocos2d_pY="53.8" x="860" y="496"/>
+ </TextureAtlas>
+</skeleton>

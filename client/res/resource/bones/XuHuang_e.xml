@@ -1,0 +1,163 @@
+<skeleton name="XuHuang_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="XuHuang_e">
+      <b name="图层 2" x="-116.9" y="-127.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xuhuangE-Tween 17" pX="171.4" pY="169"/>
+        <d name="xuhuangE-Tween 18" pX="171.4" pY="169"/>
+        <d name="xuhuangE-Tween 19" pX="171.4" pY="169"/>
+        <d name="xuhuangE-Tween 20" pX="171.4" pY="169"/>
+        <d name="xuhuangE-Tween 21" pX="171.4" pY="169"/>
+      </b>
+      <b name="图层 3" x="-84.4" y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xuhuangE-Tween 12" pX="202.6" pY="164.9"/>
+        <d name="xuhuangE-Tween 13" pX="202.6" pY="164.9"/>
+        <d name="xuhuangE-Tween 14" pX="202.6" pY="164.9"/>
+        <d name="xuhuangE-Tween 15" pX="202.6" pY="164.9"/>
+        <d name="xuhuangE-Tween 16" pX="202.6" pY="164.9"/>
+      </b>
+      <b name="Layer 2" x="13" y="-131.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xuhuangE-Tween 22" pX="205" pY="167"/>
+        <d name="xuhuangE-Tween 23" pX="205" pY="167"/>
+        <d name="xuhuangE-Tween 24" pX="205" pY="167"/>
+        <d name="xuhuangE-Tween 25" pX="205" pY="167"/>
+        <d name="xuhuangE-Tween 26" pX="205" pY="167"/>
+        <d name="xuhuangE-Tween 27" pX="205" pY="167"/>
+      </b>
+      <b name="图层 4" x="-113.7" y="-41.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xuhuangE-Tween 7" pX="159.7" pY="90.1"/>
+        <d name="xuhuangE-Tween 8" pX="159.7" pY="90.05"/>
+        <d name="xuhuangE-Tween 9" pX="159.7" pY="90.05"/>
+        <d name="xuhuangE-Tween 10" pX="159.7" pY="90.05"/>
+        <d name="xuhuangE-Tween 11" pX="159.7" pY="90.05"/>
+      </b>
+      <b name="图层 5" x="-20.3" y="-117" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xuhuangE-Tween 1" pX="96.5" pY="148.3"/>
+        <d name="xuhuangE-Tween 2" pX="96.5" pY="148.3"/>
+        <d name="xuhuangE-Tween 3" pX="96.5" pY="148.3"/>
+        <d name="xuhuangE-Tween 4" pX="96.5" pY="148.3"/>
+        <d name="xuhuangE-Tween 5" pX="96.5" pY="148.3"/>
+        <d name="xuhuangE-Tween 6" pX="96.5" pY="148.3"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="XuHuang_e">
+      <mov name="idle" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="move" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="13" dI="-1"/>
+          <f x="-116.9" y="-127.75" cocos2d_x="-116.9" cocos2d_y="-127.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-116.9" y="-127.75" cocos2d_x="-116.9" cocos2d_y="-127.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-116.9" y="-127.75" cocos2d_x="-116.9" cocos2d_y="-127.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-116.9" y="-127.75" cocos2d_x="-116.9" cocos2d_y="-127.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-116.9" y="-127.75" cocos2d_x="-116.9" cocos2d_y="-127.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f dr="1" dI="-1"/>
+        </b>
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="13" dI="-1"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f dr="1" dI="-1"/>
+        </b>
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+      <mov name="skill" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="21" dI="-1"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-84.4" y="-143.1" cocos2d_x="-84.4" cocos2d_y="-143.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f dr="5" dI="-1"/>
+        </b>
+        <b name="Layer 2" sc="1" dl="0">
+          <f dr="9" dI="-1"/>
+          <f x="13" y="-131.95" cocos2d_x="13" cocos2d_y="-131.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="13" y="-131.95" cocos2d_x="13" cocos2d_y="-131.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="13" y="-131.95" cocos2d_x="13" cocos2d_y="-131.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="13" y="-131.95" cocos2d_x="13" cocos2d_y="-131.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="13" y="-131.95" cocos2d_x="13" cocos2d_y="-131.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="13" y="-131.95" cocos2d_x="13" cocos2d_y="-131.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f dr="15" dI="-1"/>
+        </b>
+        <f st="0" dr="35"/>
+        <f st="35" dr="1"/>
+      </mov>
+      <mov name="damaged" dr="12" to="0" drTW="12" lp="0" twE="NaN"/>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="8" dI="-1"/>
+          <f x="-113.7" y="-41.55" cocos2d_x="-113.7" cocos2d_y="-41.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-113.5" y="-41.55" cocos2d_x="-113.5" cocos2d_y="-41.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-113.5" y="-41.55" cocos2d_x="-113.5" cocos2d_y="-41.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-113.5" y="-41.55" cocos2d_x="-113.5" cocos2d_y="-41.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-113.7" y="-41.6" cocos2d_x="-113.7" cocos2d_y="-41.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f dr="6" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack4" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="5" dI="-1"/>
+          <f x="-20.3" y="-117" cocos2d_x="-20.3" cocos2d_y="-117" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-20.3" y="-117" cocos2d_x="-20.3" cocos2d_y="-117" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-20.3" y="-117" cocos2d_x="-20.3" cocos2d_y="-117" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-20.3" y="-117" cocos2d_x="-20.3" cocos2d_y="-117" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-20.3" y="-117" cocos2d_x="-20.3" cocos2d_y="-117" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-20.3" y="-117" cocos2d_x="-20.3" cocos2d_y="-117" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+        <f st="0" dr="23"/>
+        <f st="23" dr="1"/>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="XuHuang_e" width="2048" height="2048">
+    <SubTexture name="xuhuangE-Tween 6" width="193" height="297" cocos2d_pX="96.5" cocos2d_pY="148.3" x="1552" y="1195"/>
+    <SubTexture name="xuhuangE-Tween 5" width="193" height="297" cocos2d_pX="96.5" cocos2d_pY="148.3" x="1035" y="1000"/>
+    <SubTexture name="xuhuangE-Tween 4" width="193" height="297" cocos2d_pX="96.5" cocos2d_pY="148.3" x="1747" y="1195"/>
+    <SubTexture name="xuhuangE-Tween 3" width="193" height="297" cocos2d_pX="96.5" cocos2d_pY="148.3" x="390" y="1195"/>
+    <SubTexture name="xuhuangE-Tween 2" width="193" height="297" cocos2d_pX="96.5" cocos2d_pY="148.3" x="195" y="1195"/>
+    <SubTexture name="xuhuangE-Tween 1" width="193" height="297" cocos2d_pX="96.5" cocos2d_pY="148.3" x="0" y="1195"/>
+    <SubTexture name="xuhuangE-Tween 11" width="320" height="181" cocos2d_pX="159.7" cocos2d_pY="90.05" x="0" y="1012"/>
+    <SubTexture name="xuhuangE-Tween 10" width="320" height="181" cocos2d_pX="159.7" cocos2d_pY="90.05" x="1230" y="1183"/>
+    <SubTexture name="xuhuangE-Tween 9" width="320" height="181" cocos2d_pX="159.7" cocos2d_pY="90.05" x="1552" y="1012"/>
+    <SubTexture name="xuhuangE-Tween 8" width="320" height="181" cocos2d_pX="159.7" cocos2d_pY="90.05" x="1230" y="1000"/>
+    <SubTexture name="xuhuangE-Tween 7" width="320" height="181" cocos2d_pX="159.7" cocos2d_pY="90.1" x="322" y="1012"/>
+    <SubTexture name="xuhuangE-Tween 27" width="410" height="334" cocos2d_pX="205" cocos2d_pY="167" x="824" y="0"/>
+    <SubTexture name="xuhuangE-Tween 26" width="410" height="334" cocos2d_pX="205" cocos2d_pY="167" x="1236" y="0"/>
+    <SubTexture name="xuhuangE-Tween 25" width="410" height="334" cocos2d_pX="205" cocos2d_pY="167" x="0" y="0"/>
+    <SubTexture name="xuhuangE-Tween 24" width="410" height="334" cocos2d_pX="205" cocos2d_pY="167" x="412" y="0"/>
+    <SubTexture name="xuhuangE-Tween 23" width="410" height="334" cocos2d_pX="205" cocos2d_pY="167" x="0" y="336"/>
+    <SubTexture name="xuhuangE-Tween 22" width="410" height="334" cocos2d_pX="205" cocos2d_pY="167" x="412" y="336"/>
+    <SubTexture name="xuhuangE-Tween 16" width="406" height="330" cocos2d_pX="202.6" cocos2d_pY="164.9" x="1232" y="668"/>
+    <SubTexture name="xuhuangE-Tween 15" width="406" height="330" cocos2d_pX="202.6" cocos2d_pY="164.9" x="824" y="336"/>
+    <SubTexture name="xuhuangE-Tween 14" width="406" height="330" cocos2d_pX="202.6" cocos2d_pY="164.9" x="1232" y="336"/>
+    <SubTexture name="xuhuangE-Tween 13" width="406" height="330" cocos2d_pX="202.6" cocos2d_pY="164.9" x="1640" y="340"/>
+    <SubTexture name="xuhuangE-Tween 12" width="406" height="330" cocos2d_pX="202.6" cocos2d_pY="164.9" x="824" y="668"/>
+    <SubTexture name="xuhuangE-Tween 21" width="343" height="338" cocos2d_pX="171.4" cocos2d_pY="169" x="0" y="672"/>
+    <SubTexture name="xuhuangE-Tween 20" width="343" height="338" cocos2d_pX="171.4" cocos2d_pY="169" x="690" y="1000"/>
+    <SubTexture name="xuhuangE-Tween 19" width="343" height="338" cocos2d_pX="171.4" cocos2d_pY="169" x="345" y="672"/>
+    <SubTexture name="xuhuangE-Tween 18" width="343" height="338" cocos2d_pX="171.4" cocos2d_pY="169" x="1640" y="672"/>
+    <SubTexture name="xuhuangE-Tween 17" width="343" height="338" cocos2d_pX="171.4" cocos2d_pY="169" x="1648" y="0"/>
+  </TextureAtlas>
+</skeleton>

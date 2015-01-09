@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>gongsunzan_attack2_01.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{1,1}}</string>
+                <key>offset</key>
+                <string>{-130,97}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{1,1}}</string>
+                <key>sourceSize</key>
+                <string>{261,195}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>gongsunzan_attack2.pvr.ccz</string>
+            <key>size</key>
+            <string>{3,3}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:72ae31f249005f46f241529f4839435a:70f9f854fb0e700d6562d6dbcb8c7736:629962756d4eaed84c686c3d3289b6e5$</string>
+            <key>textureFileName</key>
+            <string>gongsunzan_attack2.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

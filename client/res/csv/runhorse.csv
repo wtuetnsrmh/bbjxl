@@ -1,0 +1,11 @@
+类型,条件参数,描述
+1=等级 2=竞技场 3=美人 4=关卡 5=获得武将 6=升星 7=进化 8=VIP ,,
+,,
+1,40=50=60=70=80=90=100,[color=ffffda22]%s[/color]等级达到[color=ff15f0e3]%s[/color]级，势不可挡！  
+2,1,[color=ffffda22]%s[/color]在战场击败了[color=ffffda22]%s[/color]勇夺第一，谁与争锋！
+3,1=2=3=4,[color=ffffda22]%s[/color]拿下了美人[color=ff15f0e3]%s[/color]，真是艳福不浅啊！
+4,10610=10710=10810=10910=11010=11110=11210=11310=11410=11510=20605=20705=20805=20905=21005=21105=21205=21305=21405=21505,[color=ffffda22]%s[/color]一路披荆斩棘，攻下了%s副本[color=ff15f0e3]%s[/color]!
+5,3,[color=ffffda22]%s[/color]将[color=ff15f0e3]%s[/color]纳入账下，声势大振！   
+6,3=4=5,[color=ffffda22]%s[/color]将[color=ff15f0e3]%s[/color]升至[color=ff15f0e3]%s[/color]星，势如破竹！ 
+7,6=7=8=9=10=11 ,[color=ffffda22]%s[/color]将[color=ff15f0e3]%s[/color]进化至%s，感觉整个人都快无敌了！  
+8,1=2=3=4=5=6=7=8=9=10=11=12=13=14=15 ,[color=ffffda22]%s[/color]将VIP等级提升至[color=ff15f0e3]%s[/color]，任性了一把！ 

@@ -1,0 +1,14 @@
+﻿[color=ff422820]【战场最好排名晋升奖励】————[/color]
+[color=ff422820]亲爱的主公：[/color]
+
+[color=ff422820]见信好！[/color]
+
+[color=ff422820]您刚刚完美的表现又一次刷新了您在战场的最好成绩！[/color]
+
+[color=ff422820]现在您的最高排名是%s，比之前提升了%s名，战场联盟快递给您如下奖励，请在附件中签收：[/color]
+[color=ff422820]    [image=resource/ui_rc/global/yuanbao.png][/image]x %s  [/color]
+
+[color=ff422820]乱舞与你们同在！[/color]
+
+
+[color=ff422820]【三国之乱舞】运营团队[/color]

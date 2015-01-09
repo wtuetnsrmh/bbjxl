@@ -1,0 +1,41 @@
+[size=24][color=ff422820]当前排名可获得：[/color][/size]
+[size=24][color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x %d [image=resource/ui_rc/global/yuanbao.png][/image] x %d [image=resource/ui_rc/pvp/zhangong.png][/image] x %d [/color][/size]
+
+[size=24][color=ff422820]战功可以在战功商店中兑换极品武将碎片和道具[/color][/size]
+[size=24][color=ff422820]排名越高，获得的战功也就越多[/color][/size]
+
+[size=24][color=ff422820]第 1 名： 大将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 50000 [image=resource/ui_rc/global/yuanbao.png][/image] x 200 [image=resource/ui_rc/pvp/zhangong.png][/image] x 8000 [/color][/color][/size]
+
+[size=24][color=ff422820]第 2 名： 骠骑将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 40000 [image=resource/ui_rc/global/yuanbao.png][/image] x 180 [image=resource/ui_rc/pvp/zhangong.png][/image] x 7000 [/color][/color][/size]
+
+[size=24][color=ff422820]第 3 名： 车骑将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 30000 [image=resource/ui_rc/global/yuanbao.png][/image] x 150 [image=resource/ui_rc/pvp/zhangong.png][/image] x 6000 [/color][/color][/size]
+
+[size=24][color=ff422820]第 4~10 名：卫将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 25000 [image=resource/ui_rc/global/yuanbao.png][/image] x 120 [image=resource/ui_rc/pvp/zhangong.png][/image] x 5500 [/color][/color][/size]
+
+[size=24][color=ff422820]第 11~20 名：征东将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 20000 [image=resource/ui_rc/global/yuanbao.png][/image] x 100 [image=resource/ui_rc/pvp/zhangong.png][/image] x 5000 [/color][/color][/size]
+
+[size=24][color=ff422820]第 21~50 名： 征南将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 15000 [image=resource/ui_rc/global/yuanbao.png][/image] x 80 [image=resource/ui_rc/pvp/zhangong.png][/image] x 4500 [/color][/color][/size]
+
+[size=24][color=ff422820]第 51~100 名： 征西将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 12000 [image=resource/ui_rc/global/yuanbao.png][/image] x 60 [image=resource/ui_rc/pvp/zhangong.png][/image] x 4000 [/color][/color][/size]
+
+[size=24][color=ff422820]第 101~200 名： 征北将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 10000 [image=resource/ui_rc/global/yuanbao.png][/image] x 50 [image=resource/ui_rc/pvp/zhangong.png][/image] x 3500 [/color][/color][/size]
+
+[size=24][color=ff422820]第 201~500 名： 镇东将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 8000 [image=resource/ui_rc/global/yuanbao.png][/image] x 40 [image=resource/ui_rc/pvp/zhangong.png][/image] x 3000 [/color][/color][/size]
+
+[size=24][color=ff422820]第 501~1000 名： 镇南将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 6000 [image=resource/ui_rc/global/yuanbao.png][/image] x 30 [image=resource/ui_rc/pvp/zhangong.png][/image] x 2500 [/color][/color][/size]
+
+[size=24][color=ff422820]第 1001~5000 名： 镇西将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 4000 [image=resource/ui_rc/global/yuanbao.png][/image] x 25 [image=resource/ui_rc/pvp/zhangong.png][/image] x 2000 [/color][/color][/size]
+
+[size=24][color=ff422820]第 5001 名之后： 镇北将军 [/color][/size]
+[size=24][color=ff422820]奖励  [color=ff422820][image=resource/ui_rc/global/yinbi.png][/image] x 2000 [image=resource/ui_rc/global/yuanbao.png][/image] x 20 [image=resource/ui_rc/pvp/zhangong.png][/image] x 1500 [/color][/color][/size]

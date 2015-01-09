@@ -1,0 +1,104 @@
+<skeleton name="liulangjianke_e" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="liulangjianke_e">
+      <b name="图层 2" x="-135.1" y="-117.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="liulangjianke_ess-补间 1" pX="179" pY="147"/>
+        <d name="liulangjianke_ess-补间 2" pX="179" pY="147"/>
+        <d name="liulangjianke_ess-补间 3" pX="179" pY="147"/>
+        <d name="liulangjianke_ess-补间 4" pX="179" pY="147"/>
+        <d name="liulangjianke_ess-补间 5" pX="138.5" pY="251"/>
+        <d name="liulangjianke_ess-补间 6" pX="138.5" pY="251"/>
+        <d name="liulangjianke_ess-补间 7" pX="138.5" pY="251"/>
+        <d name="liulangjianke_ess-补间 8" pX="138.5" pY="251"/>
+        <d name="liulangjianke_ess-补间 9" pX="138.5" pY="251"/>
+        <d name="liulangjianke_ess-补间 10" pX="138.5" pY="251"/>
+        <d name="liulangjianke_ess-补间 11" pX="138.5" pY="251"/>
+        <d name="liulangjianke_ess-补间 12" pX="138.5" pY="251"/>
+      </b>
+      <b name="图层 3" x="19.45" y="-43.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="liulangjianke_ess-补间 21" pX="142.85" pY="124.75"/>
+        <d name="liulangjianke_ess-补间 22" pX="148.4" pY="139.2"/>
+        <d name="liulangjianke_ess-补间 23" pX="101.7" pY="90.5"/>
+        <d name="liulangjianke_ess-补间 24" pX="86.45" pY="52.85"/>
+        <d name="liulangjianke_ess-补间 25" pX="207.15" pY="220.7"/>
+        <d name="liulangjianke_ess-补间 26" pX="270.35" pY="206.45"/>
+        <d name="liulangjianke_ess-补间 27" pX="352.9" pY="257.85"/>
+        <d name="liulangjianke_ess-补间 28" pX="399.15" pY="197.55"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="liulangjianke_e">
+      <mov name="idle" dr="24" to="6" drTW="24" lp="0" twE="NaN"/>
+      <mov name="damaged" dr="14" to="6" drTW="14" lp="0" twE="NaN">
+        <f st="0" dr="13"/>
+        <f st="13" dr="1"/>
+      </mov>
+      <mov name="move" dr="24" to="6" drTW="24" lp="0" twE="NaN"/>
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="10" dI="-1"/>
+          <f x="-135.1" y="-117.05" cocos2d_x="-135.1" cocos2d_y="-117.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-135.1" y="-117.05" cocos2d_x="-135.1" cocos2d_y="-117.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-135.1" y="-117.05" cocos2d_x="-135.1" cocos2d_y="-117.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-135.1" y="-117.05" cocos2d_x="-135.1" cocos2d_y="-117.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f dr="6" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="-12.8" y="-204.8" cocos2d_x="-12.8" cocos2d_y="-204.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-12.8" y="-204.8" cocos2d_x="-12.8" cocos2d_y="-204.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-12.8" y="-208.8" cocos2d_x="-12.8" cocos2d_y="-208.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="-12.8" y="-208.8" cocos2d_x="-12.8" cocos2d_y="-208.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f x="-12.8" y="-208.8" cocos2d_x="-12.8" cocos2d_y="-208.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f x="-12.8" y="-208.8" cocos2d_x="-12.8" cocos2d_y="-208.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+          <f x="-12.8" y="-208.8" cocos2d_x="-12.8" cocos2d_y="-208.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f x="-12.8" y="-208.8" cocos2d_x="-12.8" cocos2d_y="-208.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="2"/>
+          <f dr="4" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="19.45" y="-43.9" cocos2d_x="19.45" cocos2d_y="-43.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="31.05" y="-50.55" cocos2d_x="31.05" cocos2d_y="-50.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-0.25" y="-59.7" cocos2d_x="-0.25" cocos2d_y="-59.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="3.55" y="-59.15" cocos2d_x="3.55" cocos2d_y="-59.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-30.6" y="-138.2" cocos2d_x="-30.6" cocos2d_y="-138.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-112" y="-130.3" cocos2d_x="-112" cocos2d_y="-130.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-178.9" y="-194.45" cocos2d_x="-178.9" cocos2d_y="-194.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="-245.05" y="-275.55" cocos2d_x="-245.05" cocos2d_y="-275.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+          <f dr="6" dI="-1"/>
+        </b>
+      </mov>
+      <mov name="dead" dr="20" to="6" drTW="20" lp="0" twE="NaN">
+        <f st="0" dr="19"/>
+        <f st="19" dr="1"/>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="liulangjianke_e" width="2048" height="2048">
+    <SubTexture name="liulangjianke_ess-补间 28" width="799" height="396" cocos2d_pX="399.15" cocos2d_pY="197.55" x="708" y="0"/>
+    <SubTexture name="liulangjianke_ess-补间 27" width="706" height="516" cocos2d_pX="352.9" cocos2d_pY="257.85" x="0" y="0"/>
+    <SubTexture name="liulangjianke_ess-补间 26" width="541" height="413" cocos2d_pX="270.35" cocos2d_pY="206.45" x="708" y="398"/>
+    <SubTexture name="liulangjianke_ess-补间 25" width="415" height="442" cocos2d_pX="207.15" cocos2d_pY="220.7" x="1509" y="0"/>
+    <SubTexture name="liulangjianke_ess-补间 24" width="173" height="106" cocos2d_pX="86.45" cocos2d_pY="52.85" x="1251" y="581"/>
+    <SubTexture name="liulangjianke_ess-补间 23" width="204" height="181" cocos2d_pX="101.7" cocos2d_pY="90.5" x="1251" y="398"/>
+    <SubTexture name="liulangjianke_ess-补间 22" width="297" height="279" cocos2d_pX="148.4" cocos2d_pY="139.2" x="720" y="1317"/>
+    <SubTexture name="liulangjianke_ess-补间 21" width="286" height="250" cocos2d_pX="142.85" cocos2d_pY="124.75" x="1019" y="1317"/>
+    <SubTexture name="liulangjianke_ess-补间 12" width="277" height="502" cocos2d_pX="138.5" cocos2d_pY="251" x="1116" y="813"/>
+    <SubTexture name="liulangjianke_ess-补间 11" width="277" height="502" cocos2d_pX="138.5" cocos2d_pY="251" x="1395" y="948"/>
+    <SubTexture name="liulangjianke_ess-补间 10" width="277" height="502" cocos2d_pX="138.5" cocos2d_pY="251" x="1457" y="444"/>
+    <SubTexture name="liulangjianke_ess-补间 9" width="277" height="502" cocos2d_pX="138.5" cocos2d_pY="251" x="279" y="518"/>
+    <SubTexture name="liulangjianke_ess-补间 8" width="277" height="502" cocos2d_pX="138.5" cocos2d_pY="251" x="1736" y="444"/>
+    <SubTexture name="liulangjianke_ess-补间 7" width="277" height="502" cocos2d_pX="138.5" cocos2d_pY="251" x="0" y="518"/>
+    <SubTexture name="liulangjianke_ess-补间 6" width="277" height="502" cocos2d_pX="138.5" cocos2d_pY="251" x="837" y="813"/>
+    <SubTexture name="liulangjianke_ess-补间 5" width="277" height="502" cocos2d_pX="138.5" cocos2d_pY="251" x="558" y="813"/>
+    <SubTexture name="liulangjianke_ess-补间 4" width="358" height="294" cocos2d_pX="179" cocos2d_pY="147" x="1674" y="1244"/>
+    <SubTexture name="liulangjianke_ess-补间 3" width="358" height="294" cocos2d_pX="179" cocos2d_pY="147" x="360" y="1317"/>
+    <SubTexture name="liulangjianke_ess-补间 2" width="358" height="294" cocos2d_pX="179" cocos2d_pY="147" x="1674" y="948"/>
+    <SubTexture name="liulangjianke_ess-补间 1" width="358" height="294" cocos2d_pX="179" cocos2d_pY="147" x="0" y="1022"/>
+  </TextureAtlas>
+</skeleton>

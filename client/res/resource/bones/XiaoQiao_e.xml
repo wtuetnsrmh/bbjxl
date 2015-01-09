@@ -1,0 +1,131 @@
+<skeleton name="XiaoQiao_e" frameRate="20" version="2.2">
+ <armatures>
+  <armature name="XiaoQiao_e">
+   <b name="Effect" x="-38.25" y="-73.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="xqdf-Tween 3" pX="49.65" pY="45.75"/>
+    <d name="xqdf-Tween 4" pX="49.6" pY="41"/>
+    <d name="xqdf-Tween 22" pX="29.8" pY="40.85"/>
+    <d name="xqdf-Tween 23" pX="37.3" pY="44.35"/>
+    <d name="xqdf-Tween 24" pX="38.15" pY="42.35"/>
+    <d name="xqdf-Tween 25" pX="39.9" pY="44.4"/>
+   </b>
+   <b name="Effect3" x="30.6" y="-44.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="xqdf-Tween 18" pX="37.15" pY="58.7"/>
+    <d name="xqdf-Tween 19" pX="60.9" pY="49.95"/>
+    <d name="xqdf-Tween 20" pX="62.3" pY="61.5"/>
+    <d name="xqdf-Tween 21" pX="48" pY="46.25"/>
+   </b>
+   <b name="Effect4" x="-14.85" y="-62.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="xqdf-Tween 15" pX="84.7" pY="79.15"/>
+    <d name="xqdf-Tween 16" pX="83.25" pY="79.15"/>
+    <d name="xqdf-Tween 17" pX="84.65" pY="79.15"/>
+   </b>
+   <b name="图层 3" x="-86.2" y="-102.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="xqdf-Tween 11" pX="103.4" pY="93.95"/>
+    <d name="xqdf-Tween 12" pX="103.4" pY="93.95"/>
+    <d name="xqdf-Tween 13" pX="103.4" pY="93.95"/>
+    <d name="xqdf-Tween 14" pX="103.4" pY="93.95"/>
+   </b>
+   <b name="图层 4" x="-34.3" y="-46.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="xqdf-Tween 5" pX="100.45" pY="75.65"/>
+    <d name="xqdf-Tween 6" pX="100.45" pY="75.65"/>
+    <d name="xqdf-Tween 7" pX="100.45" pY="75.65"/>
+    <d name="xqdf-Tween 8" pX="100.45" pY="75.65"/>
+    <d name="xqdf-Tween 9" pX="100.45" pY="75.65"/>
+    <d name="xqdf-Tween 10" pX="100.45" pY="75.65"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="XiaoQiao_e">
+   <mov name="idle" dr="24" to="0" drTW="24" lp="1" twE="NaN"/>
+   <mov name="damaged" dr="14" to="0" drTW="10" lp="0" twE="NaN"/>
+   <mov name="move" dr="23" to="0" drTW="13" lp="0" twE="NaN"/>
+   <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Effect" sc="1" dl="0">
+     <f dr="16" dI="-1"/>
+     <f x="-38.25" y="-73.4" cocos2d_x="-38.25" cocos2d_y="-73.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-42.85" y="-73" cocos2d_x="-42.85" cocos2d_y="-73" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f dr="4" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack2" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="Effect" sc="1" dl="0">
+     <f dr="16" dI="-1"/>
+     <f x="-68.5" y="-77.25" cocos2d_x="-68.5" cocos2d_y="-77.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="-70" y="-69.75" cocos2d_x="-70" cocos2d_y="-69.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="-72.9" y="-65.1" cocos2d_x="-72.9" cocos2d_y="-65.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="-75.65" y="-67.15" cocos2d_x="-75.65" cocos2d_y="-67.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f dr="4" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="36" to="0" drTW="30" lp="0" twE="NaN">
+    <b name="Effect3" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="30.6" y="-44.7" cocos2d_x="30.6" cocos2d_y="-44.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3"/>
+     <f x="26.4" y="-37.45" cocos2d_x="26.4" cocos2d_y="-37.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="3"/>
+     <f x="-21" y="-33.95" cocos2d_x="-21" cocos2d_y="-33.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="3"/>
+     <f x="-18.55" y="-43" cocos2d_x="-18.55" cocos2d_y="-43" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="3"/>
+     <f dr="23" dI="-1"/>
+    </b>
+    <b name="Effect4" sc="1" dl="0">
+     <f dr="17" dI="-1"/>
+     <f x="-14.85" y="-62.15" cocos2d_x="-14.85" cocos2d_y="-62.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3"/>
+     <f x="-12.25" y="-61.5" cocos2d_x="-12.25" cocos2d_y="-61.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-14.2" y="-61.5" cocos2d_x="-14.2" cocos2d_y="-61.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f dr="12" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="dead" dr="24" to="0" drTW="24" lp="0" twE="NaN"/>
+   <mov name="attack3" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="16" dI="-1"/>
+     <f x="-86.2" y="-102.9" cocos2d_x="-86.2" cocos2d_y="-102.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-86.2" y="-102.9" cocos2d_x="-86.2" cocos2d_y="-102.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-86.2" y="-102.9" cocos2d_x="-86.2" cocos2d_y="-102.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-86.2" y="-102.9" cocos2d_x="-86.2" cocos2d_y="-102.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="attack4" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="10" dI="-1"/>
+     <f x="-34.3" y="-46.75" cocos2d_x="-34.3" cocos2d_y="-46.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-34.3" y="-46.75" cocos2d_x="-34.3" cocos2d_y="-46.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-34.3" y="-46.75" cocos2d_x="-34.3" cocos2d_y="-46.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-34.3" y="-46.75" cocos2d_x="-34.3" cocos2d_y="-46.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-34.3" y="-46.75" cocos2d_x="-34.3" cocos2d_y="-46.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-34.3" y="-46.75" cocos2d_x="-34.3" cocos2d_y="-46.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="3" dI="-1"/>
+    </b>
+    <f st="0" dr="24"/>
+    <f st="24" dr="1"/>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="XiaoQiao_e" width="1024" height="1024">
+  <SubTexture name="xqdf-Tween 10" width="201" height="152" cocos2d_pX="100.45" cocos2d_pY="75.65" x="0" y="344"/>
+  <SubTexture name="xqdf-Tween 9" width="201" height="152" cocos2d_pX="100.45" cocos2d_pY="75.65" x="812" y="322"/>
+  <SubTexture name="xqdf-Tween 8" width="201" height="152" cocos2d_pX="100.45" cocos2d_pY="75.65" x="609" y="190"/>
+  <SubTexture name="xqdf-Tween 7" width="201" height="152" cocos2d_pX="100.45" cocos2d_pY="75.65" x="406" y="190"/>
+  <SubTexture name="xqdf-Tween 6" width="201" height="152" cocos2d_pX="100.45" cocos2d_pY="75.65" x="203" y="190"/>
+  <SubTexture name="xqdf-Tween 5" width="201" height="152" cocos2d_pX="100.45" cocos2d_pY="75.65" x="0" y="190"/>
+  <SubTexture name="xqdf-Tween 14" width="207" height="188" cocos2d_pX="103.4" cocos2d_pY="93.95" x="0" y="0"/>
+  <SubTexture name="xqdf-Tween 13" width="207" height="188" cocos2d_pX="103.4" cocos2d_pY="93.95" x="627" y="0"/>
+  <SubTexture name="xqdf-Tween 12" width="207" height="188" cocos2d_pX="103.4" cocos2d_pY="93.95" x="209" y="0"/>
+  <SubTexture name="xqdf-Tween 11" width="207" height="188" cocos2d_pX="103.4" cocos2d_pY="93.95" x="418" y="0"/>
+  <SubTexture name="xqdf-Tween 17" width="170" height="159" cocos2d_pX="84.65" cocos2d_pY="79.15" x="836" y="161"/>
+  <SubTexture name="xqdf-Tween 16" width="167" height="159" cocos2d_pX="83.25" cocos2d_pY="79.15" x="203" y="344"/>
+  <SubTexture name="xqdf-Tween 15" width="170" height="159" cocos2d_pX="84.7" cocos2d_pY="79.15" x="836" y="0"/>
+  <SubTexture name="xqdf-Tween 21" width="96" height="93" cocos2d_pX="48" cocos2d_pY="46.25" x="700" y="438"/>
+  <SubTexture name="xqdf-Tween 20" width="125" height="123" cocos2d_pX="62.3" cocos2d_pY="61.5" x="372" y="344"/>
+  <SubTexture name="xqdf-Tween 19" width="122" height="100" cocos2d_pX="60.9" cocos2d_pY="49.95" x="576" y="344"/>
+  <SubTexture name="xqdf-Tween 18" width="75" height="118" cocos2d_pX="37.15" cocos2d_pY="58.7" x="499" y="344"/>
+  <SubTexture name="xqdf-Tween 25" width="80" height="89" cocos2d_pX="39.9" cocos2d_pY="44.4" x="372" y="469"/>
+  <SubTexture name="xqdf-Tween 24" width="77" height="85" cocos2d_pX="38.15" cocos2d_pY="42.35" x="798" y="476"/>
+  <SubTexture name="xqdf-Tween 23" width="75" height="89" cocos2d_pX="37.3" cocos2d_pY="44.35" x="499" y="464"/>
+  <SubTexture name="xqdf-Tween 22" width="60" height="82" cocos2d_pX="29.8" cocos2d_pY="40.85" x="877" y="476"/>
+  <SubTexture name="xqdf-Tween 4" width="100" height="82" cocos2d_pX="49.6" cocos2d_pY="41" x="576" y="446"/>
+  <SubTexture name="xqdf-Tween 3" width="100" height="92" cocos2d_pX="49.65" cocos2d_pY="45.75" x="700" y="344"/>
+ </TextureAtlas>
+</skeleton>

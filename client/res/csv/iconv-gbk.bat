@@ -1,0 +1,1 @@
+iconv.exe -f utf-8 -t gbk %1 > %1.gbk
