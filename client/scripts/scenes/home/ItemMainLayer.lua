@@ -458,7 +458,7 @@ function ItemMainLayer:userItemRequest(itemId)
 			local bgSize = msgBg:getContentSize()
 
 			local descLabel = DGRichLabel.new({ 
-				text = string.format("获得 [color=ffff00]%s[/color][color=00ff00]%d[/color] 个", itemData.name, item.num), 
+				text = string.format("获得 [color=ffff00]%s[/color] [color=00ff00]%d[/color] 个", itemData.name, item.num), 
 				width = bgSize.width - 20, 
 				size = 24,
 			})

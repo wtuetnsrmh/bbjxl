@@ -1,108 +1,1572 @@
-
+Cocos2d: 
 <dict>
 	cocos2d.x.version: 2.2.1
 	cocos2d.x.compiled_with_profiler: false
 	cocos2d.x.compiled_with_gl_state_cache: true
-	gl.vendor: NVIDIA Corporation
-	gl.renderer: GeForce GT 630/PCIe/SSE2
-	gl.version: 4.4.0
+	gl.vendor: Intel Inc.
+	gl.renderer: Intel HD Graphics 4000 OpenGL Engine
+	gl.version: 2.1 INTEL-8.28.32
 	gl.max_texture_size: 16384
-	gl.max_texture_units: 192
+	gl.max_texture_units: 16
 	gl.supports_PVRTC: false
 	gl.supports_NPOT: true
 	gl.supports_BGRA8888: false
 	gl.supports_discard_framebuffer: false
 	gl.supports_vertex_array_object: true
 </dict>
-lua_loadChunksFromZIP() - load zip file: D:\dange\xinsanguozhi\quick-cocos2d-x\lib\framework_precompiled\framework_precompiled.zip
-lua_loadChunksFromZIP() - loaded chunks count: 54
-------------------------------------------------
-LOAD LUA FILE: E:/client_archive/xinsanguozhi/client/scripts/main.lua
-------------------------------------------------
-[0.1500] [INFO] 
-[0.1504] [INFO] # DEBUG                        = 0
-[0.1508] [INFO] #
-[0.1516] [INFO] # device.platform              = windows
-[0.1521] [INFO] # device.model                 = unknown
-[0.1525] [INFO] # device.language              = cn
-[0.1531] [INFO] # device.writablePath          = E:\client_archive\xinsanguozhi\client\
-[0.1542] [INFO] # device.cachePath             = E:\client_archive\xinsanguozhi\client\
-[0.1554] [INFO] # device.directorySeparator    = \
-[0.1561] [INFO] # device.pathSeparator         = ;
-[0.1565] [INFO] #
-[0.1593] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT_PRIOR
-[0.1599] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
-[0.1607] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
-[0.1613] [INFO] # display.widthInPixels        = 960.00
-[0.1619] [INFO] # display.heightInPixels       = 640.00
-[0.1624] [INFO] # display.contentScaleFactor   = 1.00
-[0.1630] [INFO] # display.width                = 960.00
-[0.1635] [INFO] # display.height               = 640.00
-[0.1641] [INFO] # display.cx                   = 480.00
-[0.1647] [INFO] # display.cy                   = 320.00
-[0.1653] [INFO] # display.left                 = 0.00
-[0.1661] [INFO] # display.right                = 960.00
-[0.1666] [INFO] # display.top                  = 640.00
-[0.1676] [INFO] # display.bottom               = 0.00
-[0.1681] [INFO] # display.c_left               = -480.00
-[0.1686] [INFO] # display.c_right              = 480.00
-[0.1692] [INFO] # display.c_top                = 320.00
-[0.1700] [INFO] # display.c_bottom             = -320.00
-[0.1704] [INFO] #
-lua_loadChunksFromZIP() - load zip file: E:\client_archive\xinsanguozhi\client\res/framework_precompiled.dg
-lua_loadChunksFromZIP() - loaded chunks count: 54
-[0.3145] [INFO] GameState.load() - get values from "E:\client_archive\xinsanguozhi\client/user.bin"
-[1.5948] [INFO] Scene "LoginScene:onEnter()"
-[5.9030] send:  Role.queryLogin
-[6.0901] recv message:  Role.queryResponse
-[6.0916] send:  Role.login
-[6.2901] recv message:  Role.updateProperty
-[6.8069] recv message:  Role.loginResponse
-[6.8088] SocketActions:roleLoginResponse
-[7.3622] platform windows unsupport ui.newTTFRichLabel
-[7.3817] recv message:  Role.getActivityTimeListRespose
-[11.5678] nil  1000
-[11.5723] [INFO] Scene "LoginScene:onExit()"
-cocos2d: CCSpriteFrameCache: removing unused frame: modao_1.png
-cocos2d: CCSpriteFrameCache: removing unused frame: modao_2.png
-cocos2d: CCSpriteFrameCache: removing unused frame: modao_3.png
-cocos2d: CCTextureCache: texture: cc_fps_images
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/enter_bg.jpg
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/btn_start_normal.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/btn_start_selected.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_cell.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_cell_sel.png
-cocos2d: CCTextureCache: texture: cc_2x2_white_image
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/hot_server.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_bg.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_long.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_long_sel.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_sel.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/small_bg.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/modao.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/tip.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/hero/card/star.png
-cocos2d: CCTextureCache: texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/hero/card/attr_bg.png
-cocos2d: CCTextureCache: removing unused texture: cc_2x2_white_image
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_bg.png
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_long.png
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_long_sel.png
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell.png
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/login_rc/server_listcell_sel.png
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/small_bg.png
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/modao.png
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/loading/tip.png
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/hero/card/star.png
-cocos2d: CCTextureCache: removing unused texture: E:\client_archive\xinsanguozhi\client\res/resource/ui_rc/hero/card/attr_bg.png
-[11.6092] [INFO] Scene "HomeScene:onEnter()"
-cocos2d: padding: 0,0,0,0
-Get data from file(resource/ui_rc/particle/zhangpng3.png) failed!
-[12.9845] platform windows unsupport ui.newTTFRichLabel
-[13.4226] platform windows unsupport ui.newTTFRichLabel
-[13.6208] platform windows unsupport ui.newTTFRichLabel
-[13.9740] platform windows unsupport ui.newTTFRichLabel
-[14.1335] platform windows unsupport ui.newTTFRichLabel
-[14.6625] platform windows unsupport ui.newTTFRichLabel
-[14.9338] platform windows unsupport ui.newTTFRichLabel
-[31.6852] [INFO] Scene "HomeScene:onExit()"
+Cocos2d: lua_loadChunksFromZIP() - load zip file: /Users/lcomplete/Documents/xinsanguozhi/quick-cocos2d-x/lib/framework_precompiled/framework_precompiled.zip
+Cocos2d: lua_loadChunksFromZIP() - loaded chunks count: 54
+Cocos2d: ------------------------------------------------
+Cocos2d: LOAD LUA FILE: /Users/lcomplete/Documents/xinsanguozhi/client/scripts/main.lua
+Cocos2d: ------------------------------------------------
+Cocos2d: [0.0168] [INFO] 
+Cocos2d: [0.0168] [INFO] # DEBUG                        = 0
+Cocos2d: [0.0168] [INFO] #
+Cocos2d: [0.0169] [INFO] # device.platform              = mac
+Cocos2d: [0.0169] [INFO] # device.model                 = unknown
+Cocos2d: [0.0169] [INFO] # device.language              = cn
+Cocos2d: [0.0169] [INFO] # device.writablePath          = /Users/lcomplete/Documents/xinsanguozhi/client/
+Cocos2d: [0.0169] [INFO] # device.cachePath             = /Users/lcomplete/Documents/xinsanguozhi/client/
+Cocos2d: [0.0169] [INFO] # device.directorySeparator    = /
+Cocos2d: [0.0169] [INFO] # device.pathSeparator         = :
+Cocos2d: [0.0170] [INFO] #
+Cocos2d: [0.0188] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT_PRIOR
+Cocos2d: [0.0188] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+Cocos2d: [0.0188] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+Cocos2d: [0.0189] [INFO] # display.widthInPixels        = 960.00
+Cocos2d: [0.0189] [INFO] # display.heightInPixels       = 640.00
+Cocos2d: [0.0189] [INFO] # display.contentScaleFactor   = 1.00
+Cocos2d: [0.0189] [INFO] # display.width                = 960.00
+Cocos2d: [0.0189] [INFO] # display.height               = 640.00
+Cocos2d: [0.0189] [INFO] # display.cx                   = 480.00
+Cocos2d: [0.0189] [INFO] # display.cy                   = 320.00
+Cocos2d: [0.0189] [INFO] # display.left                 = 0.00
+Cocos2d: [0.0190] [INFO] # display.right                = 960.00
+Cocos2d: [0.0190] [INFO] # display.top                  = 640.00
+Cocos2d: [0.0190] [INFO] # display.bottom               = 0.00
+Cocos2d: [0.0190] [INFO] # display.c_left               = -480.00
+Cocos2d: [0.0190] [INFO] # display.c_right              = 480.00
+Cocos2d: [0.0190] [INFO] # display.c_top                = 320.00
+Cocos2d: [0.0190] [INFO] # display.c_bottom             = -320.00
+Cocos2d: [0.0190] [INFO] #
+Cocos2d: lua_loadChunksFromZIP() - load zip file: /Users/lcomplete/Documents/xinsanguozhi/client/res/framework_precompiled.dg
+Cocos2d: lua_loadChunksFromZIP() - loaded chunks count: 54
+Cocos2d: [0.0479] [INFO] GameState.load() - get values from "/Users/lcomplete/Documents/xinsanguozhi/client/user.bin"
+Cocos2d: [0.8391] [INFO] Scene "LoginScene:onEnter()"
+Cocos2d: [1.9349] send:  Role.queryLogin
+Cocos2d: [2.0508] recv message:  Role.queryResponse
+Cocos2d: [2.0510] send:  Role.login
+Cocos2d: [2.1682] recv message:  Role.updateProperty
+Cocos2d: [2.2844] recv message:  Role.loginResponse
+Cocos2d: [2.2849] SocketActions:roleLoginResponse
+Cocos2d: [2.4615] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [2.5597] recv message:  Role.getActivityTimeListRespose
+Cocos2d: [2.9310] table  3
+Cocos2d: [2.9312] guideId  1011  nil  LoginScene
+Cocos2d: [2.9313] [INFO] Scene "LoginScene:onExit()"
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: modao_3.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: modao_2.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: modao_1.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/enter_bg.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/btn_start_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/btn_start_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/server_cell.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/server_cell_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/hot_server.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/small_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/modao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/battleload_bg.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/tip.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/frame_5.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/card_pic/ZhuGeGuo.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/star.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/pro_jun.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/camp_shu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/attr_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/small_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/modao.png
+Cocos2d: [2.9320] [INFO] Scene "HomeScene:onEnter()"
+Cocos2d: cocos2d: padding: 0,0,0,0
+resource/ui_rc/particle/zhangpng3@2x.png: No such file or directory
+Cocos2d: Get data from file(resource/ui_rc/particle/zhangpng3@2x.png) failed!
+Cocos2d: [9.6802] [INFO] Scene "HomeScene:onExit()"
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: light.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_star.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: head_box.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff2.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/enter_bg.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/btn_start_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/btn_start_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/server_cell.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/server_cell_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/hot_server.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/tip.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/star.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/attr_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar_frame.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/herosoul.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/lingpai.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/enter_bg.jpg
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/btn_start_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/btn_start_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/server_cell.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/server_cell_sel.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/hot_server.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/tip.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/star.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/attr_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: cc_2x2_white_image
+Cocos2d: [9.6815] [INFO] Scene "FriendScene:onEnter()"
+Cocos2d: [9.7156] send:  Friend.listFriendRequest
+Cocos2d: [9.9008] recv message:  Friend.friendListResponse
+Cocos2d: [Edit text] content size = (302.000000, 32.000000)
+Cocos2d: [EditBox] pos x = -151.000000, y = 16.000000
+Cocos2d: [Edit text] anchor point = (0.000000, 0.000000)
+Cocos2d: [EditBox] pos x = 0.000000, y = 32.000000
+Cocos2d: [EditBox] pos x = 28.000000, y = 561.000000
+Cocos2d: [EditBox] pos x = 28.000000, y = 561.000000
+Cocos2d: [13.5991] send:  Friend.receiveHealth
+Cocos2d: [13.7175] recv message:  Role.updateProperty
+Cocos2d: [13.7445] recv message:  System.handleErrorMsg
+Cocos2d: [13.7447] erro_code  78
+Cocos2d: [13.7447] SYS_ERR_FRIEND_RECV_SUCCESS  78
+Cocos2d: [13.7486] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [251.1289] [INFO] Scene "FriendScene:onExit()"
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: modao_3.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: modao_2.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: modao_1.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar_frame.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/herosoul.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/lingpai.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_arrow.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/input_box.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/friend_cell_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_0.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhangFei.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/star/icon_small.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/cell_namebar.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_nol.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_disabled.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/small_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/modao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/flash_msg_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_nol.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_sel.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_disabled.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/small_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/modao.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/flash_msg_bg.png
+Cocos2d: [251.1325] [INFO] Scene "HomeScene:onEnter()"
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: light.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_star.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: head_box.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff2.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar_frame.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/herosoul.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/lingpai.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_arrow.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/input_box.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/friend_cell_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_0.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhangFei.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/star/icon_small.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/cell_namebar.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img_big.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar_frame.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi_big.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/herosoul.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/lingpai.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_arrow.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/input_box.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/friend_cell_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_0.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhangFei.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/star/icon_small.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/cell_namebar.png
+Cocos2d: [255.3009] [INFO] Scene "HomeScene:onExit()"
+Cocos2d: [255.3012] [INFO] Scene "ChatScene:onEnter()"
+Cocos2d: [Edit text] content size = (572.000000, 35.000000)
+Cocos2d: [EditBox] pos x = -286.000000, y = 17.500000
+Cocos2d: [Edit text] anchor point = (0.000000, 0.000000)
+Cocos2d: [EditBox] pos x = 0.000000, y = 35.000000
+Cocos2d: [EditBox] pos x = 45.000000, y = 67.000000
+Cocos2d: [EditBox] pos x = 45.000000, y = 67.000000
+Cocos2d: [256.6788] [INFO] Scene "ChatScene:onExit()"
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/bg.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/inputBg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/free.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/input_null.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: [256.6824] [INFO] Scene "HomeScene:onEnter()"
+Cocos2d: [592.8713] recv message:  Role.updateProperty
+Cocos2d: [592.8714] recv message:  Role.updateProperty
+Cocos2d: [680.2534] recv message:  Role.roleWorldNotice
+Cocos2d: [680.2916] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [689.7527] recv message:  Role.roleWorldNotice
+Cocos2d: [689.7531] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [1192.6416] recv message:  Role.updateProperty
+Cocos2d: [1192.8579] recv message:  Role.updateProperty
+Cocos2d: [1264.3396] [INFO] Scene "HomeScene:onExit()"
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: light.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_star.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: head_box.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff2.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/bg.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/inputBg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/free.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/input_null.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/world_notice_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar_frame.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/herosoul.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/lingpai.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/bg.jpg
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/inputBg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_press.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/free.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/input_null.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/world_notice_bg.png
+Cocos2d: [1264.3419] [INFO] Scene "FriendScene:onEnter()"
+Cocos2d: [1264.3741] send:  Friend.listFriendRequest
+Cocos2d: [1264.4556] recv message:  Friend.friendListResponse
+Cocos2d: [Edit text] content size = (302.000000, 32.000000)
+Cocos2d: [EditBox] pos x = -151.000000, y = 16.000000
+Cocos2d: [Edit text] anchor point = (0.000000, 0.000000)
+Cocos2d: [EditBox] pos x = 0.000000, y = 32.000000
+Cocos2d: [EditBox] pos x = 28.000000, y = 561.000000
+Cocos2d: [EditBox] pos x = 28.000000, y = 561.000000
+Cocos2d: [1269.6351] send:  Friend.randomSearchRole
+Cocos2d: [1269.6906] recv message:  Friend.matchNameRoleResponse
+Cocos2d: [Edit text] content size = (302.000000, 32.000000)
+Cocos2d: [EditBox] pos x = -151.000000, y = 16.000000
+Cocos2d: [Edit text] anchor point = (0.000000, 0.000000)
+Cocos2d: [EditBox] pos x = 0.000000, y = 32.000000
+Cocos2d: [EditBox] pos x = 28.000000, y = 561.000000
+Cocos2d: [EditBox] pos x = 28.000000, y = 561.000000
+Cocos2d: [1272.1390] [INFO] Scene "FriendScene:onExit()"
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: modao_3.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: modao_2.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: modao_1.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar_frame.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/herosoul.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/lingpai.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_arrow.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/input_box.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/friend_cell_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_0.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhangFei.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/star/icon_small.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/cell_namebar.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/small_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/modao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_11.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/GuanYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_8.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_nol.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_disabled.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_1.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_15.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_11.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/DongZhuo.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_2.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/small_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/loading/modao.png
+Cocos2d: [1272.1432] [INFO] Scene "HomeScene:onEnter()"
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: light.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_star.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: head_box.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff2.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar_frame.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi_big.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/herosoul.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/lingpai.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_arrow.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/input_box.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/friend_cell_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_0.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhangFei.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/star/icon_small.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/cell_namebar.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_11.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/GuanYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_8.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_nol.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_disabled.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_1.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_15.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_11.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/DongZhuo.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_2.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img_big.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/exp_bar_frame.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi_big.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/herosoul.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/lingpai.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_arrow.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/input_box.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/friend/friend_cell_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_0.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhangFei.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/star/icon_small.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/cell_namebar.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_11.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/GuanYu.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_8.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_nol.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_sel.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_disabled.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_1.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_15.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_11.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/DongZhuo.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_2.png
+Cocos2d: [1375.8055] recv message:  Role.shopRefreshResponse
+Cocos2d: [1587.6987] recv message:  Role.roleWorldNotice
+Cocos2d: [1587.7007] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [1766.6615] recv message:  Role.roleWorldNotice
+Cocos2d: [1766.6617] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [1779.1952] recv message:  Role.roleWorldNotice
+Cocos2d: [1779.1954] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/world_notice_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/bottom_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/chosen.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_10.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/star/icon_small.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/hero_level_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/XiaHouDun.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/XiLiangBing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/SunQuan.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_empty.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_bottom.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/add.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/btn_partner_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/btn_partner_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_arrow.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/vertical_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/vertical_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/vertical_disabled.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/right_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/frame_4.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/card_pic/ZhouYu.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/star.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/pro_jun.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/camp_wu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/attr_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_nol.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_disabled.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/model_frame.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/name_bg_10.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/fragment_tag.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/star_progress_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/star_progress_fg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/btn_star_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/btn_star_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_1.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_4.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_5.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_6.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/assit_rel_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/topbar_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_ellipse_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_nor.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/cname_sel.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/world_notice_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: cc_2x2_white_image
+Cocos2d: [1787.1776] [INFO] Scene "HomeScene:onExit()"
+Cocos2d: [1787.1779] [INFO] Scene "ChatScene:onEnter()"
+Cocos2d: [Edit text] content size = (572.000000, 35.000000)
+Cocos2d: [EditBox] pos x = -286.000000, y = 17.500000
+Cocos2d: [Edit text] anchor point = (0.000000, 0.000000)
+Cocos2d: [EditBox] pos x = 0.000000, y = 35.000000
+Cocos2d: [EditBox] pos x = 45.000000, y = 67.000000
+Cocos2d: [EditBox] pos x = 45.000000, y = 67.000000
+Cocos2d: [1788.8943] [INFO] Scene "ChatScene:onExit()"
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/bottom_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/chosen.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_10.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/star/icon_small.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/hero_level_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/XiaHouDun.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/XiLiangBing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/SunQuan.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_empty.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_bottom.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/add.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/btn_partner_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/btn_partner_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_arrow.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/vertical_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/vertical_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/vertical_disabled.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/right_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/star.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/attr_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_nol.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_sel.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_disabled.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/model_frame.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/name_bg_10.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/fragment_tag.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/star_progress_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/star_progress_fg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/btn_star_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/btn_star_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_1.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_4.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_5.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_6.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/assit_rel_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/bg.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/inputBg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/free.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/input_null.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/bottom_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/chosen.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_10.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/star/icon_small.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/hero_level_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/XiaHouDun.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/XiLiangBing.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/SunQuan.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_empty.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_bottom.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/add.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/btn_partner_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/btn_partner_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_arrow.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/vertical_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/vertical_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/vertical_disabled.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/right_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/star.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/card/attr_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_nol.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/btn_green_sel.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_disabled.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/middle_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/model_frame.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/name_bg_10.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/fragment_tag.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/star_progress_bg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/star_progress_fg.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/btn_star_normal.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/growth/btn_star_selected.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_1.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_2.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_3.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_4.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_5.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/equip_6.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/choose/assit_rel_bg.png
+Cocos2d: [1788.8973] [INFO] Scene "HomeScene:onEnter()"
+Cocos2d: [1789.2108] recv message:  Role.roleWorldNotice
+Cocos2d: [1789.2257] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [1793.1780] recv message:  Role.updateProperty
+Cocos2d: [1793.2941] recv message:  Role.updateProperty
+Cocos2d: [1808.2777] recv message:  Role.chatReceiveResponse
+Cocos2d: [1835.4437] recv message:  Role.chatReceiveResponse
+Cocos2d: [1976.8904] recv message:  Role.roleWorldNotice
+Cocos2d: [1976.8906] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [1982.5566] recv message:  Role.roleWorldNotice
+Cocos2d: [1982.6238] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [1988.6562] recv message:  Role.roleWorldNotice
+Cocos2d: [1988.6565] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [2002.1730] recv message:  Role.roleWorldNotice
+Cocos2d: [2002.1733] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [2085.7380] recv message:  Role.chatReceiveResponse
+Cocos2d: [2096.9548] recv message:  Role.roleWorldNotice
+Cocos2d: [2096.9553] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [2300.1660] recv message:  Role.roleWorldNotice
+Cocos2d: [2300.1663] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [2323.8323] recv message:  Role.roleWorldNotice
+Cocos2d: [2323.8328] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [2349.1150] recv message:  Role.roleWorldNotice
+Cocos2d: [2349.1152] platform mac unsupport ui.newTTFRichLabel
+Cocos2d: [2393.1643] recv message:  Role.updateProperty
+Cocos2d: [2393.2803] recv message:  Role.updateProperty
+Cocos2d: [2441.5959] [INFO] Scene "HomeScene:onExit()"
+Cocos2d: [2441.5964] [INFO] Scene "ChatScene:onEnter()"
+Cocos2d: [Edit text] content size = (572.000000, 35.000000)
+Cocos2d: [EditBox] pos x = -286.000000, y = 17.500000
+Cocos2d: [Edit text] anchor point = (0.000000, 0.000000)
+Cocos2d: [EditBox] pos x = 0.000000, y = 35.000000
+Cocos2d: [EditBox] pos x = 45.000000, y = 67.000000
+Cocos2d: [EditBox] pos x = 45.000000, y = 67.000000
+Cocos2d: [2443.7634] [INFO] Scene "ChatScene:onExit()"
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: light.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: rank_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: reward_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_star.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: dailytask_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: head_box.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: zhaocai_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: activity_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: guoguan_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_league_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_mail_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: hero_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: equip_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: carbon_eff2.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: mail_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: soulshop_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_guoguan_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: pvp_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_soulshop_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: league_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_tower_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: state_open_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_pvp_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_herostar_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: bag_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: assign_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_beauty_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: herostar_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_legend_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: expedition_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_expedition_disabled.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tech_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: store_normal.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: tower_touch.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: title_carbon_selected.png
+Cocos2d: cocos2d: CCSpriteFrameCache: removing unused frame: choose_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: cc_fps_images
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/homePics.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/carbon/worldMap1.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/yuanjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/zhongjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/jinjing.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/particle/yellow_point.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/water.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/waterfall.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/beauty_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/pvp_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tech_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/legend_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/soulshop_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/tower_eff2.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/guoguan_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/mail_eff.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effL.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/league_effR.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bird.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/head_cut.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhouYu.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_img.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/vip_lv.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/bar_common.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/chicken.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/add_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/rich_btn.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yinbi.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/yuanbao.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/chat_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/g_talkbg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/first_recharge_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/rechargeBtn_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: resource/ui_rc/particle/zhangpng
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/msg_new.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/home.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/close_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_selected.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/inner_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/bg.jpg
+Cocos2d: cocos2d: CCTextureCache: texture: cc_2x2_white_image
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/inputBg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/tab_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_normal.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/send_press.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/free.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/login_rc/input_null.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/world_notice_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/global/frame_0.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/HuaXiong.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/hero/hero_level_bg.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_3.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/talkbg1.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/chat/line.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/head_pic/ZhangFei.png
+Cocos2d: cocos2d: CCTextureCache: texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/shop/recharge/vip_text_8.png
+Cocos2d: cocos2d: CCTextureCache: removing unused texture: /Users/lcomplete/Documents/xinsanguozhi/client/res/resource/ui_rc/home/world_notice_bg.png
+Cocos2d: [2443.7676] [INFO] Scene "HomeScene:onEnter()"

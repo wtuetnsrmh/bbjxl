@@ -460,13 +460,13 @@ function HeroSkillLayer:initRightLayer(skillId, needEvolution)
 				loadingShow()
 				game:addEventListener(actionModules[actionCodes.HeroSkillLevelUpResponse], function(event)
 					loadingHide()
+					game.role:dispatchEvent({ name = "notifyNewMessage", type = "heroList"})
 					local msg = pb.decode("SimpleEvent", event.data)	
 					DGMsgBox.new({ msgId = 300 })
 
 					self:showMainLayer(skillId)
 					self:showSkillLevelUpEffect()
-					
-					game.role:dispatchEvent({ name = "notifyNewMessage", type = "heroList"})
+				
 					return "__REMOVE__"
 				end)	
 			end,

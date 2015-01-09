@@ -74,18 +74,25 @@ function RoleDetailLayer:ctor(params)
 	params.button2Data = params.button2Data or {}
 	local btnNum = table.nums(params.button2Data) > 0 and 2 or 1
 	if btnNum == 1 then
-		local button1 = DGBtn:new(GlobalRes, {"btn_green_nol.png", "btn_green_sel.png"},
+		self.button1 = DGBtn:new(GlobalRes, {"btn_green_nol.png", "btn_green_sel.png","btn_dis.png"},
 			{	
 				priority = self.priority,
+				disable = params.hideBtn,
 				text = { text = params.button1Data.text or "确定", size = 28, font = ChineseFont, color=display.COLOR_WHITE, strokeColor = display.COLOR_FONT, strokeSize = 2},
 				callback = function()
-					self:getLayer():removeSelf()
+					if params.button1Data.text == "加为好友" then
+						self.button1:setEnable(false)
+						self.button1:setGray(true)
+					else
+						self:getLayer():removeSelf()
+					end
+					
 					if params.button1Data.callback then
 						params.button1Data.callback()
 					end
 				end,
-			}):getLayer()
-		button1:anch(0.5, 0):pos(self.size.width / 2, 20):addTo(self)
+			})
+		self.button1:getLayer():anch(0.5, 0):pos(self.size.width / 2, 20):addTo(self)
 	else
 		local button1 = DGBtn:new(GlobalRes, {"middle_normal.png", "middle_selected.png"},
 			{	

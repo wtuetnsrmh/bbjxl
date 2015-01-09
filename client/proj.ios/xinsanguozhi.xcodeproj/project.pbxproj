@@ -678,7 +678,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iOS Development: Chi DIng (6J66Y879A3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -734,7 +734,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "乱舞三国";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "bde75997-f453-4247-a572-b959cde41d1e";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = armv7;
@@ -748,8 +748,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Dangge Network Technology Co.,Ltd. (H7WT4X277K)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hangzhou Dangge Network Technology Co.,Ltd. (H7WT4X277K)";
+				CODE_SIGN_IDENTITY = "iOS Development: Chi DIng (6J66Y879A3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -802,8 +802,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "乱舞三国";
-				PROVISIONING_PROFILE = "99DB1708-5798-4C1F-93B2-9027EE85D48C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "99DB1708-5798-4C1F-93B2-9027EE85D48C";
+				PROVISIONING_PROFILE = "bde75997-f453-4247-a572-b959cde41d1e";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = armv7;
@@ -815,6 +815,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
+				CODE_SIGN_IDENTITY = "iOS Distribution: Hangzhou Dangge Network Technology Co.,Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -865,7 +866,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Chi DIng (6J66Y879A3)";
+				CODE_SIGN_IDENTITY = "iOS Distribution: Hangzhou Dangge Network Technology Co.,Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chi DIng (6J66Y879A3)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (

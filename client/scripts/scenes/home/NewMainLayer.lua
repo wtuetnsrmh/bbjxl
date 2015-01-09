@@ -404,7 +404,7 @@ function NewMainLayer:initHomeUI()
 
 	self:autoPopupLayer(self.params)
 
-	-- self:popNotice(self.params)
+	self:popNotice(self.params)
 
 	game.role:updateNewMsgTag()
 	self.newMsgUpdate = scheduler.scheduleGlobal(function()
@@ -467,14 +467,14 @@ function NewMainLayer:refreshChat(event)
 	
 	local totalHeight = 0
 	for index,chat in ipairs(curChatArray) do
-		local row,h = self:createChatCell(chat)
-		totalHeight = totalHeight + h + 1
-		row:anch(0,0)
+		local text = self:createChatCell(chat)
+		totalHeight = totalHeight + text:getContentSize().height + 1
+		text:anch(0, 0)
 		-- row:setPositionY(row:getContentSize().height/2)
-		self.chatTableView:addChild(row)
+		self.chatTableView:addChild(text)
 	end
 
-	self.chatTableView:setOffset(totalHeight-75)
+	self.chatTableView:setOffset(totalHeight - 75)
 
 end
 
@@ -490,19 +490,15 @@ function NewMainLayer:createChatCell(chat)
 	-- 	color = display.COLOR_WHITE, dimensions = CCSizeMake(235, 10),size=18  })
 	-- print("rowNum",rowNum)
 
-
-	local returnSp = display.newSprite()
-	local contentLabel = DGRichLabel.new({ size = 18,  color=uihelper.hex2rgb("#ffffff"),width = 310,rowSpace=-4 })
-	rowNum = contentLabel:getRowNum(chat.player.name .. ":"..chat.content)
-	contentLabel:setOffsetY(((rowNum)-1)*23)
+	local contentText
+	if chat.chatType == 4 then
+		contentText = chat.content
+	else
+		contentText = "[color=FFDA22]" .. chat.player.name .. ":[/color]"..chat.content
+	end
+	local contentLabel = DGRichLabel.new({ text = contentText, size = 18,  color=uihelper.hex2rgb("#ffffff"), width = 310})
 		
-	local contentText = "[color=FFDA22]" .. chat.player.name .. ":[/color]"..chat.content
-	contentLabel:setString(contentText)
-	contentLabel:setContentSize(CCSize(259,rowNum*23))
-	returnSp:size(CCSize(259,rowNum*23))
-	returnSp:addChild(contentLabel)
-
-	return returnSp,returnSp:getContentSize().height
+	return contentLabel
 end
 
 function NewMainLayer:initRoleInfo()
@@ -531,7 +527,17 @@ function NewMainLayer:initRoleInfo()
 
 	local headIcon = getShaderNode({steRes = HomeRes.."head_cut.png",clipRes = heroData.headImage})
 	headIcon:setPosition(ccp(48, 40 ))
-	headbg:addChild(headIcon)
+	headbg:addChild(headIcon, 0, 5)
+
+	self.slotsUpdateHandle = game.role:addEventListener("updateSlots", function(event)
+		headbg:removeChildByTag(5)
+
+		local mainHero = game.role.heros[game.role.slots["1"].heroId]
+		local heroData = unitCsv:getUnitByType(mainHero.type)
+		local headIcon = getShaderNode({steRes = HomeRes.."head_cut.png",clipRes = heroData.headImage})
+		headIcon:setPosition(ccp(48, 40 ))
+		headbg:addChild(headIcon, 0, 5)
+	end)
 
 	--vipbtn
 	local xOffset = game.role.vipLevel >= 10 and 0 or 7
@@ -1301,7 +1307,7 @@ end
 function NewMainLayer:checkGuide(remove)
 	-- game.role.guideStep = 2
 	
-	if true then return end
+	-- if true then return end
 	--副本
 	game:addGuideNode({node = self.carbonNode, remove = remove,
 		beginFunc = function()
@@ -1567,6 +1573,7 @@ function NewMainLayer:onCleanup()
     	game.role:removeEventListener("updateVipLevel", self.updateVipLevelHandler)
     	game.role:removeEventListener("specialStoreOpened", self.specialStoreOpenedHandle)
     	game.role:removeEventListener("updateChat", self.updateChatHandler)
+    	game.role:removeEventListener("updateSlots", self.slotsUpdateHandle)
     end
 end
 

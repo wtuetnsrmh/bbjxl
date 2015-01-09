@@ -12,7 +12,7 @@ function DGRichLabel:ctor(params)
 	self.font = params.font or ui.DEFAULT_TTF_FONT
 	self.size = params.size or ui.DEFAULT_TTF_FONT_SIZE
 	self.width = params.width or math.huge
-	self.rowSpace = params.rowSpace or -4
+	self.rowSpace = params.rowSpace or 0
 	self.color = params.color or display.COLOR_WHITE
 	self.offsetY =params.offsetY or 0
 
@@ -48,6 +48,7 @@ function DGRichLabel:setString(text)
 	local ocHeight = 0 -- 当前高度
 	local realSize = CCSize(0, 0)
 	local btn,useWidth,useHeight = 0,0,0
+	self.layer = display.newLayer()
 	for k,v in pairs(copyVar) do
 		local params = {}
 		self:tab_addDataTo(params, v)
@@ -57,6 +58,7 @@ function DGRichLabel:setString(text)
 		if params.row == ocRow then
 			ocWidth = ocWidth+useWidth
 		else
+
 			ocRow = params.row
 			ocWidth = 0
 			-- 计算实际渲染高度
@@ -68,14 +70,15 @@ function DGRichLabel:setString(text)
 		params.width  = byteSize*params.breadth     -- 控件宽度
 		params.height = maxsize                     -- 控件高度
 		params.x = ocWidth       					-- 控件x坐标
-		params.y = self.offsetY-(ocHeight)                      -- 控件y坐标
-		params.scene = self
+		params.y = -ocHeight                     -- 控件y坐标
+		params.scene = self.layer
 		btn,useWidth,useHeight = self:tab_createButton(params)
 		
 		realSize.width = realSize.width + useWidth
 	end
-	realSize.height = ocHeight == 0 and useHeight or ocHeight
+	realSize.height = ocHeight + useHeight
 	realSize.width = realSize.width > self.width and self.width or realSize.width
+	self.layer:pos(0, ocHeight + self.offsetY):addTo(self)
 	self:setContentSize(realSize)
 end
 
@@ -295,46 +298,47 @@ function DGRichLabel:parseString(str, param)
 	end
 	-- 解析标签
 	local totalTab = {}
-	-- 普通格式label显示
-	local index = string.find(str, "%[")
-	if not index or index > 1 then
-		local ptab = {}
-		if index then
-			ptab.text = string.sub(str, 0, index - 1)
-			str = string.sub(str, index)
-		else
-			ptab.text = str
-			str = ""
+	local function getUntagFragment()
+		if not str or str == "" then return end
+		-- 普通格式label显示
+		local index = string.find(str, "%b[]")
+		if not index or index > 1 then
+			local ptab = {}
+			if index then
+				ptab.text = string.sub(str, 0, index - 1)
+				str = string.sub(str, index)
+			else
+				ptab.text = str
+				str = ""
+			end
+			if param then
+				param.number = 1
+				self:tab_addDataTo(ptab, param) 
+			end
+			table.insert(totalTab, ptab)
 		end
-		if param then
-			param.number = 1
-			self:tab_addDataTo(ptab, param) 
-		end
-		table.insert(totalTab, ptab)
 	end
+	getUntagFragment()
 
-	for k,ns in pairs(clumpheadTab) do
+	for k,ns in ipairs(clumpheadTab) do
 		local tab = {}
 		local tStr  
 		-- 第一个等号前为块标签名
 		string.gsub(ns, string.sub(ns, 2, #ns-1), function (w)
 			local n = string.find(w, "=")
-			if n then
-				local temTab = self:strSplit(w, " ") -- 支持标签内嵌
-				for k,pstr in pairs(temTab) do
-					local temtab1 = self:strSplit(pstr, "=")
-					
-					local pname = temtab1[1]
-					if k == 1 then tStr = pname end -- 标签头
-					
-					local js = temtab1[2]
-					local p = string.find(js, "[^%d.]")
-        			if not p then js = tonumber(js) end
-					if pname == "color" then
-						tab[pname] = self:GetTextColor(js)
-					else
-						tab[pname] = js
-					end
+			if n then		
+				local temtab1 = self:strSplit(w, "=")
+				
+				local pname = temtab1[1]
+				tStr = pname
+				
+				local js = temtab1[2]
+				local p = string.find(js, "[^%d.]")
+    			if not p then js = tonumber(js) end
+				if pname == "color" then
+					tab[pname] = self:GetTextColor(js)
+				else
+					tab[pname] = js
 				end
 			end
 		end)
@@ -351,6 +355,7 @@ function DGRichLabel:parseString(str, param)
 					tab["text"] = w
 				end)
 			end
+
 			-- 截掉已经解析的字符
 			str = string.sub(str, endFind+1, #str)
 			if param then
@@ -358,53 +363,23 @@ function DGRichLabel:parseString(str, param)
 				self:tab_addDataTo(tab, param) 
 			end
 			table.insert(totalTab, tab)
-		end
-	end
 
-	if #str > 0 then
-		local ptab = {}
-		ptab.text = str
-		if param then
-			param.number = 1
-			self:tab_addDataTo(ptab, param) 
+			getUntagFragment()
+			
 		end
-		table.insert(totalTab, ptab)
 	end
 	
 	return totalTab
 end
 
 --[[解析16进制颜色rgb值]]
-function  DGRichLabel:GetTextColor(xStr)
-    if string.len(xStr) == 6 then
-        local tmp = {}
-        for i = 0,5 do
-            local str =  string.sub(xStr,i+1,i+1)
-            if(str >= '0' and str <= '9') then
-                tmp[6-i] = str - '0'
-            elseif(str == 'A' or str == 'a') then
-                tmp[6-i] = 10
-            elseif(str == 'B' or str == 'b') then
-                tmp[6-i] = 11
-            elseif(str == 'C' or str == 'c') then
-                tmp[6-i] = 12
-            elseif(str == 'D' or str == 'd') then
-                tmp[6-i] = 13
-            elseif(str == 'E' or str == 'e') then
-                tmp[6-i] = 14
-            elseif(str == 'F' or str == 'f') then
-                tmp[6-i] = 15
-            else
-                print("Wrong color value.")
-                tmp[6-i] = 0
-            end
-        end
-        local r = tmp[6] * 16 + tmp[5]
-        local g = tmp[4] * 16 + tmp[3]
-        local b = tmp[2] * 16 + tmp[1]
-        return ccc3(r,g,b)
-    end
-    return ccc3(255,255,255)
+function  DGRichLabel:GetTextColor(hex)
+	if string.len(hex) > 6 then
+		hex = string.sub(hex, 3)
+	end
+	
+    return ccc3(tonumber("0x"..hex:sub(1,2)), 
+    	tonumber("0x"..hex:sub(3,4)), tonumber("0x"..hex:sub(5,6)))
 end
 
 -- 设置监听函数

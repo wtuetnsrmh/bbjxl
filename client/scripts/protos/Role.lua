@@ -93,6 +93,7 @@ message RoleLoginResponse {
 	repeated HeroDetail assisoldier=15;
 	repeated HeroDetail partners = 16;
 	optional BeautyDetail beauty = 17;
+	optional uint32 isFriend = 18;
 }
 
 message RoleLoadHeroPost {

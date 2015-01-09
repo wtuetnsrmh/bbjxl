@@ -217,6 +217,7 @@ message ChatPlayer {
 	optional uint32 vipLevel = 2;
 	optional uint32 mainId = 3;
 	optional uint32 level = 4;
+	optional uint32 roleId = 5;
 }
 
 message ChatMsg {

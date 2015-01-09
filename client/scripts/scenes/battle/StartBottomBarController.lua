@@ -137,7 +137,7 @@ function StartBottomBarController:createHeroUnit(soldier, dead, assist)
 				game:pause()
 
 				headBtn:setEnable(true)
-				local guideTips = GuideTipsLayer.new({ node = headBtn:getLayer(), guideId = 1000, degree = 0, distance = 30, notDelay = true })
+				local guideTips = GuideTipsLayer.new({ node = headBtn:getLayer(), guideId = 1000, degree = 0, distance = 30, notDelay = true, opacity = 100 })
 				guideTips:addTo(display.getRunningScene())
 			end)
 

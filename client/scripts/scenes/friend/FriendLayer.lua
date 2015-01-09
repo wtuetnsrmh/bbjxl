@@ -269,8 +269,8 @@ function FriendLayer:showSelfFriends()
 				game:addEventListener(actionModules[actionCodes.RoleDigestInfoResponse], function(event)
 					local roleDigest = pb.decode("RoleLoginResponse", event.data)
 					local roleDigestLayer = RoleDetailLayer.new({ priority = self.priority - 10, roleDigest = roleDigest,
-						button1Data = { text = "私聊" },
-						button2Data = { text = "删除好友", callback = function() 
+						-- button1Data = { text = "私聊" },
+						button1Data = { text = "删除好友", callback = function() 
 							local deleteFriendRequest = { roleId = game.role.id, objectId = friendInfo.roleId }
 							local bin = pb.encode("DeleteFriend", deleteFriendRequest)
 							game:sendData(actionCodes.FriendDelete, bin)
@@ -308,14 +308,14 @@ function FriendLayer:showSelfFriends()
 			infoBg:anch(0, 0.5):pos(200, btnSize.height / 2):addTo(bgBtn)
 		end
 
-		local chatBtn = DGBtn:new(GlobalRes, {"btn_green_nol.png", "btn_green_sel.png",}, {
-				text = {text = "私聊", font = ChineseFont, color=display.COLOR_WHITE, strokeColor = display.COLOR_FONT, strokeSize = 2 },
-				priority = self.priority -1,
-				callback = function()
+		-- local chatBtn = DGBtn:new(GlobalRes, {"btn_green_nol.png", "btn_green_sel.png",}, {
+		-- 		text = {text = "私聊", font = ChineseFont, color=display.COLOR_WHITE, strokeColor = display.COLOR_FONT, strokeSize = 2 },
+		-- 		priority = self.priority -1,
+		-- 		callback = function()
 
-				end,
-			}):getLayer()
-		chatBtn:anch(1, 0.5):pos(btnSize.width - 20, btnSize.height / 2):addTo(bgBtn)
+		-- 		end,
+		-- 	}):getLayer()
+		-- chatBtn:anch(1, 0.5):pos(btnSize.width - 20, btnSize.height / 2):addTo(bgBtn)
 
 		-- 体力按钮
 		local btnText, btnCallback, res
@@ -338,7 +338,7 @@ function FriendLayer:showSelfFriends()
 			local bin = pb.encode("ReceiveDonatedHealth", donateRequest)
 			game:sendData(actionCodes.FriendReceiveHealth, bin)
 			loadingShow()
-			game.role:addEventListener("ErrorCode" .. SYS_ERR_FRIEND_RECV_SUCCESS, function(evvent)
+			game.role:addEventListener("ErrorCode" .. SYS_ERR_FRIEND_RECV_SUCCESS, function(event)
 				loadingHide()
 				DGMsgBox.new({ msgId = SYS_ERR_FRIEND_RECV_SUCCESS })
 				friendInfo.canReceive = 0
@@ -369,7 +369,7 @@ function FriendLayer:showSelfFriends()
 				priority = self.priority - 1,
 				callback = btnCallback,
 			})
-		healthBtn:getLayer():anch(1, 0.5):pos(btnSize.width - 180, btnSize.height / 2):addTo(bgBtn)
+		healthBtn:getLayer():anch(1, 0.5):pos(btnSize.width - 20, btnSize.height / 2):addTo(bgBtn)
 	end
 
 	local viewHandler = LuaEventHandler:create(function(fn, table, a1, a2)

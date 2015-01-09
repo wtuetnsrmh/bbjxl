@@ -229,7 +229,7 @@ function Role:ctor(pbSource)
 	if not ServerConf[ServerIndex].public then
 		game:addEventListener(actionModules[actionCodes.RoleWorldNotice], function(event)
 			local msg = pb.decode("SimpleEvent", event.data)
-			table.insert(self.worldNotices, msg.param5)
+			table.insert(self.worldNotices, {content = msg.param5, time = msg.param1})
 			local WorldNoticeLayer = require("scenes.WorldNoticeLayer")
 			local closeCallback
 			closeCallback = function(noRemove)
@@ -237,7 +237,9 @@ function Role:ctor(pbSource)
 					table.remove(self.worldNotices, 1)
 				end
 				if self.worldNotices[1] then
-					WorldNoticeLayer.new({text = self.worldNotices[1], closeCallback = closeCallback})
+					local data = self.worldNotices[1]
+					WorldNoticeLayer.new({text = data.content, closeCallback = closeCallback})
+					self:addChat({chatType = 4, content = "[color=ff9c00]【系统】[/color]" .. data.content, tstamp = data.time, err = 0 })
 				end 
 			end
 			if #self.worldNotices == 1 then

@@ -604,7 +604,7 @@ function Soldier:updateFrame(diff)
 	end
 
 	while true do
-		if self:getState() == "standby" then
+		while self:getState() == "standby" do
 			local enemy = self.battleField:getAttackObject(self)
 			if not enemy then
 				self:onStandby({})
@@ -638,9 +638,9 @@ function Soldier:updateFrame(diff)
 
 			self:onStandby({})
 			return
-		-- end
+		end
 
-		elseif self:getState() == "move" then
+		while self:getState() == "move" do
 			if self.waitFrame ~= math.huge and self.waitFrame > 0 then
 				self:onStandby()
 				self.waitFrame = self.waitFrame - 1
@@ -685,21 +685,21 @@ function Soldier:updateFrame(diff)
 			end
 
 			return
-		-- end
+		end
 
 		-- 冰冻
-		elseif self:getState() == "frozen" then
+		while self:getState() == "frozen" do
 			self:onFrozen()
 			return
-		-- end
+		end
 
 		-- 眩晕
-		elseif self:getState() == "damaged" then
+		while self:getState() == "damaged" do
 			return
-		-- end
+		end
 
 		-- 普攻
-		elseif self:getState() == "attack" then
+		while self:getState() == "attack" do
 			if self.waitFrame ~= math.huge and self.waitFrame > 0 then
 				self:onStandby()
 				self.waitFrame = self.waitFrame - 1
@@ -741,13 +741,13 @@ function Soldier:updateFrame(diff)
 				self:doEvent("BeginMove")
 				break
 			end
-		-- end
+		end
 
-		elseif self:getState() == "skillAttack" then
+		while self:getState() == "skillAttack" do
 			return
-		-- end
+		end
 
-		elseif self:getState() == "dead" then
+		if self:getState() == "dead" then
 			-- 如果死掉, 需要从战场上移掉
 			self:onDeath({})
 			break
@@ -1174,7 +1174,7 @@ function Soldier:addBuff(params)
 
 	-- 机率触发
 	local rate = buffCsvData.rate + (params.level - 1) * buffCsvData.rateGrowth
-	rate = rate + params.addBuffProbability
+	rate = rate + (params.addBuffProbability or 0 )
 
 	-- 抵抗
 	if buffCsv:canResist(params.buffId) then

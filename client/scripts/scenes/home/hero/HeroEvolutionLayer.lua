@@ -268,6 +268,7 @@ function HeroEvolutionLayer:initContentRight()
 						local bin = pb.encode("SimpleEvent", {roleId = game.role.id, param1 = 0, param2 = self.mainHero.id})
 		        		game:sendData(actionCodes.HeroBattleSoulRequest, bin)
 						game:addEventListener(actionModules[actionCodes.HeroBattleSoulRequest], function(event)
+							game.role:dispatchEvent({ name = "notifyNewMessage", type = "heroList"})
 							local msg = pb.decode("SimpleEvent", event.data)
 							local slots = json.decode(msg.param5)
 							self:initContentLeft()
@@ -285,7 +286,6 @@ function HeroEvolutionLayer:initContentRight()
 								self:checkGuide()
 							end
 
-							game.role:dispatchEvent({ name = "notifyNewMessage", type = "heroList"})
 							return "__REMOVE__"
 						end)
 					end
@@ -391,6 +391,7 @@ function HeroEvolutionLayer:evolutionRequest(useYuanbao)
     loadingShow()
     game:addEventListener(actionModules[actionCodes.HeroEvolutionResponse], function(event)
     	loadingHide()
+    	game.role:dispatchEvent({ name = "notifyNewMessage", type = "heroList"})
     	game:dispatchEvent({name = "btnClicked", data = self.evolutionBtn:getLayer()})
 		local msg = pb.decode("HeroActionResponse", event.data)
 		
@@ -435,8 +436,6 @@ function HeroEvolutionLayer:evolutionRequest(useYuanbao)
     		}))
 
     	self:showAttributeEffect()
-
-    	game.role:dispatchEvent({ name = "notifyNewMessage", type = "heroList"})
 
     	return "__REMOVE__"
     end)

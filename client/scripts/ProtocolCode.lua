@@ -79,6 +79,7 @@ actionCodes = {
 
 	RoleGetFundRequest = 174,
 	RoleComposeBattleSoul = 175,
+	RoleWorldNotice = 176,
 
 	CarbonLoadDataSet = 201,
 	CarbonStartGameRequest = 202,
@@ -544,6 +545,7 @@ actionModules = {
 	[actionCodes.RoleExchangeResponse] = "Role.excangeResponse",
 	[actionCodes.RoleGetFundRequest] = "Role.fund",
 	[actionCodes.RoleComposeBattleSoul] = "Role.composeBattleSoul",
+	[actionCodes.RoleWorldNotice] = "Role.roleWorldNotice",
 
 	[actionCodes.EquipIntensifyRequest] = "Equip.intensify",
 	[actionCodes.EquipIntensifyResponse] = "Equip.intensifyResponse",

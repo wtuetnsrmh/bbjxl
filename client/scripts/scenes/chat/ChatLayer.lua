@@ -9,6 +9,7 @@ local GlobalRes = "resource/ui_rc/global/"
 local LoginRes = "resource/ui_rc/login_rc/"
 local ReChargeRes = "resource/ui_rc/shop/recharge/"
 
+local RoleDetailLayer = import("..RoleDetailLayer")
 local TopBarLayer = require("scenes.TopBarLayer")
 local DGBtn = require("uicontrol.DGBtn")
 local DGRadioGroup = require("uicontrol.DGRadioGroup")
@@ -303,12 +304,10 @@ function ChatLayer:initChatLayer()
 end
 
 function ChatLayer:createChatTable()
-	local cellSize = CCSizeMake(865, 94)
-
 	local handler = LuaEventHandler:create(function(fn, tbl, a1, a2)
         local r
         if fn == "cellSize" then
-            r = CCSizeMake(cellSize.width, cellSize.height)
+            r = self:getCellSize(a1)
         elseif fn == "cellAtIndex" then
 			if not a2 then
                 a2 = CCTableViewCell:new()
@@ -341,8 +340,28 @@ function ChatLayer:createChatTable()
 	return chatTableView
 end
 
+function ChatLayer:getCellSize(index)
+	local curChatArray = {}
+	if self.curChannel == "world" then
+		curChatArray = game.role.chats
+	elseif self.curChannel == "union" then
+		curChatArray = self.chatUnion
+	elseif self.curChannel == "private" then
+		curChatArray = self.chatPrivate
+	end
+	local chat = curChatArray[table.nums(curChatArray) - index]
+
+	if chat.chatType == 4 then
+		local text = DGRichLabel.new({ text = chat.content, size = 18})
+		return CCSizeMake(865, text:getContentSize().height + 20)
+	else
+		return CCSizeMake(865, 94)
+	end
+end
+
+
 function ChatLayer:createChatCell(cellNode, index)
-	local cellSize = CCSizeMake(865, 94)
+	local cellSize = self:getCellSize(index)
 
 	local curChatArray = {}
 	if self.curChannel == "world" then
@@ -379,6 +398,35 @@ function ChatLayer:createChatCell(cellNode, index)
 				hideStar = true,
 				evolutionCount = 0,
 				heroLevel = chat.player.level,
+				priority = self.priority-1,
+				callback = function()
+					if not mySelf then
+						local bin = pb.encode("SimpleEvent", { roleId = chat.player.roleId, param1 = 1 })
+						game:sendData(actionCodes.RoleDigestInfoRequest, bin)
+						game:addEventListener(actionModules[actionCodes.RoleDigestInfoResponse], function(event)
+							local roleDigest = pb.decode("RoleLoginResponse", event.data)
+							local roleDigestLayer = RoleDetailLayer.new({ priority = self.priority - 10, roleDigest = roleDigest,
+								hideBtn = roleDigest.isFriend == 1,
+								button1Data = { text = "加为好友" , callback = function() 
+									local applicationInfo = {
+										roleId = game.role.id,
+										objectId = chat.player.roleId,
+										timestamp = game:nowTime(),
+									}
+
+									local bin = pb.encode("ApplicationInfo", applicationInfo)
+									game:sendData(actionCodes.FriendCreateApplication, bin)
+
+									-- 弹框
+									DGMsgBox.new({ msgId = 160 })
+								end}
+							})
+							roleDigestLayer:getLayer():addTo(display.getRunningScene())
+
+							return "__REMOVE__"
+						end)
+					end
+				end
 			})
 		heroBtn:getLayer():scale(0.8):anch(0, 0.5):pos(mySelf and cellSize.width-100 or 0,cellSize.height / 2):addTo(cellNode)
 		if chat.player.vipLevel > 0 then
@@ -468,8 +516,10 @@ function ChatLayer:createChatCell(cellNode, index)
 
 			ui.newTTFLabel({ text = chat.chatMsg, size = 24 }):anch(0, 0.5):pos(xPos, cellSize.height / 2):addTo(cellNode)
 		end
+	elseif chat.chatType == 4 then
+		DGRichLabel.new({ text = chat.content, size = 18, })
+			:anch(0, 0.5):pos(0, cellSize.height / 2):addTo(cellNode)
 	end
-
 	-- 分隔线
 	display.newSprite( ChatRes .. "line.png"):anch(0.5,0):pos(cellSize.width/2-10,0):addTo(cellNode)
 end
@@ -525,7 +575,7 @@ function ChatLayer:createWorldUILayer()
 		})
 		CCDirector:sharedDirector():getRunningScene():setTouchPriority(self.priority - 1)
 
-		self.chatWorldInputBox:setReturnType(kKeyboardReturnTypeSend)
+		self.chatWorldInputBox:setReturnType(kKeyboardReturnTypeDefault)
 		self.chatWorldInputBox:setFontColor(display.COLOR_BLACK)
 		self.chatWorldInputBox:setMaxLength(30)
 		self.chatWorldInputBox:setFontSize(18)
@@ -565,7 +615,7 @@ function ChatLayer:createPrivateUILayer()
 			end
 		end
 	})
-	self.chatPrivateInputBox:setReturnType(kKeyboardReturnTypeSend)
+	self.chatPrivateInputBox:setReturnType(kKeyboardReturnTypeDefault)
 	self.chatPrivateInputBox:setFontColor(display.COLOR_BLACK)
 	self.chatPrivateInputBox:anch(0, 0):pos(228, contentSize.height - 604):addTo(self.chatUILayer)
 end
@@ -579,7 +629,7 @@ function ChatLayer:onUpdateChat(event)
 		self.chatTable:setContentOffset(self.chatTable:maxContainerOffset(), false)
 		-- self.chatTable:setBounceable(true)
 		self:refreshFreeNum()
-		if event.msg.player.name == game.role.name then
+		if event.msg.player and event.msg.player.name == game.role.name then
 			self.chatWorldInputBox:setText("")
 		end
 		
