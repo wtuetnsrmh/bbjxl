@@ -51,6 +51,10 @@ function BottomBarController:createHeroUnit(soldier)
 			wakeLevel = soldier.wakeLevel,
 			star = soldier.star,
 			evolutionCount = soldier.evolutionCount,
+			doubleClick = true,
+			clickFun = function()
+			
+			end
 			callback = function() 
 				if soldier:releaseSkill() then
 					headBtn:getLayer():removeChildByTag(200)

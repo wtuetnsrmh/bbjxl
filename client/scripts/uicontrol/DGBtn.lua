@@ -32,6 +32,8 @@ local scheduler = require("framework.scheduler")
 	priority;     点击事件的优先级设置，KNMask的优先级为-129,若需要此按钮在有mask时能够点击，则将优先级设置为-130以上
 	selectZOrder, 选中按钮的层级
 	noTouch,     不可点击
+	doubleClick, 双击
+	clickFun, 双击时单击回调
 	]]
 function DGBtn:new(path, file, params, group)
 	local this = {}
@@ -181,9 +183,21 @@ function DGBtn:new(path, file, params, group)
 			return false
 		else
 			if type ==  "began" then
-				if not params.multiClick and os.time() - lastClickTime <= 1 then
+				if not params.doubleClick and not params.multiClick and os.time() - lastClickTime <= 1 then
 					 return
 				end
+
+				-- 双击
+				if params.doubleClick and os.time() - lastClickTime >= 0.4 then
+					if uihelper.nodeContainTouchPoint(this.layer, ccp(x, y), touchScale) then
+						lastClickTime = os.time()
+						if params.clickFun then
+							params.clickFun()
+						end
+					end
+					return
+				end
+
 				if uihelper.nodeContainTouchPoint(this.layer, ccp(x, y), touchScale) then
 					press = true
 					moveOn = true
