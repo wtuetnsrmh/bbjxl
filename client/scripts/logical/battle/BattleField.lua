@@ -14,6 +14,9 @@ function BattleField:ctor(params)
 	self.column, self.row = params.column or 3, params.row or 2
 	self.xPosOffset = 70
 
+	-- 当前选择的英雄
+	self.curSelectedSoldier = nil
+
 	self.collisionPixel = 20 	-- 碰撞误差检测
 
 	self.leftSoldierMap = {}	-- 武将描点和武将的映射表 "11" -> 貂蝉
@@ -321,58 +324,30 @@ end
 
 -- 得到当前第一个敌人, 优先x距离,
 function BattleField:beforeEnemy(soldier)
-	local enemy = nil
+	local enemy,nearBest = nil,math.huge
 
 	if soldier.camp == "left" then
-		local enemyOne
-		for anchX = 1, self.column do
-			local anchKey = "right" .. anchX .. soldier.anchPoint.y
-			if self.rightSoldierMap[anchKey] and self.rightSoldierMap[anchKey].hp > 0 then
-				enemyOne = self.rightSoldierMap[anchKey]
-				break
+		for anchKey,targetEnemy in pairs(self.rightSoldierMap) do
+			if not enemy then enemy = targetEnemy end
+			local tempDis = pGetDistance(soldier.position, targetEnemy.position)
+			if nearBest > tempDis then
+				nearBest = tempDis
+				enemy = targetEnemy
 			end
-		end
-		local otherAnchY = soldier.anchPoint.y == 1 and 2 or 1
-		local enemyTwo
-		for anchX = 1, self.column do
-			local anchKey = "right" .. anchX .. otherAnchY
-			if self.rightSoldierMap[anchKey] and self.rightSoldierMap[anchKey].hp > 0 then
-				enemyTwo = self.rightSoldierMap[anchKey]
-				break
-			end
-		end
 
-		-- 比较两个敌人
-		local distanceOne = enemyOne and enemyOne.position.x or math.huge
-		-- 另外一行要重新计算
-		local distanceTwo = enemyTwo and enemyTwo.position.x or math.huge
-		distanceTwo = otherAnchY == 1 and distanceTwo - self.xPosOffset or distanceTwo + self.xPosOffset
-		enemy = distanceOne <= distanceTwo and enemyOne or enemyTwo
+		end
+		
 	else
-		local enemyOne
-		for anchX = self.column, 1, -1 do
-			local anchKey = "left" .. anchX .. soldier.anchPoint.y
-			if self.leftSoldierMap[anchKey] and self.leftSoldierMap[anchKey].hp > 0 then
-				enemyOne = self.leftSoldierMap[anchKey]
-				break
+		for anchKey,targetEnemy in pairs(self.leftSoldierMap) do
+			if not enemy then enemy = targetEnemy end
+			local tempDis = pGetDistance(soldier.position, targetEnemy.position)
+			if nearBest > tempDis then
+				nearBest = tempDis
+				enemy = targetEnemy
 			end
+
 		end
 
-		local otherAnchY = soldier.anchPoint.y == 1 and 2 or 1
-		local enemyTwo
-		for anchX = self.column, 1, -1 do
-			local anchKey = "left" .. anchX .. otherAnchY
-			if self.leftSoldierMap[anchKey] and self.leftSoldierMap[anchKey].hp > 0 then
-				enemyTwo = self.leftSoldierMap[anchKey]
-				break
-			end
-		end
-
-		-- 比较两个敌人
-		local distanceOne = enemyOne and enemyOne.position.x or 0
-		local distanceTwo = enemyTwo and enemyTwo.position.x or 0
-		distanceTwo = otherAnchY == 1 and distanceTwo - self.xPosOffset or distanceTwo + self.xPosOffset
-		enemy = distanceOne >= distanceTwo and enemyOne or enemyTwo
 	end
 
 	return enemy
@@ -608,6 +583,12 @@ function BattleField:removeSoldier(soldier)
 	self[soldier.camp .. "SoldierMap"][soldier:getAnchKey()] = nil
 	if soldier.skillOrder then
 		checkTable(self, soldier.camp .. "SkillOrder")[soldier.skillOrder] = nil
+	end
+end
+
+function BattleField:checkCurSelectedSoldierAlive()
+	if self.curSelectedSoldier:getState() == "dead" then
+		self.curSelectedSoldier = nil
 	end
 end
 

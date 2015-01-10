@@ -874,6 +874,23 @@ function SpriteSoldier:onDamaged(params)
 	self:playAnimation("damaged")
 end
 
+function Soldier:onFoceMove(params)
+	local moveAction = CCMoveTo:create(params.time / 1000, ccp(self.position.x, self.position.y))
+
+	self.displayNode:setPosition(self.position.x, self.position.y)
+	self.displayNode:runAction(moveAction)
+
+	-- 动作
+	if self.actionStatus == "forceMove" then return end
+
+	self.actionStatus = "forceMove"
+	self:playAnimation("move")
+end
+
+function Soldier:onFoceAttack(params)
+	self.curAttackTarget = params.enemy
+end
+
 function SpriteSoldier:onDreamKill( ... )
 	if self.actionStatus == "dreamKill" then return end
 

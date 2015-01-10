@@ -205,6 +205,19 @@ function Soldier:ctor(params)
 
 	self.battleField:addSoldier(self)
 
+	------------------------------------------------------------------
+	-- 强制移动目的地坐标
+	self.forceMoveTargetPos = nil
+
+	-- 强制攻击对象
+	-- self.forceAttackTarget = nil
+
+	-- 当前攻击对象
+	self.curAttackTarget = nil
+
+	-- 当前移动目的地
+	self.curMovePos = nil
+
 	-- 武将状态机
 	cc.GameObject.extend(self):addComponent("components.behavior.StateMachine"):exportMethods()
 	self:initEventMap()
@@ -277,6 +290,11 @@ function Soldier:initEventMap()
 			{ name = "BeginMove", from = "attack", to = "move" },
 			{ name = "BeginMove", from = "frozen", to = "move" },
 			{ name = "BeginMove", from = "dizzy", to = "move" },
+			{ name = "BeginForceMove", from = "standby", to = "forceMove" },
+			{ name = "BeginForceMove", from = "attack", to = "forceMove" },
+			{ name = "BeginForceMove", from = "frozen", to = "forceMove" },
+			{ name = "BeginForceMove", from = "dizzy", to = "forceMove" },
+			{ name = "BeginForceMove", from = "move", to = "forceMove" },
 			{ name = "BeKilled", from = "*", to = "dead" },
 			{ name = "ToDreamKill", from = "*", to = "dreamKill"},
 		},
@@ -607,8 +625,11 @@ function Soldier:updateFrame(diff)
 		while self:getState() == "standby" do
 			local enemy = self.battleField:getAttackObject(self)
 			if not enemy then
+				self.curAttackTarget = nil
 				self:onStandby({})
 				return
+			else
+				self.curAttackTarget = enemy
 			end
 
 			-- 判定移动优先还是攻击优先
@@ -646,15 +667,15 @@ function Soldier:updateFrame(diff)
 				self.waitFrame = self.waitFrame - 1
 				return
 			end
-			local enemy = self.battleField:getAttackObject(self)
-			if not enemy then
+			local enemy = self.curAttackTarget
+			if self:checkCurEnemy(enemy) then
 				self:doEvent("ToIdle")
 				break
 			end
 
-			-- 有可以攻击的敌人, 并且正前方没有队友
+			-- 有可以攻击的敌人
 			if globalCsv:getFieldValue("battleMoveFirst") == 1 then
-				if self:canAttack(enemy) and self.battleField:beforeXTeamer(self) == nil then
+				if self:canAttack(enemy) then
 					self:doEvent("BeginAttack")
 					break
 				end
@@ -664,25 +685,46 @@ function Soldier:updateFrame(diff)
 			local elapseTime = self.battle.frame
 			-- 是否降速
 			local moveDistance = curMoveSpeed * elapseTime / (self.slowdown and 2 or 1)
-			local continueMove, canMoveDistance = self:canMove(moveDistance)
+			local continueMove, canMovePoint = self:canMove(moveDistance)
 			if not continueMove then
-				self:beingMove({ beginX = self.position.x, offset = canMoveDistance, time = elapseTime })
+				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
 				self:doEvent("ToIdle")
 				return
 			end
 
-			self:beingMove({ beginX = self.position.x, offset = moveDistance, time = elapseTime })
+			self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = moveDistance, time = elapseTime })
 
 			if globalCsv:getFieldValue("battleMoveFirst") == 0 or not self:canMove(1) then
 				-- 有可以攻击的敌人
-				local enemy = self.battleField:getAttackObject(self)
-
-
 				if enemy and self:canAttack(enemy) then
 					self:doEvent("BeginAttack")
 					break
 				end
 			end
+
+			return
+		end
+
+		-- 强制移动
+		while self:getState() == "forceMove" do
+			local moveTargetPos = self.forceMoveTargetPos
+			if not moveTargetPos then
+				self:doEvent("ToIdle")
+				break
+			end
+
+			local curMoveSpeed = self:modifyMoveSpeed()
+			local elapseTime = self.battle.frame
+			-- 是否降速
+			local moveDistance = curMoveSpeed * elapseTime / (self.slowdown and 2 or 1)
+			local continueMove, canMovePoint = self:canForceMove(moveDistance)
+			if not continueMove then
+				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
+				self:doEvent("ToIdle")
+				return
+			end
+
+			self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = moveDistance, time = elapseTime })
 
 			return
 		end
@@ -706,9 +748,9 @@ function Soldier:updateFrame(diff)
 				return
 			end
 
-			-- 验证最近的敌人
-			local enemy = self.battleField:getAttackObject(self)
-			if not enemy then
+			-- 当前要攻击的敌人
+			local enemy = self.curAttackTarget
+			if self:checkCurEnemy(enemy) then
 				-- 攻击动作没做完就结束了
 				if self.actionStatus == "attack" then
 					return
@@ -738,7 +780,10 @@ function Soldier:updateFrame(diff)
 
 			else
 				-- 最近敌人已经被消灭
-				self:doEvent("BeginMove")
+				if self.actionStatus == nil then
+					self:doEvent("BeginMove")
+				end
+
 				break
 			end
 		end
@@ -941,27 +986,32 @@ function Soldier:triggerBeautySkill(params)
 	end
 end
 
+-- 检测当前攻击的敌人是否存在和活着
+function Soldier:checkCurEnemy(enemy)
+	if not enemy or enemy:getState() == "dead" then
+		self.curAttackTarget = nil
+		return false
+	end
+	return true
+end
+
 -- 是否可以攻击
 -- @param enemy 	被攻击方
 -- @return 能攻击返回true, 否则false
 function Soldier:canAttack(enemy)
-	if not enemy then return false end
+	return self:checkCurEnemy(enemy)
 
-	local enemyPosX = enemy.position.x
-	if self.anchPoint.y ~= enemy.anchPoint.y then
-		enemyPosX = enemy.anchPoint.y == 2 and enemyPosX + self.battleField.xPosOffset or enemyPosX - self.battleField.xPosOffset
-	end
-	local distance = math.abs(self.position.x - enemyPosX)
+	local enemyPosX,enemyPosY = enemy.position.x,enemy.position.y
+	
+	local distance = pGetDistance(self.position,CCPoint(enemyPosX,enemyPosY))
 
 	-- 左边优先一个像素的距离
 	if self.camp == "left" then
 		distance = distance - 1
 	end
 
-	local atkRange = self.attackRange
-	if self.battleField:beforeLineTeamer(self) == nil then
-		atkRange = self.heroProfession.frontAtcRange
-	end
+	local atkRange = self.attackRange > 0 and self.attackRange or self.heroProfession.frontAtcRange
+	
 	if distance > atkRange then return false end
 
 	-- 距离允许
@@ -1287,38 +1337,73 @@ end
 
 -- 根据前面的兵来修正自己的移动速度
 function Soldier:modifyMoveSpeed()
-	local beforeTeamer = self.battleField:beforeXTeamer(self)
-	if not beforeTeamer then
-		self.curMoveSpeed = self.moveSpeed
-	else
-		self.curMoveSpeed = beforeTeamer.curMoveSpeed <= self.moveSpeed and beforeTeamer.curMoveSpeed or self.moveSpeed	
-	end
+	-- local beforeTeamer = self.battleField:beforeXTeamer(self)
+	-- if not beforeTeamer then
+	-- 	self.curMoveSpeed = self.moveSpeed
+	-- else
+	-- 	self.curMoveSpeed = beforeTeamer.curMoveSpeed <= self.moveSpeed and beforeTeamer.curMoveSpeed or self.moveSpeed	
+	-- end
+
+	self.curMoveSpeed = self.moveSpeed
 
 	return self.curMoveSpeed
+end
+
+-- 强制移动判断
+function Soldier:canForceMove(moveDistance)
+	if not self.forceMoveTargetPos then
+		return false
+	end
+
+	self.curMovePos = self.forceMoveTargetPos
+
+	local distance = pGetDistance(self.postion, self.curMovePos)
+	if distance <= self.battleField.gridWidth then
+		return false,0
+	end
+
+	local angle = pGetAngle(self.postion, self.curMovePos)
+	-- 根据斜边计算移动的坐标
+	local calPosByDistance = function(l)
+		return math.cos(angle) * l,math.sin(angle) * l
+	end
+
+	if distance - self.battleField.gridWidth <= moveDistance then
+		local tempDisX,tempDisY = calPosByDistance(distance - self.battleField.gridWidth)
+		return false, CCPoint(tempDisX, tempDisY)
+	else
+		local tempDisX,tempDisY = calPosByDistance(distance)
+		return true, CCPoint(tempDisX, tempDisY)
+	end
 end
 
 -- 判断武将能否移动给定的距离
 -- @param moveDistance	需要移动的距离
 -- @return 可移动的距离
 function Soldier:canMove(moveDistance)
-	local soldier = self.battleField:getBeforeObject(self)
+	return self:checkCurEnemy(self.curAttackTarget)
 
-	local distance
-	if soldier then
-		local enemyPosX = soldier.position.x
-		if self.anchPoint.y ~= soldier.anchPoint.y then
-			enemyPosX = soldier.anchPoint.y == 2 and enemyPosX + self.battleField.xPosOffset or enemyPosX - self.battleField.xPosOffset
-		end
-		distance = math.abs(self.position.x - enemyPosX)
+	self.curMovePos = self.curAttackTarget:getPosition()
+
+	local distance = pGetDistance(self.postion, self.curMovePos)
+	if distance <= self.battleField.gridWidth then
+		return false,0
 	end
 
-	if not distance or distance <= self.battleField.gridWidth then return false, 0 end
+	local angle = pGetAngle(self.postion, self.curMovePos)
+	-- 根据斜边计算移动的坐标
+	local calPosByDistance = function(l)
+		return math.cos(angle) * l,math.sin(angle) * l
+	end
 
 	if distance - self.battleField.gridWidth <= moveDistance then
-		return false, distance - self.battleField.gridWidth
+		local tempDisX,tempDisY = calPosByDistance(distance - self.battleField.gridWidth)
+		return false, CCPoint(tempDisX, tempDisY)
 	else
-		return true, moveDistance
+		local tempDisX,tempDisY = calPosByDistance(distance)
+		return true, CCPoint(tempDisX, tempDisY)
 	end
+
 end
 
 -- 如果是扣血，params.attacker必填
@@ -1463,11 +1548,8 @@ function Soldier:changeAttribute(params)
 end
 
 function Soldier:beingMove(params)
-	if self.camp == "left" then
-		self.position.x = params.beginX + params.offset
-	else
-		self.position.x = params.beginX - params.offset
-	end
+	self.position.x = params.beginX + params.offset.x
+	self.position.Y = params.beginY + params.offset.y
 
 	self:onMove(params)
 end
@@ -1510,6 +1592,12 @@ function Soldier:onHypnosis(params)
 end
 
 function Soldier:onDamaged(params)
+end
+
+function Soldier:onFoceMove(params)
+end
+
+function Soldier:onFoceAttack(params)
 end
 
 function Soldier:onPause(bool)

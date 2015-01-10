@@ -160,6 +160,9 @@ function BottomBarController:createHeroUnit(soldier)
 			soldier:removeAllEventListenersForEvent("releaseSkill")
 			self.battleField.leftCamp:removeEventListener("updateAngryValue", angryUpdateHandle)
 
+			-- 清空当前选择的武将
+			self.battleField:checkCurSelectedSoldierAlive()
+
 			return "__REMOVE__"
 		end)
 	end)

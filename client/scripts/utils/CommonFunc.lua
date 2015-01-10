@@ -136,3 +136,73 @@ function checkTable(v, key)
 	v[key] = v[key] or {}
 	return v[key]
 end
+
+--Point
+function p(_x,_y)
+    if nil == _y then
+         return { x = _x.x, y = _x.y }
+    else
+         return { x = _x, y = _y }
+    end
+end
+
+function pAdd(pt1,pt2)
+    return {x = pt1.x + pt2.x , y = pt1.y + pt2.y }
+end
+
+function pSub(pt1,pt2)
+    return {x = pt1.x - pt2.x , y = pt1.y - pt2.y }
+end
+
+function pMul(pt1,factor)
+    return { x = pt1.x * factor , y = pt1.y * factor }
+end
+
+function pMidpoint(pt1,pt2)
+    return { x = (pt1.x + pt2.x) / 2.0 , y = ( pt1.y + pt2.y) / 2.0 }
+end
+
+function pForAngle(a)
+    return { x = math.cos(a), y = math.sin(a) }
+end
+
+function pGetLength(pt)
+    return math.sqrt( pt.x * pt.x + pt.y * pt.y )
+end
+
+function pNormalize(pt)
+    local length = pGetLength(pt)
+    if 0 == length then
+        return { x = 1.0,y = 0.0 }
+    end
+
+    return { x = pt.x / length, y = pt.y / length }
+end
+
+function pCross(self,other)
+    return self.x * other.y - self.y * other.x
+end
+
+function pDot(self,other)
+    return self.x * other.x + self.y * other.y
+end
+
+function pToAngleSelf(self)
+    return math.atan2(self.y, self.x)
+end
+
+function pGetAngle(self,other)
+    local a2 = pNormalize(self)
+    local b2 = pNormalize(other)
+    local angle = math.atan2(pCross(a2, b2), pDot(a2, b2) )
+    if math.abs(angle) < 1.192092896e-7 then
+        return 0.0
+    end
+
+    return angle
+end
+
+function pGetDistance(startP,endP)
+    return pGetLength(pSub(startP,endP))
+end
+
