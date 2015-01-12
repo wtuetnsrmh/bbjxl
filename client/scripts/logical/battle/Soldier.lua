@@ -699,6 +699,7 @@ function Soldier:updateFrame(diff)
 			-- 是否降速
 			local moveDistance = curMoveSpeed * elapseTime / (self.slowdown and 2 or 1)
 			local continueMove, canMovePoint = self:canMove(moveDistance)
+
 			if not continueMove then
 				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
 				self:doEvent("ToIdle")
@@ -725,13 +726,14 @@ function Soldier:updateFrame(diff)
 				self:doEvent("ToIdle")
 				break
 			end
-
 			local curMoveSpeed = self:modifyMoveSpeed()
 			local elapseTime = self.battle.frame
 			-- 是否降速
 			local moveDistance = curMoveSpeed * elapseTime / (self.slowdown and 2 or 1)
 			local continueMove, canMovePoint = self:canForceMove(moveDistance)
+			-- print("canMovePoint",canMovePoint.x,canMovePoint.y)
 			if not continueMove then
+				print("cont continueMove",canMovePoint.x,canMovePoint.y)
 				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
 				self:doEvent("ToIdle")
 				return
@@ -1367,17 +1369,20 @@ end
 -- 强制移动判断
 function Soldier:canForceMove(moveDistance)
 	if not self.forceMoveTargetPos then
-		return false
+		return false,ccp(0,0)
 	end
 
 	self.curMovePos = self.forceMoveTargetPos
 
 	local distance = pGetDistance(self.position, self.curMovePos)
 	if distance <= self.battleField.gridWidth then
-		return false,0
+		-- print("canForceMove,1",distance)
+		return false,ccp(0,0)
 	end
 
-	local angle = pGetAngle(self.position, self.curMovePos)
+	local angle = math.atan2(self.curMovePos.x-self.position.x,self.curMovePos.y- self.position.y)--pGetAngle(self.position, self.curMovePos)
+
+	print("angle",angle)
 	-- 根据斜边计算移动的坐标
 	local calPosByDistance = function(l)
 		return math.cos(angle) * l,math.sin(angle) * l
@@ -1385,10 +1390,12 @@ function Soldier:canForceMove(moveDistance)
 
 	if distance - self.battleField.gridWidth <= moveDistance then
 		local tempDisX,tempDisY = calPosByDistance(distance - self.battleField.gridWidth)
-		return false, CCPoint(tempDisX, tempDisY)
+		-- print("1ccp(tempDisX, tempDisY)",tempDisX,tempDisY)
+		return false, ccp(tempDisX, tempDisY)
 	else
-		local tempDisX,tempDisY = calPosByDistance(distance)
-		return true, CCPoint(tempDisX, tempDisY)
+		local tempDisX,tempDisY = calPosByDistance(moveDistance)
+		-- print("2ccp(tempDisX, tempDisY)",tempDisX,tempDisY)
+		return true, ccp(tempDisX, tempDisY)
 	end
 end
 
@@ -1572,8 +1579,9 @@ function Soldier:beingMove(params)
 end
 
 function Soldier:beingForceMove(params)
-	self.forceMoveTargetPos = params.targetPos
-	dump(self.forceMoveTargetPos)
+	print("params.targetPos",params.targetPos.x,params.targetPos.y)
+	self.forceMoveTargetPos = self.displayNode:getParent():convertToNodeSpace(params.targetPos)
+	print("self.forceMoveTargetPos",self.forceMoveTargetPos.x,self.forceMoveTargetPos.y)
 	self:doEvent("BeginForceMove")
 end
 

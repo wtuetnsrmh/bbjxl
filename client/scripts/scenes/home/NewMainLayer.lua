@@ -83,6 +83,8 @@ function NewMainLayer:ctor(params)
 		game:activeGuide(guideCsvData.guideId)
 	end
 	self:createKeypadLayer()
+
+	
 end
 
 function NewMainLayer:createKeypadLayer()

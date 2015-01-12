@@ -55,7 +55,7 @@ function BottomBarController:createHeroUnit(soldier)
 			swallowsTouches = true,
 			clickFun = function()
 				self.battleField.curSelectedSoldier = soldier
-
+				print("clickFun")
 			end,
 			callback = function() 
 				if soldier:releaseSkill() then

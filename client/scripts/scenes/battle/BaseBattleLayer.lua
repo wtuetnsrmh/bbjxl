@@ -609,36 +609,38 @@ function BaseBattleLayer:onTouchBegan(x, y)
 end
 
 function BaseBattleLayer:onTouchMove(x, y)
-	if self.dragIcon then self.dragIcon:removeSelf() self.dragIcon = nil end
+	-- if self.dragIcon then self.dragIcon:removeSelf() self.dragIcon = nil end
 
-	local originXPos, originYPos = self.leftFormationPositions[self.drag.col][self.drag.row].x, self.leftFormationPositions[self.drag.col][self.drag.row].y
-	self.drag.hero.displayNode:pos(originXPos + (x - self.drag.beginPos.x), originYPos + (y - self.drag.beginPos.y))
+	-- local originXPos, originYPos = self.leftFormationPositions[self.drag.col][self.drag.row].x, self.leftFormationPositions[self.drag.col][self.drag.row].y
+	-- self.drag.hero.displayNode:pos(originXPos + (x - self.drag.beginPos.x), originYPos + (y - self.drag.beginPos.y))
 
-	-- 判断终点是否在战区格子
-	local p = ccp(x, y)
+	-- -- 判断终点是否在战区格子
+	-- local p = ccp(x, y)
 
-	local location = { row = 0, col = 0}
-	local minDistance = math.huge
-	for col = 1, self.colCount do
-		for row = 1, self.rowCount do
-			local distance = ccpDistance(ccp(self.drag.hero.displayNode:getPositionX(), self.drag.hero.displayNode:getPositionY()), ccp(self.leftFormationPositions[col][row].x, self.leftFormationPositions[col][row].y))
-			if distance <= self.collisionPixel and distance < minDistance then
-				location.col, location.row = col, row
-				minDistance = distance
-				break
-			end
-		end
-	end
+	-- local location = { row = 0, col = 0}
+	-- local minDistance = math.huge
+	-- for col = 1, self.colCount do
+	-- 	for row = 1, self.rowCount do
+	-- 		local distance = ccpDistance(ccp(self.drag.hero.displayNode:getPositionX(), self.drag.hero.displayNode:getPositionY()), ccp(self.leftFormationPositions[col][row].x, self.leftFormationPositions[col][row].y))
+	-- 		if distance <= self.collisionPixel and distance < minDistance then
+	-- 			location.col, location.row = col, row
+	-- 			minDistance = distance
+	-- 			break
+	-- 		end
+	-- 	end
+	-- end
 
-	if minDistance <= self.collisionPixel then
-		self.dragIcon = display.newSprite(BattleRes .. "drag_grid.png")
-		self.dragIcon:addTo(self)
-			:pos(BattleConstants.leftPositions[location.col][location.row].x - 10, 
-				BattleConstants.leftPositions[location.col][location.row].y)
-	end
+	-- if minDistance <= self.collisionPixel then
+	-- 	self.dragIcon = display.newSprite(BattleRes .. "drag_grid.png")
+	-- 	self.dragIcon:addTo(self)
+	-- 		:pos(BattleConstants.leftPositions[location.col][location.row].x - 10, 
+	-- 			BattleConstants.leftPositions[location.col][location.row].y)
+	-- end
 end
 
 function BaseBattleLayer:onTouchEnd(x, y)
+	print("onTouchEnd",x,y)
+	print("self.battleField.curSelectedSoldier",self.battleField.curSelectedSoldier.position.x,self.battleField.curSelectedSoldier.position.y)
 	self.battleField.curSelectedSoldier:beingForceMove({targetPos = ccp(x,y)})
 	do return end
 

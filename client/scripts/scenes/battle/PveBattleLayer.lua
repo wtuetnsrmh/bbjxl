@@ -483,6 +483,7 @@ function PveBattleLayer:endPhaseGame(event)
 
 		-- 下一阵
 		local function nextPhaseBattle()
+			
 			if self.currentStage > self.totalStage then return end
 
 			-- 移除上场的背景资源
