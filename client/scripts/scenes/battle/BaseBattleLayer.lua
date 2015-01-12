@@ -559,6 +559,13 @@ function BaseBattleLayer:onTouch(event, x, y)
 end
 
 function BaseBattleLayer:onTouchBegan(x, y)
+	if self.battleField.curSelectedSoldier then
+		return true
+	else
+		return false
+	end
+
+
 	if self.isDragging then
 		return false
 	end
@@ -632,6 +639,10 @@ function BaseBattleLayer:onTouchMove(x, y)
 end
 
 function BaseBattleLayer:onTouchEnd(x, y)
+	self.battleField.curSelectedSoldier:beingForceMove({targetPos = ccp(x,y)})
+	do return end
+
+
 	if self.dragMask then self.dragMask:remove() self.dragMask = nil end
 	if self.dragIcon then self.dragIcon:removeSelf() self.dragIcon = nil end
 	self.isDragging = false

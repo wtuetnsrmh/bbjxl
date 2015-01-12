@@ -1307,7 +1307,7 @@ end
 function NewMainLayer:checkGuide(remove)
 	-- game.role.guideStep = 2
 	
-	-- if true then return end
+	if true then return end
 	--副本
 	game:addGuideNode({node = self.carbonNode, remove = remove,
 		beginFunc = function()

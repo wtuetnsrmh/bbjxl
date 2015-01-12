@@ -52,9 +52,11 @@ function BottomBarController:createHeroUnit(soldier)
 			star = soldier.star,
 			evolutionCount = soldier.evolutionCount,
 			doubleClick = true,
+			swallowsTouches = true,
 			clickFun = function()
-			
-			end
+				self.battleField.curSelectedSoldier = soldier
+
+			end,
 			callback = function() 
 				if soldier:releaseSkill() then
 					headBtn:getLayer():removeChildByTag(200)

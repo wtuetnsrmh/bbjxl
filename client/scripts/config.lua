@@ -19,7 +19,7 @@ else
 	end
 end
 
-ServerIndex = 1
+ServerIndex = 4
 
 ServerConf = {
 	[1] = {

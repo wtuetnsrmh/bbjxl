@@ -125,7 +125,7 @@ function PveBattleLayer:initBattleField(leftSoldiers, rightSoldiers)
 		self.heroBottomLayer:anch(0.5, 0):pos(display.cx, 0):addTo(self, BattleConstants.zOrderConstants["bottomBar"])
 	end
 
-	self:bossAppear() 
+	-- self:bossAppear() 
 end
 
 function PveBattleLayer:initLeftField(soldiers)
@@ -515,6 +515,8 @@ function PveBattleLayer:endPhaseGame(event)
 
 			self:initBattleField(aliveSoldiers)
 			self.leftTimeLabel:setString(self:getLeftTimeString(globalCsv:getFieldValue("battleMaxTime")))
+
+			self:setTouchEnabled(true)
 		end
 
 		-- 呐喊音效

@@ -874,7 +874,7 @@ function SpriteSoldier:onDamaged(params)
 	self:playAnimation("damaged")
 end
 
-function Soldier:onFoceMove(params)
+function SpriteSoldier:onFoceMove(params)
 	local moveAction = CCMoveTo:create(params.time / 1000, ccp(self.position.x, self.position.y))
 
 	self.displayNode:setPosition(self.position.x, self.position.y)
@@ -887,7 +887,7 @@ function Soldier:onFoceMove(params)
 	self:playAnimation("move")
 end
 
-function Soldier:onFoceAttack(params)
+function SpriteSoldier:onFoceAttack(params)
 	self.curAttackTarget = params.enemy
 end
 

@@ -49,6 +49,7 @@ function DGBtn:new(path, file, params, group)
 	this.layer = display.newLayer()
 	this.layer:ignoreAnchorPointForPosition(false)
 	this.layer:anch(0, 0)
+	this.isDoubleClick = false
 	if params.swallowsTouches==nil then
 		this.swallowsTouches=true
 	else
@@ -188,15 +189,26 @@ function DGBtn:new(path, file, params, group)
 				end
 
 				-- 双击
+				-- print("os.time() - lastClickTime",os.time() - lastClickTime)
 				if params.doubleClick and os.time() - lastClickTime >= 0.4 then
+					-- print("lastClickTime :",os.time() - lastClickTime)
 					if uihelper.nodeContainTouchPoint(this.layer, ccp(x, y), touchScale) then
 						lastClickTime = os.time()
+						-- print("lastClickTime",lastClickTime)
 						if params.clickFun then
-							params.clickFun()
+							-- print("params.clickFun",clickFun)
+							self:performWithDelay(function()
+								if not this.isDoubleClick then
+									params.clickFun()
+								end
+								
+								end, 0.4)
+							
 						end
 					end
 					return
 				end
+				this.isDoubleClick = true
 
 				if uihelper.nodeContainTouchPoint(this.layer, ccp(x, y), touchScale) then
 					press = true
