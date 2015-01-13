@@ -626,6 +626,8 @@ function Soldier:updateFrame(diff)
 		return
 	end
 
+	self:checkDic()
+
 	while true do
 		while self:getState() == "standby" do
 			local enemy = self.battleField:getAttackObject(self)
@@ -731,9 +733,7 @@ function Soldier:updateFrame(diff)
 			-- 是否降速
 			local moveDistance = curMoveSpeed * elapseTime / (self.slowdown and 2 or 1)
 			local continueMove, canMovePoint = self:canForceMove(moveDistance)
-			print("canMovePoint",canMovePoint.x,canMovePoint.y)
 			if not continueMove then
-				print("cont continueMove",canMovePoint.x,canMovePoint.y)
 				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
 				self:doEvent("ToIdle")
 				return
@@ -815,6 +815,29 @@ function Soldier:updateFrame(diff)
 			echo("invalid state", self:getState())
 			break	
 		end
+	end
+end
+
+-- 检查当前正确的面向
+function Soldier:checkDic()
+	if self.curAttackTarget then
+		if self.position.x < self.curAttackTarget.position.x then
+			self.displayNode:setRotationY(180)
+		else
+			self.displayNode:setRotationY(0)
+		end
+		return
+	end
+
+	if self.forceMoveTargetPos then
+		if self.position.x < self.forceMoveTargetPos.x then
+			print("<<<<<<")
+			self.displayNode:setRotationY(180)
+		else
+			print(">>>>",self.displayNode:getRotationY())
+			self.displayNode:setRotationY(0)
+		end
+		return
 	end
 end
 
