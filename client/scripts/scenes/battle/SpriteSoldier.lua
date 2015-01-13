@@ -386,7 +386,6 @@ end
 -- 继承自父类
 function SpriteSoldier:onMove(params)
 	local moveAction = CCMoveTo:create(params.time / 1000, ccp(self.position.x, self.position.y))
-
 	self.displayNode:setPosition(self.position.x, self.position.y)
 	self.displayNode:runAction(moveAction)
 
@@ -875,16 +874,16 @@ function SpriteSoldier:onDamaged(params)
 end
 
 function SpriteSoldier:onFoceMove(params)
-	local moveAction = CCMoveTo:create(params.time / 1000, ccp(self.position.x, self.position.y))
+	-- local moveAction = CCMoveTo:create(params.time / 1000, ccp(self.position.x, self.position.y))
 
-	self.displayNode:setPosition(self.position.x, self.position.y)
-	self.displayNode:runAction(moveAction)
+	-- self.displayNode:setPosition(self.position.x, self.position.y)
+	-- self.displayNode:runAction(moveAction)
 
-	-- 动作
-	if self.actionStatus == "forceMove" then return end
+	-- -- 动作
+	-- if self.actionStatus == "forceMove" then return end
 
-	self.actionStatus = "forceMove"
-	self:playAnimation("move")
+	-- self.actionStatus = "forceMove"
+	-- self:playAnimation("move")
 end
 
 function SpriteSoldier:onFoceAttack(params)

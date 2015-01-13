@@ -639,8 +639,6 @@ function BaseBattleLayer:onTouchMove(x, y)
 end
 
 function BaseBattleLayer:onTouchEnd(x, y)
-	print("onTouchEnd",x,y)
-	print("self.battleField.curSelectedSoldier",self.battleField.curSelectedSoldier.position.x,self.battleField.curSelectedSoldier.position.y)
 	self.battleField.curSelectedSoldier:beingForceMove({targetPos = ccp(x,y)})
 	do return end
 

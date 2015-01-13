@@ -731,7 +731,7 @@ function Soldier:updateFrame(diff)
 			-- 是否降速
 			local moveDistance = curMoveSpeed * elapseTime / (self.slowdown and 2 or 1)
 			local continueMove, canMovePoint = self:canForceMove(moveDistance)
-			-- print("canMovePoint",canMovePoint.x,canMovePoint.y)
+			print("canMovePoint",canMovePoint.x,canMovePoint.y)
 			if not continueMove then
 				print("cont continueMove",canMovePoint.x,canMovePoint.y)
 				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
@@ -1380,9 +1380,8 @@ function Soldier:canForceMove(moveDistance)
 		return false,ccp(0,0)
 	end
 
-	local angle = math.atan2(self.curMovePos.x-self.position.x,self.curMovePos.y- self.position.y)--pGetAngle(self.position, self.curMovePos)
+	local angle = math.atan2(self.curMovePos.y- self.position.y ,self.curMovePos.x-self.position.x)--pGetAngle(self.position, self.curMovePos)
 
-	print("angle",angle)
 	-- 根据斜边计算移动的坐标
 	local calPosByDistance = function(l)
 		return math.cos(angle) * l,math.sin(angle) * l
@@ -1573,15 +1572,13 @@ end
 
 function Soldier:beingMove(params)
 	self.position.x = params.beginX + params.offset.x
-	self.position.Y = params.beginY + params.offset.y
+	self.position.y = params.beginY + params.offset.y
 
 	self:onMove(params)
 end
 
 function Soldier:beingForceMove(params)
-	print("params.targetPos",params.targetPos.x,params.targetPos.y)
 	self.forceMoveTargetPos = self.displayNode:getParent():convertToNodeSpace(params.targetPos)
-	print("self.forceMoveTargetPos",self.forceMoveTargetPos.x,self.forceMoveTargetPos.y)
 	self:doEvent("BeginForceMove")
 end
 

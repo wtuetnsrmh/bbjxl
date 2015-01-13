@@ -7,6 +7,7 @@ function BottomBarController:ctor(params)
 	self.battleField = params.battle.battleField
 	self.size = self:getContentSize()
 
+	self.headEnable = true
 	self:loadHeros()
 end
 
@@ -64,7 +65,7 @@ function BottomBarController:createHeroUnit(soldier)
 				end
 			end,
 		})
-	headBtn:setEnable(false)
+	headBtn:setEnable(self.headEnable)
 	
 	local btnSize = headBtn:getLayer():getContentSize()
 	local unitData = unitCsv:getUnitByType(soldier.type)
@@ -108,7 +109,7 @@ function BottomBarController:createHeroUnit(soldier)
 				-- 技能豆不够
 				headBtn:getLayer():removeChildByTag(200)
 				skillable = false
-				headBtn:setEnable(false)
+				headBtn:setEnable(self.headEnable)
 			end
 		end)
 	
@@ -158,7 +159,6 @@ function BottomBarController:createHeroUnit(soldier)
 			local frameSize=headBtn:getLayer():getContentSize()
 			display.newSprite("resource/ui_rc/expedition/mask_dead.png"):anch(0.5, 0.5):pos(frameSize.width/2,frameSize.height/2)
 				:addTo(headBtn:getLayer())
-			-- headBtn.heroImage:setColor(ccc3(64,64,64))
 
 			headBtn:setEnable(false)
 

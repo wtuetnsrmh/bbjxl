@@ -181,28 +181,27 @@ function DGBtn:new(path, file, params, group)
 			lastClickTime = 0
 			lastStatus = 0
 			self.lastStatus=0
+			this.isDoubleClick = false
 			return false
 		else
 			if type ==  "began" then
 				if not params.doubleClick and not params.multiClick and os.time() - lastClickTime <= 1 then
 					 return
 				end
-
+				this.isDoubleClick = false
 				-- 双击
-				-- print("os.time() - lastClickTime",os.time() - lastClickTime)
 				if params.doubleClick and os.time() - lastClickTime >= 0.4 then
 					-- print("lastClickTime :",os.time() - lastClickTime)
 					if uihelper.nodeContainTouchPoint(this.layer, ccp(x, y), touchScale) then
+
 						lastClickTime = os.time()
-						-- print("lastClickTime",lastClickTime)
 						if params.clickFun then
-							-- print("params.clickFun",clickFun)
 							self:performWithDelay(function()
 								if not this.isDoubleClick then
 									params.clickFun()
 								end
 								
-								end, 0.4)
+							end, 0.4)
 							
 						end
 					end
