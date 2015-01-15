@@ -10,7 +10,7 @@ function BattleField:ctor(params)
 	self.rightCamp = params.rightCamp
 
 	self.battle = params.battle
-	self.gridWidth = params.gridWidth or 14
+	self.gridWidth = params.gridWidth or 14 -- 移动最好距离
 	self.column, self.row = params.column or 3, params.row or 2
 	self.xPosOffset = 70
 

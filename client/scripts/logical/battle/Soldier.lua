@@ -735,6 +735,8 @@ function Soldier:updateFrame(diff)
 			local continueMove, canMovePoint = self:canForceMove(moveDistance)
 			if not continueMove then
 				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
+				-- 强制移动结束时forceMoveTargetPos设为nil，这样checkdic时有攻击对象时面向才对
+				self.forceMoveTargetPos = nil
 				self:doEvent("ToIdle")
 				return
 			end
@@ -820,25 +822,25 @@ end
 
 -- 检查当前正确的面向
 function Soldier:checkDic()
-	if self.curAttackTarget then
-		if self.position.x < self.curAttackTarget.position.x then
-			self.displayNode:setRotationY(180)
+	if self.forceMoveTargetPos then
+		if self.position.x < self.forceMoveTargetPos.x then
+			self.bodyNode:setRotationY(180)
 		else
-			self.displayNode:setRotationY(0)
+			self.bodyNode:setRotationY(0)
 		end
 		return
 	end
 
-	if self.forceMoveTargetPos then
-		if self.position.x < self.forceMoveTargetPos.x then
-			print("<<<<<<")
-			self.displayNode:setRotationY(180)
+	if self.curAttackTarget then
+		if self.position.x < self.curAttackTarget.position.x then
+			self.bodyNode:setRotationY(180)
 		else
-			print(">>>>",self.displayNode:getRotationY())
-			self.displayNode:setRotationY(0)
+			self.bodyNode:setRotationY(0)
 		end
 		return
 	end
+
+	
 end
 
 -- 处理被动技能
@@ -1399,7 +1401,6 @@ function Soldier:canForceMove(moveDistance)
 
 	local distance = pGetDistance(self.position, self.curMovePos)
 	if distance <= self.battleField.gridWidth then
-		-- print("canForceMove,1",distance)
 		return false,ccp(0,0)
 	end
 
@@ -1412,11 +1413,9 @@ function Soldier:canForceMove(moveDistance)
 
 	if distance - self.battleField.gridWidth <= moveDistance then
 		local tempDisX,tempDisY = calPosByDistance(distance - self.battleField.gridWidth)
-		-- print("1ccp(tempDisX, tempDisY)",tempDisX,tempDisY)
 		return false, ccp(tempDisX, tempDisY)
 	else
 		local tempDisX,tempDisY = calPosByDistance(moveDistance)
-		-- print("2ccp(tempDisX, tempDisY)",tempDisX,tempDisY)
 		return true, ccp(tempDisX, tempDisY)
 	end
 end
