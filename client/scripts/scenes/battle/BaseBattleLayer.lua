@@ -103,7 +103,7 @@ function BaseBattleLayer:addBattleHeros(battleHeros)
 		hero:initHeroDisplay()
 		
 		if hero.camp == "left" then
-			hero.displayNode:setRotationY(180)
+			hero.bodyNode:setRotationY(180)
 
 			local position = self.leftFormationPositions[hero.anchPoint.x][hero.anchPoint.y]
 			hero.position = { x = position.x, y = position.y }

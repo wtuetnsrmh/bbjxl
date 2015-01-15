@@ -19,6 +19,7 @@ SpriteSoldier.zOrderConstants = {
 	["hpChange"] = 100,
 }
 
+
 -- 定义血条的基准高度，相对角色的位置都根据这个高度加减，方便调数据
 hpBaseHight = 160
 
@@ -84,6 +85,7 @@ end
 function SpriteSoldier:initHeroDisplay()
 	-- self.displayNode = display.newColorLayer(ccc4(100 ,123, 222, 100))
 	self.displayNode = display.newNode()
+	
 
 	self.sprite = CCNodeExtend.extend(CCArmature:create(self.armatureName))
 	self.sprite:scale(self.scale)
@@ -91,7 +93,9 @@ function SpriteSoldier:initHeroDisplay()
 	local spriteSize = self.sprite:getContentSize()
 	self.nodeSize = CCSizeMake(spriteSize.width * self.unitData.boneRatio / 100, spriteSize.height * self.unitData.boneRatio / 100)
 	self.displayNode:size(self.nodeSize):anch(0.5, 0)
-	self.sprite:pos(self.nodeSize.width / 2, 0):addTo(self.displayNode)
+
+	self.bodyNode = display.newNode():size(self.nodeSize):anch(0.5, 0):pos(self.nodeSize.width / 2,0):addTo(self.displayNode)
+	self.sprite:pos(self.nodeSize.width / 2, 0):addTo(self.bodyNode)
 
 	self.animation = self.sprite:getAnimation()
 	self.animation:setSpeedScale(24 / 60) -- Flash fps is 24, cocos2d-x is 60
@@ -108,7 +112,7 @@ function SpriteSoldier:initHeroDisplay()
 		self.spriteEffect = CCNodeExtend.extend(CCArmature:create(self.armatureEffectName))
 		self.spriteEffect:scale(self.effectScale)
 
-		self.spriteEffect:pos(self.nodeSize.width / 2, 0):addTo(self.displayNode)
+		self.spriteEffect:pos(self.nodeSize.width / 2, 0):addTo(self.bodyNode)
 
 		self.effectAnimation = self.spriteEffect:getAnimation()
 		self.effectAnimation:setSpeedScale(24 / 60) -- Flash fps is 24, cocos2d-x is 60
@@ -150,12 +154,12 @@ function SpriteSoldier:initHeroDisplay()
 	end
 
 	-- 己方武将名字
-	local evolutionCount = uihelper.getShowEvolutionCount(self.evolutionCount)
-	local nameValue = self.name .. ((self.showEvolution and evolutionCount > 0) and ("+" .. evolutionCount) or "")
-	if self.assistHero then nameValue = string.format("友·%s", nameValue) end
-	local nameLabel = ui.newTTFLabelWithStroke({text = nameValue, size = 20, color = uihelper.getEvolColor(self.evolutionCount), strokeColor = display.COLOR_BLACK, strokeSize = 2})
-	nameLabel:setRotationY(self.camp == "left" and 180 or 0)
-	nameLabel:anch(0.5, 0):pos(self.nodeSize.width / 2, hpBaseHight + 5):addTo(self.displayNode, SpriteSoldier.zOrderConstants["name"])
+	-- local evolutionCount = uihelper.getShowEvolutionCount(self.evolutionCount)
+	-- local nameValue = self.name .. ((self.showEvolution and evolutionCount > 0) and ("+" .. evolutionCount) or "")
+	-- if self.assistHero then nameValue = string.format("友·%s", nameValue) end
+	-- local nameLabel = ui.newTTFLabelWithStroke({text = nameValue, size = 20, color = uihelper.getEvolColor(self.evolutionCount), strokeColor = display.COLOR_BLACK, strokeSize = 2})
+	-- nameLabel:setRotationY(self.camp == "left" and 180 or 0)
+	-- nameLabel:anch(0.5, 0):pos(self.nodeSize.width / 2, hpBaseHight + 5):addTo(self.displayNode, SpriteSoldier.zOrderConstants["name"])
 end
 
 function SpriteSoldier:playAnimation(name)
