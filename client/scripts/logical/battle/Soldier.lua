@@ -360,6 +360,23 @@ function Soldier:initEventMap()
 	})
 end
 
+-- 设置攻击与被攻击者相对应的位置标记
+-- 1-6 2-5 3-4 
+--   5  4
+-- 1      6
+--   3  2
+-- 最多四个攻击者，四个被杀一个后会重新走位成三角形（左上，左下，右）
+-- 三个被杀一个分两种情况：一种被杀者所在一侧为一个时不走位，另一种被杀者所在一侧为两个时走位成左右阵型
+-- 
+function Soldier:setPosTag(attacker,beAttacker)
+	for i=1,6 do
+		if not beAttacker.curMovePos[i] then
+			beAttacker.curMovePos[i] = attacker
+			break
+		end
+	end
+end
+
 function Soldier:getAnchKey()
 	return self.camp .. self.anchPoint.x .. self.anchPoint.y
 end
