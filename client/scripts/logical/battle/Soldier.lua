@@ -29,6 +29,15 @@ POS_OFFSET = {
 
 }
 
+-- 不同方位对应的优先检查标记
+SORT_POS_TAG = {
+	[1] = {1,3,2,4 },
+	[2] = {2,4,1,3 },
+	[3] = {3,1,4,2 },
+	[4] = {4,2,3,1 },
+
+}
+
 function Soldier:ctor(params)
 	self.battle = params.battle  			--nil! set in BattleField:init
 	self.battleField = params.battleField
@@ -617,22 +626,37 @@ function Soldier:setPosTag(attacker,beAttacker)
 
 	-- 自己是步，骑才设置标记
 	if self.unitData.profession == 1 or self.unitData.profession == 3 then
-		for i=1,4 do
-			if not beAttacker.curAttackMeEnmey[i] then
-				beAttacker.curAttackMeEnmey[i] = attacker
-				self.curPosOffset = beAttacker:getAttackOffset(tonum(i))
+		local sortPos = SORT_POS_TAG[self:returnAttackerTag(attacker,beAttacker)]
+		for i,key in ipairs(sortPos) do
+			if not beAttacker.curAttackMeEnmey[key] then
+				beAttacker.curAttackMeEnmey[key] = attacker
+				self.curPosOffset = beAttacker:getAttackOffset(tonum(key))
 				break
 			end
 		end
-		-- for i,soldier in pairs(beAttacker.curAttackMeEnmey) do
-		-- 	if not soldier then
-		-- 		beAttacker.curAttackMeEnmey[i] = attacker
-		-- 		self.curPosOffset = beAttacker:getAttackOffset(tonum(i))
-		-- 		break
-		-- 	end
-		-- end
+
 	end
 	
+end
+
+-- 返回攻击方在被攻击方的哪个方位
+--1    2
+--  o
+--3    4
+function Soldier:returnAttackerTag(attacker,beAttacker)
+	if attacker.position.x < beAttacker.position.x then
+		if attacker.position.y < beAttacker.position.y then
+			return 3
+		else
+			return 1
+		end
+	else
+		if attacker.position.y < beAttacker.position.y then
+			return 4
+		else
+			return 2
+		end
+	end
 end
 
 -- 清除标记
@@ -866,9 +890,7 @@ function Soldier:updateFrame(diff)
 
 			else
 				-- 最近敌人已经被消灭
-				if self.actionStatus == nil then
 					self:doEvent("BeginMove")
-				end
 
 				break
 			end
