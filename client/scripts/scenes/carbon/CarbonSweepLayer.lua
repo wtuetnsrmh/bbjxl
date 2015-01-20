@@ -363,7 +363,7 @@ function CarbonSweepLayer:createRightLayer()
 				})
 			layer:getLayer():addTo(display.getRunningScene())
 		end,
-		priority = -130
+		
 	})
 
 	sweepBtn:getLayer():anch(0, 1):pos(51, -63):addTo(dropBg)
@@ -424,7 +424,7 @@ function CarbonSweepLayer:createRightLayer()
 					layer:getLayer():addTo(display.getRunningScene())	
 				end
 			end,
-			priority = -130
+			
 		})
 	
 	self.fightBtn:getLayer():anch(0, 1):pos(223, -63):addTo(dropBg)

@@ -18,6 +18,16 @@ Soldier.__newindex = function (self, key, value)
 		rawset(self, key, value)
 	end
 end
+--1    2
+--  o
+--3    4
+POS_OFFSET = {
+	[1] = { x = -100,y = 40},
+	[2] = { x = 100,y = 40},
+	[3] = { x = -100,y = -40},
+	[4] = { x = 100,y = -40},
+
+}
 
 function Soldier:ctor(params)
 	self.battle = params.battle  			--nil! set in BattleField:init
@@ -215,8 +225,11 @@ function Soldier:ctor(params)
 	-- 当前攻击对象
 	self.curAttackTarget = nil
 
-	-- 当前移动目的地
-	self.curMovePos = nil
+	-- 当前攻击我的敌人
+	self.curAttackMeEnmey = {}
+
+	-- 当前自己所在攻击对象的位置偏移
+	self.curPosOffset = { x = 0, y = 0}
 
 	-- 武将状态机
 	cc.GameObject.extend(self):addComponent("components.behavior.StateMachine"):exportMethods()
@@ -360,22 +373,6 @@ function Soldier:initEventMap()
 	})
 end
 
--- 设置攻击与被攻击者相对应的位置标记
--- 1-6 2-5 3-4 
---   5  4
--- 1      6
---   3  2
--- 最多四个攻击者，四个被杀一个后会重新走位成三角形（左上，左下，右）
--- 三个被杀一个分两种情况：一种被杀者所在一侧为一个时不走位，另一种被杀者所在一侧为两个时走位成左右阵型
--- 
-function Soldier:setPosTag(attacker,beAttacker)
-	for i=1,6 do
-		if not beAttacker.curMovePos[i] then
-			beAttacker.curMovePos[i] = attacker
-			break
-		end
-	end
-end
 
 function Soldier:getAnchKey()
 	return self.camp .. self.anchPoint.x .. self.anchPoint.y
@@ -604,6 +601,59 @@ function myPrint(args)
 	-- print(args)
 end
 
+
+-- 设置攻击与被攻击者相对应的位置标记
+
+-- 最多四个攻击者，四个被杀一个后会重新走位成三角形（左上，左下，右）
+-- 三个被杀一个分两种情况：一种被杀者所在一侧为一个时不走位，另一种被杀者所在一侧为两个时走位成左右阵型
+-- 
+function Soldier:setPosTag(attacker,beAttacker)
+	if self.curAttackTarget then
+		print("reset----------")
+		self.curAttackTarget:clearTag(self)
+	end
+
+	self.curAttackTarget = beAttacker
+
+	-- 自己是步，骑才设置标记
+	if self.unitData.profession == 1 or self.unitData.profession == 3 then
+		for i=1,4 do
+			if not beAttacker.curAttackMeEnmey[i] then
+				beAttacker.curAttackMeEnmey[i] = attacker
+				self.curPosOffset = beAttacker:getAttackOffset(tonum(i))
+				break
+			end
+		end
+		-- for i,soldier in pairs(beAttacker.curAttackMeEnmey) do
+		-- 	if not soldier then
+		-- 		beAttacker.curAttackMeEnmey[i] = attacker
+		-- 		self.curPosOffset = beAttacker:getAttackOffset(tonum(i))
+		-- 		break
+		-- 	end
+		-- end
+	end
+	
+end
+
+-- 清除标记
+function Soldier:clearTag(attacker)
+	if not self.curAttackMeEnmey then return end
+
+	for i,soldier in pairs(self.curAttackMeEnmey) do
+		if soldier == attacker then
+			self.curAttackMeEnmey[i] = nil
+		end
+	end
+	
+end
+
+-- 获取我所在攻击者的位置偏移坐标
+
+function Soldier:getAttackOffset(posTag)
+	return POS_OFFSET[posTag]
+end
+
+
 function Soldier:updateFrame(diff)
 	if self.hasPaused then return end
 
@@ -655,7 +705,9 @@ function Soldier:updateFrame(diff)
 				return
 			else
 				myPrint("2")
-				self.curAttackTarget = enemy
+				
+				self:setPosTag(self,enemy)
+				
 			end
 
 			-- 判定移动优先还是攻击优先
@@ -829,6 +881,11 @@ function Soldier:updateFrame(diff)
 		if self:getState() == "dead" then
 			-- 如果死掉, 需要从战场上移掉
 			self:onDeath({})
+
+			if self.curAttackTarget then
+				self.curAttackTarget:clearTag(self)
+			end
+
 			break
 		else
 			echo("invalid state", self:getState())
@@ -1445,7 +1502,7 @@ function Soldier:canMove(moveDistance)
 		return false,ccp(0,0)
 	end
 
-	self.curMovePos = self.curAttackTarget.position
+	self.curMovePos = pAdd(self.curAttackTarget.position,self.curPosOffset)
 
 	local distance = pGetDistance(self.position, self.curMovePos)
 	if distance <= self.battleField.gridWidth then
