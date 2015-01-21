@@ -607,7 +607,9 @@ function Soldier:resetAttribute()
 end
 
 function myPrint(args)
+	
 	-- print(args)
+
 end
 
 
@@ -617,8 +619,12 @@ end
 -- 三个被杀一个分两种情况：一种被杀者所在一侧为一个时不走位，另一种被杀者所在一侧为两个时走位成左右阵型
 -- 
 function Soldier:setPosTag(attacker,beAttacker)
+	-- if self.type == 1 then
+	-- 	print("attacker.type",attacker.type)
+	-- 	print("beAttacker.type",beAttacker.type)
+	-- end
 	if self.curAttackTarget then
-		print("reset----------")
+		-- print("reset----------")
 		self.curAttackTarget:clearTag(self)
 	end
 
@@ -721,7 +727,10 @@ function Soldier:updateFrame(diff)
 
 	while true do
 		while self:getState() == "standby" do
-			local enemy = self.battleField:getAttackObject(self)
+			local enemy
+			
+				enemy = self.battleField:getAttackObject(self)
+			
 			if not enemy then
 				myPrint("1")
 				self.curAttackTarget = nil
@@ -729,8 +738,11 @@ function Soldier:updateFrame(diff)
 				return
 			else
 				myPrint("2")
+				if self.curAttackTarget ~= enemy then
+					print("setPosTag")
+					self:setPosTag(self,enemy)
+				end
 				
-				self:setPosTag(self,enemy)
 				
 			end
 
@@ -782,12 +794,13 @@ function Soldier:updateFrame(diff)
 			myPrint("move,3")
 
 			-- 有可以攻击的敌人
-			if globalCsv:getFieldValue("battleMoveFirst") == 1 then
-				if self:canAttack(enemy) then
-					self:doEvent("BeginAttack")
-					break
-				end
-			end
+			-- if globalCsv:getFieldValue("battleMoveFirst") == 1 then
+			-- 	if self:canAttack(enemy) then
+			-- 		print("move and attack")
+			-- 		self:doEvent("BeginAttack")
+			-- 		break
+			-- 	end
+			-- end
 
 			local curMoveSpeed = self:modifyMoveSpeed()
 			local elapseTime = self.battle.frame
@@ -797,6 +810,7 @@ function Soldier:updateFrame(diff)
 
 			if not continueMove then
 				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
+				print("not continueMove")
 				self:doEvent("ToIdle")
 				return
 			end
@@ -830,10 +844,11 @@ function Soldier:updateFrame(diff)
 				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
 				-- 强制移动结束时forceMoveTargetPos设为nil，这样checkdic时有攻击对象时面向才对
 				self.forceMoveTargetPos = nil
+				print("dd",self.curAttackTarget)
 				self:doEvent("ToIdle")
 				return
 			end
-
+			print("eee",self.curAttackTarget)
 			self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
 
 			return
@@ -910,7 +925,7 @@ function Soldier:updateFrame(diff)
 
 			break
 		else
-			echo("invalid state", self:getState())
+			-- echo("invalid state", self:getState())
 			break	
 		end
 	end
@@ -1139,9 +1154,16 @@ function Soldier:canAttack(enemy)
 		return false
 	end
 
+	-- 判断是否与本来所在的位置相差太远
+	print("math.abs(self.curMovePos.x - self.position.x)",math.abs(self.curMovePos.x - self.position.x))
+	print("math.abs(self.curMovePos.y - self.position.y)",math.abs(self.curMovePos.y - self.position.y))
+	if math.abs(self.curMovePos.x - self.position.x) > 10 or math.abs(self.curMovePos.y - self.position.y) > 20 then
+		return false
+	end
+
 	local enemyPosX,enemyPosY = enemy.position.x,enemy.position.y
 	
-	local distance = pGetDistance(self.position,CCPoint(enemyPosX,enemyPosY))
+	local distance = pGetDistance(self.position,ccp(enemyPosX,enemyPosY))
 
 	-- 左边优先一个像素的距离
 	if self.camp == "left" then
@@ -1149,7 +1171,7 @@ function Soldier:canAttack(enemy)
 	end
 
 	local atkRange = self.attackRange > 0 and self.attackRange or self.heroProfession.frontAtcRange
-	
+	-- print("distance,atkRange",distance,atkRange)
 	if distance > atkRange then return false end
 
 	-- 距离允许
@@ -1531,7 +1553,7 @@ function Soldier:canMove(moveDistance)
 		return false,ccp(0,0)
 	end
 
-	local angle = pGetAngle(self.position, self.curMovePos)
+	local angle = math.atan2(self.curMovePos.y- self.position.y ,self.curMovePos.x-self.position.x)
 	-- 根据斜边计算移动的坐标
 	local calPosByDistance = function(l)
 		return math.cos(angle) * l,math.sin(angle) * l

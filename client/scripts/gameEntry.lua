@@ -12,12 +12,12 @@ function __G__TRACKBACK__(errorMessage)
     CCLuaLog("----------------------------------------")
 
 	-- 错误日志上传
-	local host = ServerConf[ServerIndex].as 
-	local url = string.format("http://%s/errorReport?uid=%s&uname=%s&errorMsg=%s", 
-		ServerConf[ServerIndex].as, game.platform_uid, game.platform_uname or "", errorMessage)
-	local request = network.createHTTPRequest(function(event) end, url, "GET")
-	request:setTimeout(waittime or 30)
-	request:start()
+	-- local host = ServerConf[ServerIndex].as 
+	-- local url = string.format("http://%s/errorReport?uid=%s&uname=%s&errorMsg=%s", 
+	-- 	ServerConf[ServerIndex].as, game.platform_uid, game.platform_uname or "", errorMessage)
+	-- local request = network.createHTTPRequest(function(event) end, url, "GET")
+	-- request:setTimeout(waittime or 30)
+	-- request:start()
 end
 
 game = require("gameApp").new()
