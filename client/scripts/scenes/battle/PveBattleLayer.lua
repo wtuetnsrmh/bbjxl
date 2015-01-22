@@ -116,6 +116,8 @@ function PveBattleLayer:initBattleField(leftSoldiers, rightSoldiers)
 
 	self.battleField = require("logical.battle.BattleField").new({ leftCamp = self.leftCamp, rightCamp = self.rightCamp })
 
+	self.totalSoldier = nil
+	
 	self:initLeftField(leftSoldiers)
 	self:initRightField(rightSoldiers)
 

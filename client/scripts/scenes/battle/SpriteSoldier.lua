@@ -391,6 +391,7 @@ end
 function SpriteSoldier:onMove(params)
 	local moveAction = CCMoveTo:create(params.time / 1000, ccp(self.position.x, self.position.y))
 	self.displayNode:setPosition(self.position.x, self.position.y)
+	
 	self.displayNode:runAction(moveAction)
 
 	-- 动作

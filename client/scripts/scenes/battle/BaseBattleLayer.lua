@@ -37,6 +37,8 @@ function BaseBattleLayer:ctor(params)
 	self.effectLayer1 = ControlLayer.new()
 	self.effectLayer1:addTo(self, BattleConstants.zOrderConstants["effect1"])
 
+	self.totalSoldier = nil
+
 	-- 用于接收触摸事件
 	self:setTouchEnabled(false)
 	self:addTouchEventListener(function(event, x, y) return self:onTouch(event, x, y) end)
@@ -87,10 +89,22 @@ function BaseBattleLayer:initCommonUI()
 	self.attack2Effect = SpriteBullet.new({ id = 100, usage = 1 })
 end
 
+-- function BaseBattleLayer:checkDepth()
+-- 	if self.totalSoldier then
+-- 		for _,soldier in ipairs(self.totalSoldier) do
+-- 			soldier:setZOrder(soldier:getPositionY())
+-- 		end
+-- 	end
+-- end
+
 -- 显示战场上的武将
 function BaseBattleLayer:addBattleHeros(battleHeros)
 	local heros = table.values(battleHeros)
 	for index, hero in ipairs(heros) do
+
+		self.totalSoldier = self.totalSoldier or {}
+		table.insert(self.totalSoldier,hero)
+
 		-- 没有初始化过
 		if not hero.armatureName then
 			hero.battleField = self.battleField

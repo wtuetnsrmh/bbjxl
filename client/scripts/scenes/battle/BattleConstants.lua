@@ -54,8 +54,8 @@ end
 function BattleConstants:calSoldierZorder(anchPointX, anchPointY, camp)
 	camp = camp or "left"
 	if camp == "left" then
-		return self.zOrderConstants["leftSoldierBegin"] + 10 - anchPointX - 3 * anchPointY
+		return self.zOrderConstants["leftSoldierBegin"] + 10 - anchPointX - 3 * anchPointY  --1-6
 	else
-		return self.zOrderConstants["rightSoldierBegin"] + 6 + anchPointX - 3 * anchPointY
+		return self.zOrderConstants["rightSoldierBegin"] + 6 + anchPointX - 3 * anchPointY  --1 - 6
 	end
 end

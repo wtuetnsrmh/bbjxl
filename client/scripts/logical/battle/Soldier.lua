@@ -105,7 +105,7 @@ function Soldier:ctor(params)
 		self.atkSpeedFactor = self.unitData.atkSpeedFactor
 	end
 
-	self.moveSpeed = params.moveSpeed or 0		--原始移动速度
+	self.moveSpeed = self.camp == "left" and params.moveSpeed*1.5 or params.moveSpeed --params.moveSpeed and (self.camp == "left" and params.moveSpeed * 2.4 or params.moveSpeed) or 0		--原始移动速度
 	self.curMoveSpeed = self.moveSpeed 	--目前移动速度
 
 	-- 伤害减免
@@ -647,11 +647,22 @@ end
 
 -- 判断将要攻击的对象是否正在攻击自己
 function Soldier:judgestBeAttackerInAttackMe(attacker,beAttacker)
+
 	local attackeMe = attacker.curAttackMeEnmey
 	for key,enemy in pairs(attackeMe) do
 		if enemy == beAttacker then
 			return true,key
 		end
+	end
+
+	-- 不在攻击我时，找到他攻击的对象在他对应的位置标记并取反方向
+	if beAttacker.curAttackTarget then
+		attackeMe = beAttacker.curAttackTarget.curAttackMeEnmey
+		for key,enemy in pairs(attackeMe) do
+		if enemy == beAttacker then
+			return true,key
+		end
+	end
 	end
 
 	return false
@@ -749,6 +760,7 @@ function Soldier:updateFrame(diff)
 	end
 
 	self:checkDic()
+	self:checkDepth()
 
 	while true do
 		while self:getState() == "standby" do
@@ -954,6 +966,12 @@ function Soldier:updateFrame(diff)
 			break	
 		end
 	end
+
+
+end
+
+function Soldier:checkDepth()
+	self.displayNode:setZOrder(646-math.floor(self.position.y))
 end
 
 -- 检查当前正确的面向
@@ -1182,7 +1200,7 @@ function Soldier:canAttack(enemy)
 	-- -- 判断是否与本来所在的位置相差太远(近战才判断)
 	
 	if ( self.unitData.profession == 1 or self.unitData.profession == 3 ) and 
-		( math.abs(self.curMovePos.x - self.position.x) > 10 or math.abs(self.curMovePos.y - self.position.y) > 20 ) then
+		( math.abs(self.curMovePos.x - self.position.x) > 20 or math.abs(self.curMovePos.y - self.position.y) > 20 ) then
 		print("math.abs(self.curMovePos.x - self.position.x)",math.abs(self.curMovePos.x - self.position.x))
 		print("math.abs(self.curMovePos.y - self.position.y)",math.abs(self.curMovePos.y - self.position.y))
 		print("self.unitData.profession",self.unitData.profession)
