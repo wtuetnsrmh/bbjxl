@@ -39,6 +39,7 @@ function lowerBoundSeach(data, searchKey)
 	return lastKey and data[lastKey] or nil
 end
 
+
 -- 初始化
 function randomInit(seed)
 	seed = seed or os.time()
@@ -49,14 +50,13 @@ end
 function randomFloat(lower, greater, callback)
 	if type(callback) == "function" then callback() end
 
-    return lower + math.random()  * (greater - lower);
+    return math.min(lower, greater) + math.random()  * math.abs(greater - lower);
 end
 
 function randomInt(lower, greater, callback)
 	if type(callback) == "function" then callback() end
 
-	local ret = math.random(lower, greater)
-	return ret
+	return math.random(math.min(lower, greater), math.max(lower, greater))
 end
 
 -- 根据权重值从数据集合里面随机出

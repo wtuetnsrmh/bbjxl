@@ -608,7 +608,7 @@ end
 
 function myPrint(args)
 	
-	-- print(args)
+	print(args)
 
 end
 
@@ -645,11 +645,36 @@ function Soldier:setPosTag(attacker,beAttacker)
 	
 end
 
+-- 判断将要攻击的对象是否正在攻击自己
+function Soldier:judgestBeAttackerInAttackMe(attacker,beAttacker)
+	local attackeMe = attacker.curAttackMeEnmey
+	for key,enemy in pairs(attackeMe) do
+		if enemy == beAttacker then
+			return true,key
+		end
+	end
+
+	return false
+end
+
+-- 方位互对应转换
+-- 1 to 4, 2 to 3 ,3 to 2, 4 to 1
+function Soldier:trunTag(tag)
+	return 5 - tag
+end
+
 -- 返回攻击方在被攻击方的哪个方位
 --1    2
 --  o
 --3    4
 function Soldier:returnAttackerTag(attacker,beAttacker)
+	local inAttackeMe, tag = self:judgestBeAttackerInAttackMe(attacker,beAttacker)
+	if inAttackeMe then
+		print("tag",tag)
+		return self:trunTag(tag)
+	end
+
+
 	if attacker.position.x < beAttacker.position.x then
 		if attacker.position.y < beAttacker.position.y then
 			return 3
@@ -794,13 +819,13 @@ function Soldier:updateFrame(diff)
 			myPrint("move,3")
 
 			-- 有可以攻击的敌人
-			-- if globalCsv:getFieldValue("battleMoveFirst") == 1 then
-			-- 	if self:canAttack(enemy) then
-			-- 		print("move and attack")
-			-- 		self:doEvent("BeginAttack")
-			-- 		break
-			-- 	end
-			-- end
+			if globalCsv:getFieldValue("battleMoveFirst") == 1 then
+				if self:canAttack(enemy) then
+					print("move and attack")
+					self:doEvent("BeginAttack")
+					break
+				end
+			end
 
 			local curMoveSpeed = self:modifyMoveSpeed()
 			local elapseTime = self.battle.frame
@@ -1154,10 +1179,13 @@ function Soldier:canAttack(enemy)
 		return false
 	end
 
-	-- 判断是否与本来所在的位置相差太远
-	print("math.abs(self.curMovePos.x - self.position.x)",math.abs(self.curMovePos.x - self.position.x))
-	print("math.abs(self.curMovePos.y - self.position.y)",math.abs(self.curMovePos.y - self.position.y))
-	if math.abs(self.curMovePos.x - self.position.x) > 10 or math.abs(self.curMovePos.y - self.position.y) > 20 then
+	-- -- 判断是否与本来所在的位置相差太远(近战才判断)
+	
+	if ( self.unitData.profession == 1 or self.unitData.profession == 3 ) and 
+		( math.abs(self.curMovePos.x - self.position.x) > 10 or math.abs(self.curMovePos.y - self.position.y) > 20 ) then
+		print("math.abs(self.curMovePos.x - self.position.x)",math.abs(self.curMovePos.x - self.position.x))
+		print("math.abs(self.curMovePos.y - self.position.y)",math.abs(self.curMovePos.y - self.position.y))
+		print("self.unitData.profession",self.unitData.profession)
 		return false
 	end
 
