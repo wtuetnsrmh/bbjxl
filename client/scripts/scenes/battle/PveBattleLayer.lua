@@ -333,7 +333,7 @@ function PveBattleLayer:showLeftTime()
 			self.leftTime = self.leftTime - 1
 
 			self.leftTimeLabel:runAction(transition.sequence({
-				CCDelayTime:create(1),
+				CCDelayTime:create(1000000),
 				CCCallFunc:create(setLeftTime),
 			}))
 		else

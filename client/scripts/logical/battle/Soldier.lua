@@ -608,7 +608,7 @@ end
 
 function myPrint(args)
 	
-	print(args)
+	-- print(args)
 
 end
 
@@ -632,7 +632,9 @@ function Soldier:setPosTag(attacker,beAttacker)
 
 	-- 自己是步，骑才设置标记
 	if self.unitData.profession == 1 or self.unitData.profession == 3 then
-		local sortPos = SORT_POS_TAG[self:returnAttackerTag(attacker,beAttacker)]
+		local tempTag = self:returnAttackerTag(attacker,beAttacker)
+		print("tempTag",tempTag)
+		local sortPos = SORT_POS_TAG[tempTag]
 		for i,key in ipairs(sortPos) do
 			if not beAttacker.curAttackMeEnmey[key] then
 				beAttacker.curAttackMeEnmey[key] = attacker
@@ -704,12 +706,15 @@ function Soldier:returnAttackerTag(attacker,beAttacker)
 		end
 	end
 	local wantTag = findTag(attacker,beAttacker)
+	print("wantTag1",wantTag)
 
 	if beAttacker.curAttackTarget then
 		attackeMe = beAttacker.curAttackTarget.curAttackMeEnmey
 		for key,enemy in pairs(attackeMe) do
 			if enemy == beAttacker then
 				if self:trunTag(key) == wantTag then
+					print("wantTag",wantTag)
+					print("self:bothNearTag(wantTag)",self:bothNearTag(wantTag))
 					return self:bothNearTag(wantTag) --  优化成不是对角，而是除对象外的两个点
 				else
 					return wantTag
@@ -1226,9 +1231,9 @@ function Soldier:canAttack(enemy)
 	
 	if ( self.unitData.profession == 1 or self.unitData.profession == 3 ) and 
 		( math.abs(self.curMovePos.x - self.position.x) > 20 or math.abs(self.curMovePos.y - self.position.y) > 20 ) then
-		print("math.abs(self.curMovePos.x - self.position.x)",math.abs(self.curMovePos.x - self.position.x))
-		print("math.abs(self.curMovePos.y - self.position.y)",math.abs(self.curMovePos.y - self.position.y))
-		print("self.unitData.profession",self.unitData.profession)
+		-- print("math.abs(self.curMovePos.x - self.position.x)",math.abs(self.curMovePos.x - self.position.x))
+		-- print("math.abs(self.curMovePos.y - self.position.y)",math.abs(self.curMovePos.y - self.position.y))
+		-- print("self.unitData.profession",self.unitData.profession)
 		return false
 	end
 
