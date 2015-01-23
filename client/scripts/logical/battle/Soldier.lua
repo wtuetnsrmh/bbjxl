@@ -655,17 +655,19 @@ function Soldier:judgestBeAttackerInAttackMe(attacker,beAttacker)
 		end
 	end
 
-	-- 不在攻击我时，找到他攻击的对象在他对应的位置标记并取反方向
-	if beAttacker.curAttackTarget then
-		attackeMe = beAttacker.curAttackTarget.curAttackMeEnmey
-		for key,enemy in pairs(attackeMe) do
-		if enemy == beAttacker then
-			return true,key
-		end
-	end
-	end
+	
 
 	return false
+end
+
+-- 找到斜线两边的点
+-- 1 to 2 3, 2 to 4 1,2 to 1 4 ,4 to 2 3
+function Soldier:bothNearTag(tag)
+	if tag == 1 or tag == 4 then
+		return randomInt(2,3)
+	elseif tag == 2 or tag == 3 then
+		return randomInt(1,2) == 2 and 4 or 1
+	end 
 end
 
 -- 方位互对应转换
@@ -681,24 +683,43 @@ end
 function Soldier:returnAttackerTag(attacker,beAttacker)
 	local inAttackeMe, tag = self:judgestBeAttackerInAttackMe(attacker,beAttacker)
 	if inAttackeMe then
-		print("tag",tag)
+		
 		return self:trunTag(tag)
 	end
 
-
-	if attacker.position.x < beAttacker.position.x then
-		if attacker.position.y < beAttacker.position.y then
-			return 3
+	-- 不在攻击我时，找到他攻击的对象,他在他攻击的对象对应的位置标记并取反方向
+	local function findTag(attacker,beAttacker)
+		if attacker.position.x < beAttacker.position.x then
+			if attacker.position.y < beAttacker.position.y then
+				return 3
+			else
+				return 1
+			end
 		else
-			return 1
-		end
-	else
-		if attacker.position.y < beAttacker.position.y then
-			return 4
-		else
-			return 2
+			if attacker.position.y < beAttacker.position.y then
+				return 4
+			else
+				return 2
+			end
 		end
 	end
+	local wantTag = findTag(attacker,beAttacker)
+
+	if beAttacker.curAttackTarget then
+		attackeMe = beAttacker.curAttackTarget.curAttackMeEnmey
+		for key,enemy in pairs(attackeMe) do
+			if enemy == beAttacker then
+				if self:trunTag(key) == wantTag then
+					return self:bothNearTag(wantTag) --  优化成不是对角，而是除对象外的两个点
+				else
+					return wantTag
+				end
+				
+			end
+		end
+	end
+
+	return wantTag
 end
 
 -- 清除标记
@@ -765,8 +786,11 @@ function Soldier:updateFrame(diff)
 	while true do
 		while self:getState() == "standby" do
 			local enemy
-			
+			if not self.curAttackTarget then
 				enemy = self.battleField:getAttackObject(self)
+			else
+				enemy = self.curAttackTarget
+			end
 			
 			if not enemy then
 				myPrint("1")
@@ -872,6 +896,9 @@ function Soldier:updateFrame(diff)
 				self:doEvent("ToIdle")
 				break
 			end
+
+			self.curAttackTarget = nil -- 重新找敌人
+
 			local curMoveSpeed = self:modifyMoveSpeed()
 			local elapseTime = self.battle.frame
 			-- 是否降速
@@ -881,11 +908,9 @@ function Soldier:updateFrame(diff)
 				self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
 				-- 强制移动结束时forceMoveTargetPos设为nil，这样checkdic时有攻击对象时面向才对
 				self.forceMoveTargetPos = nil
-				print("dd",self.curAttackTarget)
 				self:doEvent("ToIdle")
 				return
 			end
-			print("eee",self.curAttackTarget)
 			self:beingMove({ beginX = self.position.x, beginY = self.position.y, offset = canMovePoint, time = elapseTime })
 
 			return
