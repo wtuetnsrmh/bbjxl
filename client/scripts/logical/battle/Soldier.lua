@@ -633,7 +633,10 @@ function Soldier:setPosTag(attacker,beAttacker)
 	-- 自己是步，骑才设置标记
 	if self.unitData.profession == 1 or self.unitData.profession == 3 then
 		local tempTag = self:returnAttackerTag(attacker,beAttacker)
-		print("tempTag",tempTag)
+		if self.type == 1 then
+			print("tempTag",tempTag)
+		end
+		
 		local sortPos = SORT_POS_TAG[tempTag]
 		for i,key in ipairs(sortPos) do
 			if not beAttacker.curAttackMeEnmey[key] then
@@ -902,7 +905,10 @@ function Soldier:updateFrame(diff)
 				break
 			end
 
-			self.curAttackTarget = nil -- 重新找敌人
+			if self.curAttackTarget then
+				self.curAttackTarget:clearTag(self)
+				self.curAttackTarget = nil -- 重新找敌人
+			end
 
 			local curMoveSpeed = self:modifyMoveSpeed()
 			local elapseTime = self.battle.frame
@@ -988,6 +994,7 @@ function Soldier:updateFrame(diff)
 
 			if self.curAttackTarget then
 				self.curAttackTarget:clearTag(self)
+				self.curAttackTarget = nil
 			end
 
 			break
