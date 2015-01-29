@@ -587,7 +587,7 @@ function BattleField:removeSoldier(soldier)
 end
 
 function BattleField:checkCurSelectedSoldierAlive()
-	if self.curSelectedSoldier:getState() == "dead" then
+	if self.curSelectedSoldier and self.curSelectedSoldier:getState() == "dead" then
 		self.curSelectedSoldier = nil
 	end
 end

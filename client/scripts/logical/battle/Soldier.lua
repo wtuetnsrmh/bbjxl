@@ -21,13 +21,15 @@ end
 --1    2
 --  o
 --3    4
+--  canattack时武将的攻击距离最少X轴方向的值为 150 + self.battleField.gridWidth
 POS_OFFSET = {
-	[1] = { x = -100,y = 40},
-	[2] = { x = 100,y = 40},
-	[3] = { x = -100,y = -40},
-	[4] = { x = 100,y = -40},
+	[1] = { x = -150,y = 40},
+	[2] = { x = 150,y = 40},
+	[3] = { x = -150,y = -40},
+	[4] = { x = 150,y = -40},
 
 }
+
 
 -- 不同方位对应的优先检查标记
 SORT_POS_TAG = {
@@ -1230,6 +1232,7 @@ end
 -- @param enemy 	被攻击方
 -- @return 能攻击返回true, 否则false
 function Soldier:canAttack(enemy)
+	-- print("dddddddd",pGetDistance(ccp(0,0),ccp(150,40)))
 	if not self:checkCurEnemy(enemy) then
 		return false
 	end
@@ -1238,8 +1241,10 @@ function Soldier:canAttack(enemy)
 	
 	if ( self.unitData.profession == 1 or self.unitData.profession == 3 ) and 
 		( math.abs(self.curMovePos.x - self.position.x) > 20 or math.abs(self.curMovePos.y - self.position.y) > 20 ) then
-		-- print("math.abs(self.curMovePos.x - self.position.x)",math.abs(self.curMovePos.x - self.position.x))
-		-- print("math.abs(self.curMovePos.y - self.position.y)",math.abs(self.curMovePos.y - self.position.y))
+		if self.type == 1 then
+		print("math.abs(self.curMovePos.x - self.position.x)",math.abs(self.curMovePos.x - self.position.x))
+		print("math.abs(self.curMovePos.y - self.position.y)",math.abs(self.curMovePos.y - self.position.y))
+	end
 		-- print("self.unitData.profession",self.unitData.profession)
 		return false
 	end
